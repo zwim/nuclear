@@ -32,6 +32,7 @@ Examples:
 * `%qe` ... Electron charge
 * `%G` ... Universal gravity constant
 * `%me` ... Electron mass
+* '%mHe4` ... Atomic mass of He-4
 * ...
 
 ## Functions defined
