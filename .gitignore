@@ -1,0 +1,5 @@
+*.swp
+binary
+manual_anchors.xml
+maxima-init.mac
+wxmaxima.mac
