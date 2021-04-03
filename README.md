@@ -3,7 +3,7 @@
 
 A library for (wx)Maxima for physical constants, isotope masses and nuclear decay calculations.
 
-The database contains **3436 known isotopes**! (since 3 Mar 2021 new data is available, will be included soon!)
+The database contains **3557 known isotopes**!
 
 An example calculation:
 
@@ -37,6 +37,15 @@ Examples:
 ## Functions defined
 
 Entering `nuclear()` shows a usage message for all defined functions.
+
+## Shell scripts provided
+`generate_isotopemassesXX.sh` generates isotopemassesXX.mac from provided `mass.masXX`
+
+`generate_isotope_arrayXX.sh` generates isotope_arrayXX.mac from provided `mass.masXX`
+
+`switch_to_year` changes symlinks to the given year. (Normally not necessary.) 
+
+`get_masses` just a stub to show the donwload link.
 
 ## Acknowledgment
 
