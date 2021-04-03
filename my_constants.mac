@@ -29,7 +29,6 @@
 %E0: 1367;  /*Solar constant*/
 
 
-
 %rSun: 6.96342e8; /* Radius of the sun */
 %mSun: 1,98892e30 /* Mass of the sun */
 
@@ -39,7 +38,6 @@
 %mEarth: 5.9724e24 /* Mass of the earth */
 
 %AE: 149597870700; /* Astronomical unit */
-
 
 %rMoon: 3474e3/2 /* Radius of the moon */
 %mMoon: 7.346e22 /* Mass of the moon */
