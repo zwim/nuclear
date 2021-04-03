@@ -1,0 +1,3562 @@
+/* Atomic masses generated from mass.mas20 */
+/* Values are in 'u' */
+/* generates isotope-array[mass,ordnung] */
+kill(isotope_array); 
+isotope_array[1,0] :  1.00866491590  * %u $
+isotope_array[1,1] :  1.007825031898 * %u $
+isotope_array[2,1] :  2.014101777844 * %u $
+isotope_array[3,1] :  3.01604928132  * %u $
+isotope_array[3,2] :  3.01602932197  * %u $
+isotope_array[3,3] :  3.030775       * %u $
+isotope_array[4,1] :  4.026431867    * %u $
+isotope_array[4,2] :  4.00260325413  * %u $
+isotope_array[4,3] :  4.027185561    * %u $
+isotope_array[5,1] :  5.035311492    * %u $
+isotope_array[5,2] :  5.012057224    * %u $
+isotope_array[5,3] :  5.012537800    * %u $
+isotope_array[5,4] :  5.039870       * %u $
+isotope_array[6,1] :  6.044955437    * %u $
+isotope_array[6,2] :  6.018885889    * %u $
+isotope_array[6,3] :  6.01512288742  * %u $
+isotope_array[6,4] :  6.019726409    * %u $
+isotope_array[6,5] :  6.050800       * %u $
+isotope_array[7,1] :  7.052749       * %u $
+isotope_array[7,2] :  7.027990652    * %u $
+isotope_array[7,3] :  7.01600343426  * %u $
+isotope_array[7,4] :  7.016928714    * %u $
+isotope_array[7,5] :  7.029712000    * %u $
+isotope_array[8,2] :  8.033934388    * %u $
+isotope_array[8,3] :  8.022486244    * %u $
+isotope_array[8,4] :  8.005305102    * %u $
+isotope_array[8,5] :  8.024607315    * %u $
+isotope_array[8,6] :  8.037643039    * %u $
+isotope_array[9,2] :  9.043946414    * %u $
+isotope_array[9,3] :  9.026790191    * %u $
+isotope_array[9,4] :  9.012183062    * %u $
+isotope_array[9,5] :  9.013329645    * %u $
+isotope_array[9,6] :  9.031037202    * %u $
+isotope_array[10,2] : 10.052815306    * %u $
+isotope_array[10,3] : 10.035483453    * %u $
+isotope_array[10,4] : 10.013534692    * %u $
+isotope_array[10,5] : 10.012936862    * %u $
+isotope_array[10,6] : 10.016853217    * %u $
+isotope_array[10,7] : 10.041653540    * %u $
+isotope_array[11,3] : 11.043723581    * %u $
+isotope_array[11,4] : 11.021661080    * %u $
+isotope_array[11,5] : 11.009305166    * %u $
+isotope_array[11,6] : 11.011432597    * %u $
+isotope_array[11,7] : 11.026157593    * %u $
+isotope_array[11,8] : 11.051249828    * %u $
+isotope_array[12,3] : 12.052613942    * %u $
+isotope_array[12,4] : 12.026922082    * %u $
+isotope_array[12,5] : 12.014352638    * %u $
+isotope_array[12,6] : 12.0000000      * %u $
+isotope_array[12,7] : 12.018613180    * %u $
+isotope_array[12,8] : 12.034367726    * %u $
+isotope_array[13,3] : 13.061171503    * %u $
+isotope_array[13,4] : 13.036134506    * %u $
+isotope_array[13,5] : 13.017779981    * %u $
+isotope_array[13,6] : 13.00335483534  * %u $
+isotope_array[13,7] : 13.005738609    * %u $
+isotope_array[13,8] : 13.024815435    * %u $
+isotope_array[13,9] : 13.045121       * %u $
+isotope_array[14,4] : 14.042892920    * %u $
+isotope_array[14,5] : 14.025404010    * %u $
+isotope_array[14,6] : 14.00324198862  * %u $
+isotope_array[14,7] : 14.00307400425  * %u $
+isotope_array[14,8] : 14.008596706    * %u $
+isotope_array[14,9] : 14.034315196    * %u $
+isotope_array[15,4] : 15.053490215    * %u $
+isotope_array[15,5] : 15.031087023    * %u $
+isotope_array[15,6] : 15.010599256    * %u $
+isotope_array[15,7] : 15.00010889827  * %u $
+isotope_array[15,8] : 15.003065636    * %u $
+isotope_array[15,9] : 15.017785139    * %u $
+isotope_array[15,10] : 15.043172977    * %u $
+isotope_array[16,4] : 16.061672036    * %u $
+isotope_array[16,5] : 16.039841045    * %u $
+isotope_array[16,6] : 16.014701255    * %u $
+isotope_array[16,7] : 16.006101925    * %u $
+isotope_array[16,8] : 15.99491461926  * %u $
+isotope_array[16,9] : 16.011460278    * %u $
+isotope_array[16,10] : 16.025750860    * %u $
+isotope_array[17,5] : 17.046931399    * %u $
+isotope_array[17,6] : 17.022578650    * %u $
+isotope_array[17,7] : 17.008448876    * %u $
+isotope_array[17,8] : 16.99913175595  * %u $
+isotope_array[17,9] : 17.002095237    * %u $
+isotope_array[17,10] : 17.017713962    * %u $
+isotope_array[17,11] : 17.037273000    * %u $
+isotope_array[18,5] : 18.055601683    * %u $
+isotope_array[18,6] : 18.026751930    * %u $
+isotope_array[18,7] : 18.014077563    * %u $
+isotope_array[18,8] : 17.99915961214  * %u $
+isotope_array[18,9] : 18.000937324    * %u $
+isotope_array[18,10] : 18.005708696    * %u $
+isotope_array[18,11] : 18.026879388    * %u $
+isotope_array[19,5] : 19.064166000    * %u $
+isotope_array[19,6] : 19.034797594    * %u $
+isotope_array[19,7] : 19.017022389    * %u $
+isotope_array[19,8] : 19.003577969    * %u $
+isotope_array[19,9] : 18.99840316207  * %u $
+isotope_array[19,10] : 19.001880906    * %u $
+isotope_array[19,11] : 19.013880264    * %u $
+isotope_array[19,12] : 19.034179920    * %u $
+isotope_array[20,5] : 20.074505644    * %u $
+isotope_array[20,6] : 20.040261732    * %u $
+isotope_array[20,7] : 20.023367295    * %u $
+isotope_array[20,8] : 20.004075357    * %u $
+isotope_array[20,9] : 19.999981252    * %u $
+isotope_array[20,10] : 19.99244017525  * %u $
+isotope_array[20,11] : 20.007354301    * %u $
+isotope_array[20,12] : 20.018763075    * %u $
+isotope_array[21,5] : 21.084147485    * %u $
+isotope_array[21,6] : 21.049000       * %u $
+isotope_array[21,7] : 21.027087573    * %u $
+isotope_array[21,8] : 21.008654948    * %u $
+isotope_array[21,9] : 20.999948893    * %u $
+isotope_array[21,10] : 20.993846685    * %u $
+isotope_array[21,11] : 20.997654459    * %u $
+isotope_array[21,12] : 21.011705764    * %u $
+isotope_array[21,13] : 21.029082       * %u $
+isotope_array[22,6] : 22.057553990    * %u $
+isotope_array[22,7] : 22.034100918    * %u $
+isotope_array[22,8] : 22.009965744    * %u $
+isotope_array[22,9] : 22.002998812    * %u $
+isotope_array[22,10] : 21.991385113    * %u $
+isotope_array[22,11] : 21.994437547    * %u $
+isotope_array[22,12] : 21.999570597    * %u $
+isotope_array[22,13] : 22.019540       * %u $
+isotope_array[22,14] : 22.036114       * %u $
+isotope_array[23,6] : 23.068890       * %u $
+isotope_array[23,7] : 23.039421000    * %u $
+isotope_array[23,8] : 23.015696686    * %u $
+isotope_array[23,9] : 23.003526875    * %u $
+isotope_array[23,10] : 22.994466905    * %u $
+isotope_array[23,11] : 22.98976928195  * %u $
+isotope_array[23,12] : 22.994123768    * %u $
+isotope_array[23,13] : 23.007244351    * %u $
+isotope_array[23,14] : 23.025711       * %u $
+isotope_array[24,7] : 24.050390       * %u $
+isotope_array[24,8] : 24.019861000    * %u $
+isotope_array[24,9] : 24.008099370    * %u $
+isotope_array[24,10] : 23.993610649    * %u $
+isotope_array[24,11] : 23.990963012    * %u $
+isotope_array[24,12] : 23.985041689    * %u $
+isotope_array[24,13] : 23.999947598    * %u $
+isotope_array[24,14] : 24.011535430    * %u $
+isotope_array[24,15] : 24.036522       * %u $
+isotope_array[25,7] : 25.060100       * %u $
+isotope_array[25,8] : 25.029338919    * %u $
+isotope_array[25,9] : 25.012167727    * %u $
+isotope_array[25,10] : 24.997814797    * %u $
+isotope_array[25,11] : 24.989953974    * %u $
+isotope_array[25,12] : 24.985836966    * %u $
+isotope_array[25,13] : 24.990428308    * %u $
+isotope_array[25,14] : 25.004108798    * %u $
+isotope_array[25,15] : 25.021675       * %u $
+isotope_array[26,8] : 26.037210155    * %u $
+isotope_array[26,9] : 26.020048065    * %u $
+isotope_array[26,10] : 26.000516496    * %u $
+isotope_array[26,11] : 25.992634649    * %u $
+isotope_array[26,12] : 25.982592972    * %u $
+isotope_array[26,13] : 25.986891876    * %u $
+isotope_array[26,14] : 25.992333818    * %u $
+isotope_array[26,15] : 26.011780       * %u $
+isotope_array[26,16] : 26.029716       * %u $
+isotope_array[27,8] : 27.047955       * %u $
+isotope_array[27,9] : 27.026981897    * %u $
+isotope_array[27,10] : 27.007569462    * %u $
+isotope_array[27,11] : 26.994076408    * %u $
+isotope_array[27,12] : 26.984340647    * %u $
+isotope_array[27,13] : 26.981538408    * %u $
+isotope_array[27,14] : 26.986704687    * %u $
+isotope_array[27,15] : 26.999292499    * %u $
+isotope_array[27,16] : 27.018777       * %u $
+isotope_array[28,8] : 28.055910       * %u $
+isotope_array[28,9] : 28.035860448    * %u $
+isotope_array[28,10] : 28.012130767    * %u $
+isotope_array[28,11] : 27.998939000    * %u $
+isotope_array[28,12] : 27.983875426    * %u $
+isotope_array[28,13] : 27.981910009    * %u $
+isotope_array[28,14] : 27.97692653442  * %u $
+isotope_array[28,15] : 27.992326460    * %u $
+isotope_array[28,16] : 28.004372762    * %u $
+isotope_array[28,17] : 28.030349       * %u $
+isotope_array[29,9] : 29.043103000    * %u $
+isotope_array[29,10] : 29.019753000    * %u $
+isotope_array[29,11] : 29.002877091    * %u $
+isotope_array[29,12] : 28.988607163    * %u $
+isotope_array[29,13] : 28.980453164    * %u $
+isotope_array[29,14] : 28.97649466434  * %u $
+isotope_array[29,15] : 28.981800368    * %u $
+isotope_array[29,16] : 28.996678000    * %u $
+isotope_array[29,17] : 29.015053       * %u $
+isotope_array[29,18] : 29.040761       * %u $
+isotope_array[30,9] : 30.052561       * %u $
+isotope_array[30,10] : 30.024992235    * %u $
+isotope_array[30,11] : 30.009097931    * %u $
+isotope_array[30,12] : 29.990465454    * %u $
+isotope_array[30,13] : 29.982969171    * %u $
+isotope_array[30,14] : 29.973770137    * %u $
+isotope_array[30,15] : 29.978313490    * %u $
+isotope_array[30,16] : 29.984906770    * %u $
+isotope_array[30,17] : 30.005018333    * %u $
+isotope_array[30,18] : 30.023694       * %u $
+isotope_array[31,9] : 31.061023       * %u $
+isotope_array[31,10] : 31.033474816    * %u $
+isotope_array[31,11] : 31.013146654    * %u $
+isotope_array[31,12] : 30.996648232    * %u $
+isotope_array[31,13] : 30.983949754    * %u $
+isotope_array[31,14] : 30.975363196    * %u $
+isotope_array[31,15] : 30.97376199768  * %u $
+isotope_array[31,16] : 30.979557002    * %u $
+isotope_array[31,17] : 30.992448097    * %u $
+isotope_array[31,18] : 31.012158       * %u $
+isotope_array[31,19] : 31.036780       * %u $
+isotope_array[32,10] : 32.039720       * %u $
+isotope_array[32,11] : 32.020011024    * %u $
+isotope_array[32,12] : 31.999110138    * %u $
+isotope_array[32,13] : 31.988084338    * %u $
+isotope_array[32,14] : 31.974151538    * %u $
+isotope_array[32,15] : 31.973907643    * %u $
+isotope_array[32,16] : 31.97207117354  * %u $
+isotope_array[32,17] : 31.985684605    * %u $
+isotope_array[32,18] : 31.997637824    * %u $
+isotope_array[32,19] : 32.023607       * %u $
+isotope_array[33,10] : 33.049523       * %u $
+isotope_array[33,11] : 33.025529000    * %u $
+isotope_array[33,12] : 33.005327862    * %u $
+isotope_array[33,13] : 32.990877685    * %u $
+isotope_array[33,14] : 32.977976964    * %u $
+isotope_array[33,15] : 32.971725692    * %u $
+isotope_array[33,16] : 32.97145890862  * %u $
+isotope_array[33,17] : 32.977451988    * %u $
+isotope_array[33,18] : 32.989925545    * %u $
+isotope_array[33,19] : 33.008095       * %u $
+isotope_array[33,20] : 33.033312       * %u $
+isotope_array[34,10] : 34.056728       * %u $
+isotope_array[34,11] : 34.034010000    * %u $
+isotope_array[34,12] : 34.008935455    * %u $
+isotope_array[34,13] : 33.996781924    * %u $
+isotope_array[34,14] : 33.978538045    * %u $
+isotope_array[34,15] : 33.973645886    * %u $
+isotope_array[34,16] : 33.967867011    * %u $
+isotope_array[34,17] : 33.973762490    * %u $
+isotope_array[34,18] : 33.980270092    * %u $
+isotope_array[34,19] : 33.998690       * %u $
+isotope_array[34,20] : 34.015985       * %u $
+isotope_array[35,11] : 35.040614       * %u $
+isotope_array[35,12] : 35.016790000    * %u $
+isotope_array[35,13] : 34.999759816    * %u $
+isotope_array[35,14] : 34.984550111    * %u $
+isotope_array[35,15] : 34.973314045    * %u $
+isotope_array[35,16] : 34.969032321    * %u $
+isotope_array[35,17] : 34.968852694    * %u $
+isotope_array[35,18] : 34.975257719    * %u $
+isotope_array[35,19] : 34.988005406    * %u $
+isotope_array[35,20] : 35.005572       * %u $
+isotope_array[35,21] : 35.029093       * %u $
+isotope_array[36,11] : 36.049279       * %u $
+isotope_array[36,12] : 36.021879000    * %u $
+isotope_array[36,13] : 36.006388000    * %u $
+isotope_array[36,14] : 35.986649271    * %u $
+isotope_array[36,15] : 35.978259610    * %u $
+isotope_array[36,16] : 35.967080692    * %u $
+isotope_array[36,17] : 35.968306822    * %u $
+isotope_array[36,18] : 35.967545106    * %u $
+isotope_array[36,19] : 35.981301887    * %u $
+isotope_array[36,20] : 35.993074388    * %u $
+isotope_array[36,21] : 36.017338       * %u $
+isotope_array[37,11] : 37.057042       * %u $
+isotope_array[37,12] : 37.030286265    * %u $
+isotope_array[37,13] : 37.010531000    * %u $
+isotope_array[37,14] : 36.992945191    * %u $
+isotope_array[37,15] : 36.979606942    * %u $
+isotope_array[37,16] : 36.971125500    * %u $
+isotope_array[37,17] : 36.965902573    * %u $
+isotope_array[37,18] : 36.966776301    * %u $
+isotope_array[37,19] : 36.973375890    * %u $
+isotope_array[37,20] : 36.985897849    * %u $
+isotope_array[37,21] : 37.004058       * %u $
+isotope_array[37,22] : 37.027021       * %u $
+isotope_array[38,11] : 38.066458       * %u $
+isotope_array[38,12] : 38.036580       * %u $
+isotope_array[38,13] : 38.017681       * %u $
+isotope_array[38,14] : 37.995523000    * %u $
+isotope_array[38,15] : 37.984303105    * %u $
+isotope_array[38,16] : 37.971163300    * %u $
+isotope_array[38,17] : 37.968010408    * %u $
+isotope_array[38,18] : 37.962732102    * %u $
+isotope_array[38,19] : 37.969081114    * %u $
+isotope_array[38,20] : 37.976319223    * %u $
+isotope_array[38,21] : 37.995438       * %u $
+isotope_array[38,22] : 38.012206       * %u $
+isotope_array[39,11] : 39.075123       * %u $
+isotope_array[39,12] : 39.045921       * %u $
+isotope_array[39,13] : 39.023070       * %u $
+isotope_array[39,14] : 39.002491000    * %u $
+isotope_array[39,15] : 38.986285865    * %u $
+isotope_array[39,16] : 38.975133850    * %u $
+isotope_array[39,17] : 38.968008151    * %u $
+isotope_array[39,18] : 38.964313037    * %u $
+isotope_array[39,19] : 38.96370648482  * %u $
+isotope_array[39,20] : 38.970710811    * %u $
+isotope_array[39,21] : 38.984784953    * %u $
+isotope_array[39,22] : 39.002684       * %u $
+isotope_array[39,23] : 39.024230       * %u $
+isotope_array[40,12] : 40.053194       * %u $
+isotope_array[40,13] : 40.030940       * %u $
+isotope_array[40,14] : 40.006083641    * %u $
+isotope_array[40,15] : 39.991262221    * %u $
+isotope_array[40,16] : 39.975482561    * %u $
+isotope_array[40,17] : 39.970415466    * %u $
+isotope_array[40,18] : 39.96238312204  * %u $
+isotope_array[40,19] : 39.963998165    * %u $
+isotope_array[40,20] : 39.962590850    * %u $
+isotope_array[40,21] : 39.977967275    * %u $
+isotope_array[40,22] : 39.990345146    * %u $
+isotope_array[40,23] : 40.013387       * %u $
+isotope_array[41,12] : 41.062373       * %u $
+isotope_array[41,13] : 41.037134       * %u $
+isotope_array[41,14] : 41.014171       * %u $
+isotope_array[41,15] : 40.994654000    * %u $
+isotope_array[41,16] : 40.979593451    * %u $
+isotope_array[41,17] : 40.970684525    * %u $
+isotope_array[41,18] : 40.964500570    * %u $
+isotope_array[41,19] : 40.96182525611  * %u $
+isotope_array[41,20] : 40.962277905    * %u $
+isotope_array[41,21] : 40.969251163    * %u $
+isotope_array[41,22] : 40.983148000    * %u $
+isotope_array[41,23] : 41.000333       * %u $
+isotope_array[41,24] : 41.021911       * %u $
+isotope_array[42,13] : 42.045078       * %u $
+isotope_array[42,14] : 42.018078       * %u $
+isotope_array[42,15] : 42.001172140    * %u $
+isotope_array[42,16] : 41.981065100    * %u $
+isotope_array[42,17] : 41.973342000    * %u $
+isotope_array[42,18] : 41.963045737    * %u $
+isotope_array[42,19] : 41.962402305    * %u $
+isotope_array[42,20] : 41.958617780    * %u $
+isotope_array[42,21] : 41.965516686    * %u $
+isotope_array[42,22] : 41.973049369    * %u $
+isotope_array[42,23] : 41.991820       * %u $
+isotope_array[42,24] : 42.007579       * %u $
+isotope_array[43,13] : 43.051820       * %u $
+isotope_array[43,14] : 43.026119       * %u $
+isotope_array[43,15] : 43.005411       * %u $
+isotope_array[43,16] : 42.986907635    * %u $
+isotope_array[43,17] : 42.974063700    * %u $
+isotope_array[43,18] : 42.965636056    * %u $
+isotope_array[43,19] : 42.960734701    * %u $
+isotope_array[43,20] : 42.958766381    * %u $
+isotope_array[43,21] : 42.961150425    * %u $
+isotope_array[43,22] : 42.968528420    * %u $
+isotope_array[43,23] : 42.980766000    * %u $
+isotope_array[43,24] : 42.997885       * %u $
+isotope_array[43,25] : 43.018647       * %u $
+isotope_array[44,14] : 44.031466       * %u $
+isotope_array[44,15] : 44.011927       * %u $
+isotope_array[44,16] : 43.990118846    * %u $
+isotope_array[44,17] : 43.978014918    * %u $
+isotope_array[44,18] : 43.964923814    * %u $
+isotope_array[44,19] : 43.961586984    * %u $
+isotope_array[44,20] : 43.955481489    * %u $
+isotope_array[44,21] : 43.959402818    * %u $
+isotope_array[44,22] : 43.959689936    * %u $
+isotope_array[44,23] : 43.974440977    * %u $
+isotope_array[44,24] : 43.985591000    * %u $
+isotope_array[44,25] : 44.008009       * %u $
+isotope_array[45,14] : 45.039818       * %u $
+isotope_array[45,15] : 45.017134       * %u $
+isotope_array[45,16] : 44.996414       * %u $
+isotope_array[45,17] : 44.980394353    * %u $
+isotope_array[45,18] : 44.968039731    * %u $
+isotope_array[45,19] : 44.960691491    * %u $
+isotope_array[45,20] : 44.956186270    * %u $
+isotope_array[45,21] : 44.955907051    * %u $
+isotope_array[45,22] : 44.958120758    * %u $
+isotope_array[45,23] : 44.965768498    * %u $
+isotope_array[45,24] : 44.979050000    * %u $
+isotope_array[45,25] : 44.994654       * %u $
+isotope_array[45,26] : 45.015467       * %u $
+isotope_array[46,15] : 46.024520       * %u $
+isotope_array[46,16] : 46.000687       * %u $
+isotope_array[46,17] : 45.985254926    * %u $
+isotope_array[46,18] : 45.968039244    * %u $
+isotope_array[46,19] : 45.961981584    * %u $
+isotope_array[46,20] : 45.953687726    * %u $
+isotope_array[46,21] : 45.955167034    * %u $
+isotope_array[46,22] : 45.952626356    * %u $
+isotope_array[46,23] : 45.960197389    * %u $
+isotope_array[46,24] : 45.968360969    * %u $
+isotope_array[46,25] : 45.986669000    * %u $
+isotope_array[46,26] : 46.001299       * %u $
+isotope_array[47,15] : 47.030929       * %u $
+isotope_array[47,16] : 47.007730       * %u $
+isotope_array[47,17] : 46.989715       * %u $
+isotope_array[47,18] : 46.972767112    * %u $
+isotope_array[47,19] : 46.961661612    * %u $
+isotope_array[47,20] : 46.954541134    * %u $
+isotope_array[47,21] : 46.952402444    * %u $
+isotope_array[47,22] : 46.951757491    * %u $
+isotope_array[47,23] : 46.954903558    * %u $
+isotope_array[47,24] : 46.962894995    * %u $
+isotope_array[47,25] : 46.975774000    * %u $
+isotope_array[47,26] : 46.992346       * %u $
+isotope_array[47,27] : 47.011401       * %u $
+isotope_array[48,16] : 48.013301       * %u $
+isotope_array[48,17] : 47.995405       * %u $
+isotope_array[48,18] : 47.976001000    * %u $
+isotope_array[48,19] : 47.965341184    * %u $
+isotope_array[48,20] : 47.952522654    * %u $
+isotope_array[48,21] : 47.952222903    * %u $
+isotope_array[48,22] : 47.947940677    * %u $
+isotope_array[48,23] : 47.952250900    * %u $
+isotope_array[48,24] : 47.954029431    * %u $
+isotope_array[48,25] : 47.968548760    * %u $
+isotope_array[48,26] : 47.980667000    * %u $
+isotope_array[48,27] : 48.001857       * %u $
+isotope_array[48,28] : 48.019515       * %u $
+isotope_array[49,16] : 49.021891       * %u $
+isotope_array[49,17] : 49.000794       * %u $
+isotope_array[49,18] : 48.981685       * %u $
+isotope_array[49,19] : 48.968210753    * %u $
+isotope_array[49,20] : 48.955662625    * %u $
+isotope_array[49,21] : 48.950013159    * %u $
+isotope_array[49,22] : 48.947864391    * %u $
+isotope_array[49,23] : 48.948510509    * %u $
+isotope_array[49,24] : 48.951333720    * %u $
+isotope_array[49,25] : 48.959613350    * %u $
+isotope_array[49,26] : 48.973429000    * %u $
+isotope_array[49,27] : 48.989501       * %u $
+isotope_array[49,28] : 49.009157       * %u $
+isotope_array[50,17] : 50.008266       * %u $
+isotope_array[50,18] : 49.985797       * %u $
+isotope_array[50,19] : 49.972380015    * %u $
+isotope_array[50,20] : 49.957499215    * %u $
+isotope_array[50,21] : 49.952187437    * %u $
+isotope_array[50,22] : 49.944785622    * %u $
+isotope_array[50,23] : 49.947156681    * %u $
+isotope_array[50,24] : 49.946042209    * %u $
+isotope_array[50,25] : 49.954238157    * %u $
+isotope_array[50,26] : 49.962988000    * %u $
+isotope_array[50,27] : 49.981117000    * %u $
+isotope_array[50,28] : 49.996286       * %u $
+isotope_array[51,17] : 51.015341       * %u $
+isotope_array[51,18] : 50.993033       * %u $
+isotope_array[51,19] : 50.975828664    * %u $
+isotope_array[51,20] : 50.960995663    * %u $
+isotope_array[51,21] : 50.953568838    * %u $
+isotope_array[51,22] : 50.946609468    * %u $
+isotope_array[51,23] : 50.943957664    * %u $
+isotope_array[51,24] : 50.944765388    * %u $
+isotope_array[51,25] : 50.948208770    * %u $
+isotope_array[51,26] : 50.956855137    * %u $
+isotope_array[51,27] : 50.970647000    * %u $
+isotope_array[51,28] : 50.987493       * %u $
+isotope_array[52,17] : 52.024004       * %u $
+isotope_array[52,18] : 51.998519       * %u $
+isotope_array[52,19] : 51.981602000    * %u $
+isotope_array[52,20] : 51.963213646    * %u $
+isotope_array[52,21] : 51.956496170    * %u $
+isotope_array[52,22] : 51.946883509    * %u $
+isotope_array[52,23] : 51.944773636    * %u $
+isotope_array[52,24] : 51.940504714    * %u $
+isotope_array[52,25] : 51.945559090    * %u $
+isotope_array[52,26] : 51.948113364    * %u $
+isotope_array[52,27] : 51.963130224    * %u $
+isotope_array[52,28] : 51.975781000    * %u $
+isotope_array[52,29] : 51.997982       * %u $
+isotope_array[53,18] : 53.007290       * %u $
+isotope_array[53,19] : 52.986800000    * %u $
+isotope_array[53,20] : 52.968451000    * %u $
+isotope_array[53,21] : 52.958379173    * %u $
+isotope_array[53,22] : 52.949670714    * %u $
+isotope_array[53,23] : 52.944334940    * %u $
+isotope_array[53,24] : 52.940646304    * %u $
+isotope_array[53,25] : 52.941287497    * %u $
+isotope_array[53,26] : 52.945305629    * %u $
+isotope_array[53,27] : 52.954203278    * %u $
+isotope_array[53,28] : 52.968190000    * %u $
+isotope_array[53,29] : 52.985894       * %u $
+isotope_array[54,18] : 54.013484       * %u $
+isotope_array[54,19] : 53.994471       * %u $
+isotope_array[54,20] : 53.972989000    * %u $
+isotope_array[54,21] : 53.963029359    * %u $
+isotope_array[54,22] : 53.950892000    * %u $
+isotope_array[54,23] : 53.946432009    * %u $
+isotope_array[54,24] : 53.938877359    * %u $
+isotope_array[54,25] : 53.940355772    * %u $
+isotope_array[54,26] : 53.939608189    * %u $
+isotope_array[54,27] : 53.948459075    * %u $
+isotope_array[54,28] : 53.957833000    * %u $
+isotope_array[54,29] : 53.977198       * %u $
+isotope_array[54,30] : 53.993879       * %u $
+isotope_array[55,19] : 55.000505       * %u $
+isotope_array[55,20] : 54.979978000    * %u $
+isotope_array[55,21] : 54.966889637    * %u $
+isotope_array[55,22] : 54.955091000    * %u $
+isotope_array[55,23] : 54.947262000    * %u $
+isotope_array[55,24] : 54.940836637    * %u $
+isotope_array[55,25] : 54.938043040    * %u $
+isotope_array[55,26] : 54.938291158    * %u $
+isotope_array[55,27] : 54.941996416    * %u $
+isotope_array[55,28] : 54.951329846    * %u $
+isotope_array[55,29] : 54.966038000    * %u $
+isotope_array[55,30] : 54.984681       * %u $
+isotope_array[56,19] : 56.008567       * %u $
+isotope_array[56,20] : 55.985496000    * %u $
+isotope_array[56,21] : 55.972607611    * %u $
+isotope_array[56,22] : 55.957677675    * %u $
+isotope_array[56,23] : 55.950420082    * %u $
+isotope_array[56,24] : 55.940648977    * %u $
+isotope_array[56,25] : 55.938902816    * %u $
+isotope_array[56,26] : 55.934935537    * %u $
+isotope_array[56,27] : 55.939838032    * %u $
+isotope_array[56,28] : 55.942127761    * %u $
+isotope_array[56,29] : 55.958529278    * %u $
+isotope_array[56,30] : 55.972743       * %u $
+isotope_array[56,31] : 55.995878       * %u $
+isotope_array[57,19] : 57.015169       * %u $
+isotope_array[57,20] : 56.992958       * %u $
+isotope_array[57,21] : 56.977048000    * %u $
+isotope_array[57,22] : 56.963068098    * %u $
+isotope_array[57,23] : 56.952297000    * %u $
+isotope_array[57,24] : 56.943612112    * %u $
+isotope_array[57,25] : 56.938285944    * %u $
+isotope_array[57,26] : 56.935391950    * %u $
+isotope_array[57,27] : 56.936289819    * %u $
+isotope_array[57,28] : 56.939791394    * %u $
+isotope_array[57,29] : 56.949211686    * %u $
+isotope_array[57,30] : 56.965056       * %u $
+isotope_array[57,31] : 56.983457       * %u $
+isotope_array[58,19] : 58.023543       * %u $
+isotope_array[58,20] : 57.998357       * %u $
+isotope_array[58,21] : 57.983382000    * %u $
+isotope_array[58,22] : 57.966808519    * %u $
+isotope_array[58,23] : 57.956595985    * %u $
+isotope_array[58,24] : 57.944184501    * %u $
+isotope_array[58,25] : 57.940066643    * %u $
+isotope_array[58,26] : 57.933273575    * %u $
+isotope_array[58,27] : 57.935751292    * %u $
+isotope_array[58,28] : 57.935341650    * %u $
+isotope_array[58,29] : 57.944532283    * %u $
+isotope_array[58,30] : 57.954590296    * %u $
+isotope_array[58,31] : 57.974729       * %u $
+isotope_array[58,32] : 57.991863       * %u $
+isotope_array[59,19] : 59.030864       * %u $
+isotope_array[59,20] : 59.006237       * %u $
+isotope_array[59,21] : 58.988374000    * %u $
+isotope_array[59,22] : 58.972217       * %u $
+isotope_array[59,23] : 58.959623343    * %u $
+isotope_array[59,24] : 58.948345426    * %u $
+isotope_array[59,25] : 58.940391111    * %u $
+isotope_array[59,26] : 58.934873492    * %u $
+isotope_array[59,27] : 58.933193524    * %u $
+isotope_array[59,28] : 58.934345442    * %u $
+isotope_array[59,29] : 58.939496713    * %u $
+isotope_array[59,30] : 58.949311886    * %u $
+isotope_array[59,31] : 58.963757       * %u $
+isotope_array[59,32] : 58.982426       * %u $
+isotope_array[60,20] : 60.011809       * %u $
+isotope_array[60,21] : 59.995115       * %u $
+isotope_array[60,22] : 59.976275000    * %u $
+isotope_array[60,23] : 59.964479215    * %u $
+isotope_array[60,24] : 59.949641656    * %u $
+isotope_array[60,25] : 59.943136574    * %u $
+isotope_array[60,26] : 59.934070249    * %u $
+isotope_array[60,27] : 59.933815536    * %u $
+isotope_array[60,28] : 59.930785129    * %u $
+isotope_array[60,29] : 59.937363787    * %u $
+isotope_array[60,30] : 59.941841317    * %u $
+isotope_array[60,31] : 59.957498       * %u $
+isotope_array[60,32] : 59.970445       * %u $
+isotope_array[60,33] : 59.993945       * %u $
+isotope_array[61,20] : 61.020408       * %u $
+isotope_array[61,21] : 61.000537       * %u $
+isotope_array[61,22] : 60.982426       * %u $
+isotope_array[61,23] : 60.967603529    * %u $
+isotope_array[61,24] : 60.954378130    * %u $
+isotope_array[61,25] : 60.944452541    * %u $
+isotope_array[61,26] : 60.936746241    * %u $
+isotope_array[61,27] : 60.932476031    * %u $
+isotope_array[61,28] : 60.931054819    * %u $
+isotope_array[61,29] : 60.933457375    * %u $
+isotope_array[61,30] : 60.939506964    * %u $
+isotope_array[61,31] : 60.949398861    * %u $
+isotope_array[61,32] : 60.963725       * %u $
+isotope_array[61,33] : 60.981535       * %u $
+isotope_array[62,21] : 62.007848       * %u $
+isotope_array[62,22] : 61.986903       * %u $
+isotope_array[62,23] : 61.972932556    * %u $
+isotope_array[62,24] : 61.956142920    * %u $
+isotope_array[62,25] : 61.947907384    * %u $
+isotope_array[62,26] : 61.936791809    * %u $
+isotope_array[62,27] : 61.934058198    * %u $
+isotope_array[62,28] : 61.928344753    * %u $
+isotope_array[62,29] : 61.932594803    * %u $
+isotope_array[62,30] : 61.934333359    * %u $
+isotope_array[62,31] : 61.944189639    * %u $
+isotope_array[62,32] : 61.954761       * %u $
+isotope_array[62,33] : 61.973784       * %u $
+isotope_array[63,21] : 63.014031       * %u $
+isotope_array[63,22] : 62.993709       * %u $
+isotope_array[63,23] : 62.976661000    * %u $
+isotope_array[63,24] : 62.961161000    * %u $
+isotope_array[63,25] : 62.949664672    * %u $
+isotope_array[63,26] : 62.940272698    * %u $
+isotope_array[63,27] : 62.933599630    * %u $
+isotope_array[63,28] : 62.929669021    * %u $
+isotope_array[63,29] : 62.929597119    * %u $
+isotope_array[63,30] : 62.933211140    * %u $
+isotope_array[63,31] : 62.939294194    * %u $
+isotope_array[63,32] : 62.949628000    * %u $
+isotope_array[63,33] : 62.964036       * %u $
+isotope_array[63,34] : 62.981911       * %u $
+isotope_array[64,22] : 63.998411       * %u $
+isotope_array[64,23] : 63.982480       * %u $
+isotope_array[64,24] : 63.963886000    * %u $
+isotope_array[64,25] : 63.953849369    * %u $
+isotope_array[64,26] : 63.940987761    * %u $
+isotope_array[64,27] : 63.935810176    * %u $
+isotope_array[64,28] : 63.927966228    * %u $
+isotope_array[64,29] : 63.929764001    * %u $
+isotope_array[64,30] : 63.929141776    * %u $
+isotope_array[64,31] : 63.936840366    * %u $
+isotope_array[64,32] : 63.941689912    * %u $
+isotope_array[64,33] : 63.957560       * %u $
+isotope_array[64,34] : 63.971165       * %u $
+isotope_array[65,22] : 65.005593       * %u $
+isotope_array[65,23] : 64.986999       * %u $
+isotope_array[65,24] : 64.969608       * %u $
+isotope_array[65,25] : 64.956019749    * %u $
+isotope_array[65,26] : 64.945015323    * %u $
+isotope_array[65,27] : 64.936462071    * %u $
+isotope_array[65,28] : 64.930084585    * %u $
+isotope_array[65,29] : 64.927789476    * %u $
+isotope_array[65,30] : 64.929240534    * %u $
+isotope_array[65,31] : 64.932734424    * %u $
+isotope_array[65,32] : 64.939368136    * %u $
+isotope_array[65,33] : 64.949611000    * %u $
+isotope_array[65,34] : 64.964552       * %u $
+isotope_array[65,35] : 64.982297       * %u $
+isotope_array[66,23] : 65.993237       * %u $
+isotope_array[66,24] : 65.973011       * %u $
+isotope_array[66,25] : 65.960546833    * %u $
+isotope_array[66,26] : 65.946249958    * %u $
+isotope_array[66,27] : 65.939442943    * %u $
+isotope_array[66,28] : 65.929139333    * %u $
+isotope_array[66,29] : 65.928868804    * %u $
+isotope_array[66,30] : 65.926033639    * %u $
+isotope_array[66,31] : 65.931589766    * %u $
+isotope_array[66,32] : 65.933862124    * %u $
+isotope_array[66,33] : 65.944148778    * %u $
+isotope_array[66,34] : 65.955276       * %u $
+isotope_array[66,35] : 65.974697       * %u $
+isotope_array[67,23] : 66.998128       * %u $
+isotope_array[67,24] : 66.979313       * %u $
+isotope_array[67,25] : 66.963950       * %u $
+isotope_array[67,26] : 66.950930000    * %u $
+isotope_array[67,27] : 66.940609625    * %u $
+isotope_array[67,28] : 66.931569413    * %u $
+isotope_array[67,29] : 66.927729490    * %u $
+isotope_array[67,30] : 66.927127422    * %u $
+isotope_array[67,31] : 66.928202276    * %u $
+isotope_array[67,32] : 66.932716999    * %u $
+isotope_array[67,33] : 66.939251110    * %u $
+isotope_array[67,34] : 66.949994000    * %u $
+isotope_array[67,35] : 66.965078       * %u $
+isotope_array[67,36] : 66.983305       * %u $
+isotope_array[68,24] : 67.983156       * %u $
+isotope_array[68,25] : 67.968953       * %u $
+isotope_array[68,26] : 67.952875       * %u $
+isotope_array[68,27] : 67.944559401    * %u $
+isotope_array[68,28] : 67.931868787    * %u $
+isotope_array[68,29] : 67.929610887    * %u $
+isotope_array[68,30] : 67.924844232    * %u $
+isotope_array[68,31] : 67.927980161    * %u $
+isotope_array[68,32] : 67.928095305    * %u $
+isotope_array[68,33] : 67.936774127    * %u $
+isotope_array[68,34] : 67.941825236    * %u $
+isotope_array[68,35] : 67.958356       * %u $
+isotope_array[68,36] : 67.972489       * %u $
+isotope_array[69,24] : 68.989662       * %u $
+isotope_array[69,25] : 68.972775       * %u $
+isotope_array[69,26] : 68.957918       * %u $
+isotope_array[69,27] : 68.945909000    * %u $
+isotope_array[69,28] : 68.935610267    * %u $
+isotope_array[69,29] : 68.929429267    * %u $
+isotope_array[69,30] : 68.926550360    * %u $
+isotope_array[69,31] : 68.925573528    * %u $
+isotope_array[69,32] : 68.927964467    * %u $
+isotope_array[69,33] : 68.932246289    * %u $
+isotope_array[69,34] : 68.939414845    * %u $
+isotope_array[69,35] : 68.950338410    * %u $
+isotope_array[69,36] : 68.965496       * %u $
+isotope_array[70,24] : 69.993945       * %u $
+isotope_array[70,25] : 69.978046       * %u $
+isotope_array[70,26] : 69.960397       * %u $
+isotope_array[70,27] : 69.950053400    * %u $
+isotope_array[70,28] : 69.936431300    * %u $
+isotope_array[70,29] : 69.932392078    * %u $
+isotope_array[70,30] : 69.925319175    * %u $
+isotope_array[70,31] : 69.926021914    * %u $
+isotope_array[70,32] : 69.924248542    * %u $
+isotope_array[70,33] : 69.930934642    * %u $
+isotope_array[70,34] : 69.933515521    * %u $
+isotope_array[70,35] : 69.944792321    * %u $
+isotope_array[70,36] : 69.955877       * %u $
+isotope_array[71,25] : 70.982158       * %u $
+isotope_array[71,26] : 70.965722       * %u $
+isotope_array[71,27] : 70.952366923    * %u $
+isotope_array[71,28] : 70.940518962    * %u $
+isotope_array[71,29] : 70.932676831    * %u $
+isotope_array[71,30] : 70.927719578    * %u $
+isotope_array[71,31] : 70.924702554    * %u $
+isotope_array[71,32] : 70.924952120    * %u $
+isotope_array[71,33] : 70.927113594    * %u $
+isotope_array[71,34] : 70.932209431    * %u $
+isotope_array[71,35] : 70.939342153    * %u $
+isotope_array[71,36] : 70.950265695    * %u $
+isotope_array[71,37] : 70.965335       * %u $
+isotope_array[72,25] : 71.988009       * %u $
+isotope_array[72,26] : 71.968599       * %u $
+isotope_array[72,27] : 71.956736       * %u $
+isotope_array[72,28] : 71.941785924    * %u $
+isotope_array[72,29] : 71.935820306    * %u $
+isotope_array[72,30] : 71.926842806    * %u $
+isotope_array[72,31] : 71.926367452    * %u $
+isotope_array[72,32] : 71.922075824    * %u $
+isotope_array[72,33] : 71.926752291    * %u $
+isotope_array[72,34] : 71.927140506    * %u $
+isotope_array[72,35] : 71.936594606    * %u $
+isotope_array[72,36] : 71.942092406    * %u $
+isotope_array[72,37] : 71.958851       * %u $
+isotope_array[73,25] : 72.992807       * %u $
+isotope_array[73,26] : 72.974246       * %u $
+isotope_array[73,27] : 72.959238       * %u $
+isotope_array[73,28] : 72.946206681    * %u $
+isotope_array[73,29] : 72.936674376    * %u $
+isotope_array[73,30] : 72.929582580    * %u $
+isotope_array[73,31] : 72.925174680    * %u $
+isotope_array[73,32] : 72.923458954    * %u $
+isotope_array[73,33] : 72.923829086    * %u $
+isotope_array[73,34] : 72.926754881    * %u $
+isotope_array[73,35] : 72.931673441    * %u $
+isotope_array[73,36] : 72.939289193    * %u $
+isotope_array[73,37] : 72.950604506    * %u $
+isotope_array[73,38] : 72.965700       * %u $
+isotope_array[74,26] : 73.977821       * %u $
+isotope_array[74,27] : 73.963993       * %u $
+isotope_array[74,28] : 73.947718       * %u $
+isotope_array[74,29] : 73.939874860    * %u $
+isotope_array[74,30] : 73.929407260    * %u $
+isotope_array[74,31] : 73.926945725    * %u $
+isotope_array[74,32] : 73.921177760    * %u $
+isotope_array[74,33] : 73.923928596    * %u $
+isotope_array[74,34] : 73.922475933    * %u $
+isotope_array[74,35] : 73.929910279    * %u $
+isotope_array[74,36] : 73.933084016    * %u $
+isotope_array[74,37] : 73.944265867    * %u $
+isotope_array[74,38] : 73.956170       * %u $
+isotope_array[75,26] : 74.984219       * %u $
+isotope_array[75,27] : 74.967192       * %u $
+isotope_array[75,28] : 74.952506       * %u $
+isotope_array[75,29] : 74.941523817    * %u $
+isotope_array[75,30] : 74.932840244    * %u $
+isotope_array[75,31] : 74.926504484    * %u $
+isotope_array[75,32] : 74.922858370    * %u $
+isotope_array[75,33] : 74.921594562    * %u $
+isotope_array[75,34] : 74.922522870    * %u $
+isotope_array[75,35] : 74.925810566    * %u $
+isotope_array[75,36] : 74.930945744    * %u $
+isotope_array[75,37] : 74.938573200    * %u $
+isotope_array[75,38] : 74.949952767    * %u $
+isotope_array[75,39] : 74.965840       * %u $
+isotope_array[76,26] : 75.988631       * %u $
+isotope_array[76,27] : 75.972453       * %u $
+isotope_array[76,28] : 75.954707       * %u $
+isotope_array[76,29] : 75.945268974    * %u $
+isotope_array[76,30] : 75.933114956    * %u $
+isotope_array[76,31] : 75.928827624    * %u $
+isotope_array[76,32] : 75.921402725    * %u $
+isotope_array[76,33] : 75.922392011    * %u $
+isotope_array[76,34] : 75.919213702    * %u $
+isotope_array[76,35] : 75.924541574    * %u $
+isotope_array[76,36] : 75.925910743    * %u $
+isotope_array[76,37] : 75.935073031    * %u $
+isotope_array[76,38] : 75.941762760    * %u $
+isotope_array[76,39] : 75.958937       * %u $
+isotope_array[77,27] : 76.976479       * %u $
+isotope_array[77,28] : 76.959903       * %u $
+isotope_array[77,29] : 76.947543599    * %u $
+isotope_array[77,30] : 76.936887197    * %u $
+isotope_array[77,31] : 76.929154299    * %u $
+isotope_array[77,32] : 76.923549843    * %u $
+isotope_array[77,33] : 76.920647555    * %u $
+isotope_array[77,34] : 76.919914150    * %u $
+isotope_array[77,35] : 76.921379193    * %u $
+isotope_array[77,36] : 76.924669999    * %u $
+isotope_array[77,37] : 76.930401599    * %u $
+isotope_array[77,38] : 76.937945454    * %u $
+isotope_array[77,39] : 76.950146       * %u $
+isotope_array[77,40] : 76.966076       * %u $
+isotope_array[78,27] : 77.983553       * %u $
+isotope_array[78,28] : 77.962555       * %u $
+isotope_array[78,29] : 77.951916524    * %u $
+isotope_array[78,30] : 77.938289204    * %u $
+isotope_array[78,31] : 77.931610854    * %u $
+isotope_array[78,32] : 77.922852911    * %u $
+isotope_array[78,33] : 77.921827771    * %u $
+isotope_array[78,34] : 77.917309244    * %u $
+isotope_array[78,35] : 77.921145858    * %u $
+isotope_array[78,36] : 77.920366341    * %u $
+isotope_array[78,37] : 77.928141866    * %u $
+isotope_array[78,38] : 77.932179979    * %u $
+isotope_array[78,39] : 77.943990       * %u $
+isotope_array[78,40] : 77.956146       * %u $
+isotope_array[79,28] : 78.969769       * %u $
+isotope_array[79,29] : 78.954473100    * %u $
+isotope_array[79,30] : 78.942638067    * %u $
+isotope_array[79,31] : 78.932851582    * %u $
+isotope_array[79,32] : 78.925359506    * %u $
+isotope_array[79,33] : 78.920948419    * %u $
+isotope_array[79,34] : 78.918499252    * %u $
+isotope_array[79,35] : 78.918337574    * %u $
+isotope_array[79,36] : 78.920082919    * %u $
+isotope_array[79,37] : 78.923990095    * %u $
+isotope_array[79,38] : 78.929704692    * %u $
+isotope_array[79,39] : 78.937946000    * %u $
+isotope_array[79,40] : 78.949790       * %u $
+isotope_array[79,41] : 78.966022       * %u $
+isotope_array[80,28] : 79.975051       * %u $
+isotope_array[80,29] : 79.960623       * %u $
+isotope_array[80,30] : 79.944552929    * %u $
+isotope_array[80,31] : 79.936420773    * %u $
+isotope_array[80,32] : 79.925350773    * %u $
+isotope_array[80,33] : 79.922474440    * %u $
+isotope_array[80,34] : 79.916521761    * %u $
+isotope_array[80,35] : 79.918529784    * %u $
+isotope_array[80,36] : 79.916377940    * %u $
+isotope_array[80,37] : 79.922516442    * %u $
+isotope_array[80,38] : 79.924517538    * %u $
+isotope_array[80,39] : 79.934354750    * %u $
+isotope_array[80,40] : 79.941213       * %u $
+isotope_array[80,41] : 79.958754       * %u $
+isotope_array[81,28] : 80.982727       * %u $
+isotope_array[81,29] : 80.965743       * %u $
+isotope_array[81,30] : 80.950402617    * %u $
+isotope_array[81,31] : 80.938133841    * %u $
+isotope_array[81,32] : 80.928832941    * %u $
+isotope_array[81,33] : 80.922132288    * %u $
+isotope_array[81,34] : 80.917993019    * %u $
+isotope_array[81,35] : 80.916288197    * %u $
+isotope_array[81,36] : 80.916589703    * %u $
+isotope_array[81,37] : 80.918993900    * %u $
+isotope_array[81,38] : 80.923211393    * %u $
+isotope_array[81,39] : 80.929454283    * %u $
+isotope_array[81,40] : 80.938245000    * %u $
+isotope_array[81,41] : 80.950230       * %u $
+isotope_array[81,42] : 80.966226       * %u $
+isotope_array[82,28] : 81.988492       * %u $
+isotope_array[82,29] : 81.972378       * %u $
+isotope_array[82,30] : 81.954574097    * %u $
+isotope_array[82,31] : 81.943176531    * %u $
+isotope_array[82,32] : 81.929774031    * %u $
+isotope_array[82,33] : 81.924738731    * %u $
+isotope_array[82,34] : 81.916699531    * %u $
+isotope_array[82,35] : 81.916801752    * %u $
+isotope_array[82,36] : 81.91348115368  * %u $
+isotope_array[82,37] : 81.918209023    * %u $
+isotope_array[82,38] : 81.918399845    * %u $
+isotope_array[82,39] : 81.926930189    * %u $
+isotope_array[82,40] : 81.931707497    * %u $
+isotope_array[82,41] : 81.944380       * %u $
+isotope_array[82,42] : 81.956661       * %u $
+isotope_array[83,29] : 82.978110       * %u $
+isotope_array[83,30] : 82.961041       * %u $
+isotope_array[83,31] : 82.947120300    * %u $
+isotope_array[83,32] : 82.934539100    * %u $
+isotope_array[83,33] : 82.925206900    * %u $
+isotope_array[83,34] : 82.919118604    * %u $
+isotope_array[83,35] : 82.915175285    * %u $
+isotope_array[83,36] : 82.914126516    * %u $
+isotope_array[83,37] : 82.915114181    * %u $
+isotope_array[83,38] : 82.917554372    * %u $
+isotope_array[83,39] : 82.922484026    * %u $
+isotope_array[83,40] : 82.929240926    * %u $
+isotope_array[83,41] : 82.938150000    * %u $
+isotope_array[83,42] : 82.950252       * %u $
+isotope_array[83,43] : 82.966377       * %u $
+isotope_array[84,29] : 83.985271       * %u $
+isotope_array[84,30] : 83.965829       * %u $
+isotope_array[84,31] : 83.952663000    * %u $
+isotope_array[84,32] : 83.937575090    * %u $
+isotope_array[84,33] : 83.929303290    * %u $
+isotope_array[84,34] : 83.918466761    * %u $
+isotope_array[84,35] : 83.916496417    * %u $
+isotope_array[84,36] : 83.91149772708  * %u $
+isotope_array[84,37] : 83.914375223    * %u $
+isotope_array[84,38] : 83.913419118    * %u $
+isotope_array[84,39] : 83.920671060    * %u $
+isotope_array[84,40] : 83.923325663    * %u $
+isotope_array[84,41] : 83.934305711    * %u $
+isotope_array[84,42] : 83.941846       * %u $
+isotope_array[84,43] : 83.959527       * %u $
+isotope_array[85,30] : 84.973054       * %u $
+isotope_array[85,31] : 84.957333000    * %u $
+isotope_array[85,32] : 84.942969658    * %u $
+isotope_array[85,33] : 84.932163658    * %u $
+isotope_array[85,34] : 84.922260758    * %u $
+isotope_array[85,35] : 84.915645758    * %u $
+isotope_array[85,36] : 84.912527260    * %u $
+isotope_array[85,37] : 84.91178973604  * %u $
+isotope_array[85,38] : 84.912932041    * %u $
+isotope_array[85,39] : 84.916433039    * %u $
+isotope_array[85,40] : 84.921443199    * %u $
+isotope_array[85,41] : 84.928845836    * %u $
+isotope_array[85,42] : 84.938260736    * %u $
+isotope_array[85,43] : 84.950778       * %u $
+isotope_array[85,44] : 84.967117       * %u $
+isotope_array[86,30] : 85.978463       * %u $
+isotope_array[86,31] : 85.963757       * %u $
+isotope_array[86,32] : 85.946967000    * %u $
+isotope_array[86,33] : 85.936701532    * %u $
+isotope_array[86,34] : 85.924311732    * %u $
+isotope_array[86,35] : 85.918805432    * %u $
+isotope_array[86,36] : 85.91061062468  * %u $
+isotope_array[86,37] : 85.911167443    * %u $
+isotope_array[86,38] : 85.90926072473  * %u $
+isotope_array[86,39] : 85.914886095    * %u $
+isotope_array[86,40] : 85.916296814    * %u $
+isotope_array[86,41] : 85.925781536    * %u $
+isotope_array[86,42] : 85.931174092    * %u $
+isotope_array[86,43] : 85.944637       * %u $
+isotope_array[86,44] : 85.957305       * %u $
+isotope_array[87,31] : 86.969007       * %u $
+isotope_array[87,32] : 86.953204       * %u $
+isotope_array[87,33] : 86.940291716    * %u $
+isotope_array[87,34] : 86.928688616    * %u $
+isotope_array[87,35] : 86.920674016    * %u $
+isotope_array[87,36] : 86.913354759    * %u $
+isotope_array[87,37] : 86.909180529    * %u $
+isotope_array[87,38] : 86.90887749454  * %u $
+isotope_array[87,39] : 86.910876100    * %u $
+isotope_array[87,40] : 86.914817338    * %u $
+isotope_array[87,41] : 86.920692473    * %u $
+isotope_array[87,42] : 86.928196198    * %u $
+isotope_array[87,43] : 86.938067185    * %u $
+isotope_array[87,44] : 86.950907       * %u $
+isotope_array[88,31] : 87.975963       * %u $
+isotope_array[88,32] : 87.957574       * %u $
+isotope_array[88,33] : 87.945840       * %u $
+isotope_array[88,34] : 87.931417490    * %u $
+isotope_array[88,35] : 87.924083290    * %u $
+isotope_array[88,36] : 87.914447879    * %u $
+isotope_array[88,37] : 87.911315590    * %u $
+isotope_array[88,38] : 87.905612253    * %u $
+isotope_array[88,39] : 87.909501274    * %u $
+isotope_array[88,40] : 87.910220715    * %u $
+isotope_array[88,41] : 87.918226476    * %u $
+isotope_array[88,42] : 87.921967779    * %u $
+isotope_array[88,43] : 87.933794211    * %u $
+isotope_array[88,44] : 87.941664       * %u $
+isotope_array[88,45] : 87.960429       * %u $
+isotope_array[89,32] : 88.964530       * %u $
+isotope_array[89,33] : 88.950048       * %u $
+isotope_array[89,34] : 88.936669058    * %u $
+isotope_array[89,35] : 88.926704558    * %u $
+isotope_array[89,36] : 88.917835449    * %u $
+isotope_array[89,37] : 88.912278136    * %u $
+isotope_array[89,38] : 88.907450808    * %u $
+isotope_array[89,39] : 88.905838156    * %u $
+isotope_array[89,40] : 88.908879751    * %u $
+isotope_array[89,41] : 88.913444696    * %u $
+isotope_array[89,42] : 88.919468149    * %u $
+isotope_array[89,43] : 88.927648649    * %u $
+isotope_array[89,44] : 88.937337849    * %u $
+isotope_array[89,45] : 88.950992       * %u $
+isotope_array[90,32] : 89.969436       * %u $
+isotope_array[90,33] : 89.955995       * %u $
+isotope_array[90,34] : 89.940096000    * %u $
+isotope_array[90,35] : 89.931292848    * %u $
+isotope_array[90,36] : 89.919527929    * %u $
+isotope_array[90,37] : 89.914797557    * %u $
+isotope_array[90,38] : 89.907727870    * %u $
+isotope_array[90,39] : 89.907141749    * %u $
+isotope_array[90,40] : 89.904698755    * %u $
+isotope_array[90,41] : 89.911259201    * %u $
+isotope_array[90,42] : 89.913931270    * %u $
+isotope_array[90,43] : 89.924073919    * %u $
+isotope_array[90,44] : 89.930344378    * %u $
+isotope_array[90,45] : 89.944569       * %u $
+isotope_array[90,46] : 89.957370       * %u $
+isotope_array[91,33] : 90.960816       * %u $
+isotope_array[91,34] : 90.945700000    * %u $
+isotope_array[91,35] : 90.934398617    * %u $
+isotope_array[91,36] : 90.923806309    * %u $
+isotope_array[91,37] : 90.916537261    * %u $
+isotope_array[91,38] : 90.910195942    * %u $
+isotope_array[91,39] : 90.907298048    * %u $
+isotope_array[91,40] : 90.905640205    * %u $
+isotope_array[91,41] : 90.906990256    * %u $
+isotope_array[91,42] : 90.911745190    * %u $
+isotope_array[91,43] : 90.918424972    * %u $
+isotope_array[91,44] : 90.926741530    * %u $
+isotope_array[91,45] : 90.937123       * %u $
+isotope_array[91,46] : 90.950435       * %u $
+isotope_array[92,33] : 91.967386       * %u $
+isotope_array[92,34] : 91.949840       * %u $
+isotope_array[92,35] : 91.939631595    * %u $
+isotope_array[92,36] : 91.926173092    * %u $
+isotope_array[92,37] : 91.919728477    * %u $
+isotope_array[92,38] : 91.911038222    * %u $
+isotope_array[92,39] : 91.908945752    * %u $
+isotope_array[92,40] : 91.905035336    * %u $
+isotope_array[92,41] : 91.907188580    * %u $
+isotope_array[92,42] : 91.906807153    * %u $
+isotope_array[92,43] : 91.915269777    * %u $
+isotope_array[92,44] : 91.920234373    * %u $
+isotope_array[92,45] : 91.932367692    * %u $
+isotope_array[92,46] : 91.941192225    * %u $
+isotope_array[92,47] : 91.959710       * %u $
+isotope_array[93,34] : 92.956135       * %u $
+isotope_array[93,35] : 92.943220000    * %u $
+isotope_array[93,36] : 92.931147172    * %u $
+isotope_array[93,37] : 92.922039334    * %u $
+isotope_array[93,38] : 92.914024314    * %u $
+isotope_array[93,39] : 92.909578434    * %u $
+isotope_array[93,40] : 92.906470661    * %u $
+isotope_array[93,41] : 92.906373170    * %u $
+isotope_array[93,42] : 92.906808772    * %u $
+isotope_array[93,43] : 92.910245147    * %u $
+isotope_array[93,44] : 92.917104442    * %u $
+isotope_array[93,45] : 92.925912778    * %u $
+isotope_array[93,46] : 92.936680426    * %u $
+isotope_array[93,47] : 92.950188       * %u $
+isotope_array[94,34] : 93.960490       * %u $
+isotope_array[94,35] : 93.948846       * %u $
+isotope_array[94,36] : 93.934140452    * %u $
+isotope_array[94,37] : 93.926394819    * %u $
+isotope_array[94,38] : 93.915355641    * %u $
+isotope_array[94,39] : 93.911592062    * %u $
+isotope_array[94,40] : 93.906312523    * %u $
+isotope_array[94,41] : 93.907279001    * %u $
+isotope_array[94,42] : 93.905083586    * %u $
+isotope_array[94,43] : 93.909652319    * %u $
+isotope_array[94,44] : 93.911342860    * %u $
+isotope_array[94,45] : 93.921730450    * %u $
+isotope_array[94,46] : 93.929036286    * %u $
+isotope_array[94,47] : 93.943744       * %u $
+isotope_array[94,48] : 93.956586       * %u $
+isotope_array[95,34] : 94.967300       * %u $
+isotope_array[95,35] : 94.952925       * %u $
+isotope_array[95,36] : 94.939710922    * %u $
+isotope_array[95,37] : 94.929263849    * %u $
+isotope_array[95,38] : 94.919358282    * %u $
+isotope_array[95,39] : 94.912819697    * %u $
+isotope_array[95,40] : 94.908040276    * %u $
+isotope_array[95,41] : 94.906831110    * %u $
+isotope_array[95,42] : 94.905837436    * %u $
+isotope_array[95,43] : 94.907652281    * %u $
+isotope_array[95,44] : 94.910404415    * %u $
+isotope_array[95,45] : 94.915897893    * %u $
+isotope_array[95,46] : 94.924888506    * %u $
+isotope_array[95,47] : 94.935688       * %u $
+isotope_array[95,48] : 94.949483       * %u $
+isotope_array[96,35] : 95.958980       * %u $
+isotope_array[96,36] : 95.943014473    * %u $
+isotope_array[96,37] : 95.934133398    * %u $
+isotope_array[96,38] : 95.921719045    * %u $
+isotope_array[96,39] : 95.915909305    * %u $
+isotope_array[96,40] : 95.908277615    * %u $
+isotope_array[96,41] : 95.908101586    * %u $
+isotope_array[96,42] : 95.904674770    * %u $
+isotope_array[96,43] : 95.907866675    * %u $
+isotope_array[96,44] : 95.907588910    * %u $
+isotope_array[96,45] : 95.914451705    * %u $
+isotope_array[96,46] : 95.918213739    * %u $
+isotope_array[96,47] : 95.930743903    * %u $
+isotope_array[96,48] : 95.940341       * %u $
+isotope_array[96,49] : 95.959109       * %u $
+isotope_array[97,35] : 96.963499       * %u $
+isotope_array[97,36] : 96.949088782    * %u $
+isotope_array[97,37] : 96.937177117    * %u $
+isotope_array[97,38] : 96.926375621    * %u $
+isotope_array[97,39] : 96.918286702    * %u $
+isotope_array[97,40] : 96.910963802    * %u $
+isotope_array[97,41] : 96.908101622    * %u $
+isotope_array[97,42] : 96.906016903    * %u $
+isotope_array[97,43] : 96.906360720    * %u $
+isotope_array[97,44] : 96.907545776    * %u $
+isotope_array[97,45] : 96.911327872    * %u $
+isotope_array[97,46] : 96.916471985    * %u $
+isotope_array[97,47] : 96.923881400    * %u $
+isotope_array[97,48] : 96.934799343    * %u $
+isotope_array[97,49] : 96.949125       * %u $
+isotope_array[98,35] : 97.969887       * %u $
+isotope_array[98,36] : 97.952635       * %u $
+isotope_array[98,37] : 97.941632317    * %u $
+isotope_array[98,38] : 97.928692636    * %u $
+isotope_array[98,39] : 97.922394841    * %u $
+isotope_array[98,40] : 97.912740448    * %u $
+isotope_array[98,41] : 97.910332645    * %u $
+isotope_array[98,42] : 97.905403609    * %u $
+isotope_array[98,43] : 97.907211206    * %u $
+isotope_array[98,44] : 97.905286709    * %u $
+isotope_array[98,45] : 97.910707734    * %u $
+isotope_array[98,46] : 97.912698335    * %u $
+isotope_array[98,47] : 97.921559970    * %u $
+isotope_array[98,48] : 97.927389315    * %u $
+isotope_array[98,49] : 97.942129       * %u $
+isotope_array[99,36] : 98.958776       * %u $
+isotope_array[99,37] : 98.945119190    * %u $
+isotope_array[99,38] : 98.932883604    * %u $
+isotope_array[99,39] : 98.924160839    * %u $
+isotope_array[99,40] : 98.916675081    * %u $
+isotope_array[99,41] : 98.911609377    * %u $
+isotope_array[99,42] : 98.907707299    * %u $
+isotope_array[99,43] : 98.906249681    * %u $
+isotope_array[99,44] : 98.905930284    * %u $
+isotope_array[99,45] : 98.908121241    * %u $
+isotope_array[99,46] : 98.911773073    * %u $
+isotope_array[99,47] : 98.917645766    * %u $
+isotope_array[99,48] : 98.924925845    * %u $
+isotope_array[99,49] : 98.934110       * %u $
+isotope_array[99,50] : 98.948495       * %u $
+isotope_array[100,36] : 99.962995       * %u $
+isotope_array[100,37] : 99.950331532    * %u $
+isotope_array[100,38] : 99.935783270    * %u $
+isotope_array[100,39] : 99.927727678    * %u $
+isotope_array[100,40] : 99.918010499    * %u $
+isotope_array[100,41] : 99.914340578    * %u $
+isotope_array[100,42] : 99.907467982    * %u $
+isotope_array[100,43] : 99.907652715    * %u $
+isotope_array[100,44] : 99.904210460    * %u $
+isotope_array[100,45] : 99.908114147    * %u $
+isotope_array[100,46] : 99.908520438    * %u $
+isotope_array[100,47] : 99.916115443    * %u $
+isotope_array[100,48] : 99.920348829    * %u $
+isotope_array[100,49] : 99.931101929    * %u $
+isotope_array[100,50] : 99.938648944    * %u $
+isotope_array[101,36] :100.969318       * %u $
+isotope_array[101,37] :100.954302000    * %u $
+isotope_array[101,38] :100.940606264    * %u $
+isotope_array[101,39] :100.930160817    * %u $
+isotope_array[101,40] :100.921458454    * %u $
+isotope_array[101,41] :100.915306508    * %u $
+isotope_array[101,42] :100.910337648    * %u $
+isotope_array[101,43] :100.907305271    * %u $
+isotope_array[101,44] :100.905573086    * %u $
+isotope_array[101,45] :100.906158903    * %u $
+isotope_array[101,46] :100.908284824    * %u $
+isotope_array[101,47] :100.912683951    * %u $
+isotope_array[101,48] :100.918586209    * %u $
+isotope_array[101,49] :100.926414025    * %u $
+isotope_array[101,50] :100.935259252    * %u $
+isotope_array[102,37] :101.960008000    * %u $
+isotope_array[102,38] :101.944004679    * %u $
+isotope_array[102,39] :101.934328471    * %u $
+isotope_array[102,40] :101.923154181    * %u $
+isotope_array[102,41] :101.918090447    * %u $
+isotope_array[102,42] :101.910293725    * %u $
+isotope_array[102,43] :101.909207239    * %u $
+isotope_array[102,44] :101.904340312    * %u $
+isotope_array[102,45] :101.906834282    * %u $
+isotope_array[102,46] :101.905632292    * %u $
+isotope_array[102,47] :101.911704538    * %u $
+isotope_array[102,48] :101.914481797    * %u $
+isotope_array[102,49] :101.924105911    * %u $
+isotope_array[102,50] :101.930289525    * %u $
+isotope_array[102,51] :101.945142       * %u $
+isotope_array[103,37] :102.964401       * %u $
+isotope_array[103,38] :102.949243       * %u $
+isotope_array[103,39] :102.937243796    * %u $
+isotope_array[103,40] :102.927204054    * %u $
+isotope_array[103,41] :102.919453416    * %u $
+isotope_array[103,42] :102.913091954    * %u $
+isotope_array[103,43] :102.909173960    * %u $
+isotope_array[103,44] :102.906314846    * %u $
+isotope_array[103,45] :102.905494081    * %u $
+isotope_array[103,46] :102.906111074    * %u $
+isotope_array[103,47] :102.908960558    * %u $
+isotope_array[103,48] :102.913416922    * %u $
+isotope_array[103,49] :102.919878830    * %u $
+isotope_array[103,50] :102.927973       * %u $
+isotope_array[103,51] :102.939162       * %u $
+isotope_array[104,37] :103.970531       * %u $
+isotope_array[104,38] :103.953022       * %u $
+isotope_array[104,39] :103.941943       * %u $
+isotope_array[104,40] :103.929449193    * %u $
+isotope_array[104,41] :103.922907728    * %u $
+isotope_array[104,42] :103.913747443    * %u $
+isotope_array[104,43] :103.911433718    * %u $
+isotope_array[104,44] :103.905425312    * %u $
+isotope_array[104,45] :103.906645309    * %u $
+isotope_array[104,46] :103.904030393    * %u $
+isotope_array[104,47] :103.908623715    * %u $
+isotope_array[104,48] :103.909856228    * %u $
+isotope_array[104,49] :103.918214538    * %u $
+isotope_array[104,50] :103.923105195    * %u $
+isotope_array[104,51] :103.936344       * %u $
+isotope_array[104,52] :103.946723408    * %u $
+isotope_array[105,38] :104.959001       * %u $
+isotope_array[105,39] :104.945711       * %u $
+isotope_array[105,40] :104.934021832    * %u $
+isotope_array[105,41] :104.924942577    * %u $
+isotope_array[105,42] :104.916981989    * %u $
+isotope_array[105,43] :104.911662024    * %u $
+isotope_array[105,44] :104.907745478    * %u $
+isotope_array[105,45] :104.905687787    * %u $
+isotope_array[105,46] :104.905079479    * %u $
+isotope_array[105,47] :104.906525604    * %u $
+isotope_array[105,48] :104.909463893    * %u $
+isotope_array[105,49] :104.914502322    * %u $
+isotope_array[105,50] :104.921268421    * %u $
+isotope_array[105,51] :104.931276547    * %u $
+isotope_array[105,52] :104.943304516    * %u $
+isotope_array[106,38] :105.963177       * %u $
+isotope_array[106,39] :105.950842       * %u $
+isotope_array[106,40] :105.936930       * %u $
+isotope_array[106,41] :105.928928505    * %u $
+isotope_array[106,42] :105.918273231    * %u $
+isotope_array[106,43] :105.914356674    * %u $
+isotope_array[106,44] :105.907328181    * %u $
+isotope_array[106,45] :105.907285879    * %u $
+isotope_array[106,46] :105.903480287    * %u $
+isotope_array[106,47] :105.906663499    * %u $
+isotope_array[106,48] :105.906459791    * %u $
+isotope_array[106,49] :105.913463596    * %u $
+isotope_array[106,50] :105.916957394    * %u $
+isotope_array[106,51] :105.928637979    * %u $
+isotope_array[106,52] :105.937498521    * %u $
+isotope_array[106,53] :105.953516       * %u $
+isotope_array[107,38] :106.969672       * %u $
+isotope_array[107,39] :106.954943       * %u $
+isotope_array[107,40] :106.942007       * %u $
+isotope_array[107,41] :106.931589685    * %u $
+isotope_array[107,42] :106.922119770    * %u $
+isotope_array[107,43] :106.915458437    * %u $
+isotope_array[107,44] :106.909969837    * %u $
+isotope_array[107,45] :106.906747975    * %u $
+isotope_array[107,46] :106.905128058    * %u $
+isotope_array[107,47] :106.905091509    * %u $
+isotope_array[107,48] :106.906612049    * %u $
+isotope_array[107,49] :106.910287497    * %u $
+isotope_array[107,50] :106.915713649    * %u $
+isotope_array[107,51] :106.924150621    * %u $
+isotope_array[107,52] :106.934882       * %u $
+isotope_array[107,53] :106.946935       * %u $
+isotope_array[108,39] :107.960515       * %u $
+isotope_array[108,40] :107.945303       * %u $
+isotope_array[108,41] :107.936075604    * %u $
+isotope_array[108,42] :107.924047508    * %u $
+isotope_array[108,43] :107.918493493    * %u $
+isotope_array[108,44] :107.910185793    * %u $
+isotope_array[108,45] :107.908715304    * %u $
+isotope_array[108,46] :107.903891806    * %u $
+isotope_array[108,47] :107.905950245    * %u $
+isotope_array[108,48] :107.904183588    * %u $
+isotope_array[108,49] :107.909693654    * %u $
+isotope_array[108,50] :107.911894290    * %u $
+isotope_array[108,51] :107.922226731    * %u $
+isotope_array[108,52] :107.929380469    * %u $
+isotope_array[108,53] :107.943348       * %u $
+isotope_array[108,54] :107.954232285    * %u $
+isotope_array[109,39] :108.965131       * %u $
+isotope_array[109,40] :108.950907       * %u $
+isotope_array[109,41] :108.939141000    * %u $
+isotope_array[109,42] :108.928438318    * %u $
+isotope_array[109,43] :108.920254107    * %u $
+isotope_array[109,44] :108.913323707    * %u $
+isotope_array[109,45] :108.908749555    * %u $
+isotope_array[109,46] :108.905950576    * %u $
+isotope_array[109,47] :108.904755778    * %u $
+isotope_array[109,48] :108.904986697    * %u $
+isotope_array[109,49] :108.907149679    * %u $
+isotope_array[109,50] :108.911292857    * %u $
+isotope_array[109,51] :108.918141203    * %u $
+isotope_array[109,52] :108.927304532    * %u $
+isotope_array[109,53] :108.938086022    * %u $
+isotope_array[109,54] :108.950434955    * %u $
+isotope_array[110,40] :109.954675       * %u $
+isotope_array[110,41] :109.943843000    * %u $
+isotope_array[110,42] :109.930717956    * %u $
+isotope_array[110,43] :109.923741263    * %u $
+isotope_array[110,44] :109.914038501    * %u $
+isotope_array[110,45] :109.911079745    * %u $
+isotope_array[110,46] :109.905172878    * %u $
+isotope_array[110,47] :109.906110724    * %u $
+isotope_array[110,48] :109.903007470    * %u $
+isotope_array[110,49] :109.907170674    * %u $
+isotope_array[110,50] :109.907844835    * %u $
+isotope_array[110,51] :109.916854283    * %u $
+isotope_array[110,52] :109.922458102    * %u $
+isotope_array[110,53] :109.935085102    * %u $
+isotope_array[110,54] :109.944258759    * %u $
+isotope_array[111,40] :110.960837       * %u $
+isotope_array[111,41] :110.947439       * %u $
+isotope_array[111,42] :110.935651966    * %u $
+isotope_array[111,43] :110.925898966    * %u $
+isotope_array[111,44] :110.917567566    * %u $
+isotope_array[111,45] :110.911643164    * %u $
+isotope_array[111,46] :110.907690358    * %u $
+isotope_array[111,47] :110.905296827    * %u $
+isotope_array[111,48] :110.904183776    * %u $
+isotope_array[111,49] :110.905107236    * %u $
+isotope_array[111,50] :110.907741143    * %u $
+isotope_array[111,51] :110.913218187    * %u $
+isotope_array[111,52] :110.921000587    * %u $
+isotope_array[111,53] :110.930269236    * %u $
+isotope_array[111,54] :110.941470       * %u $
+isotope_array[111,55] :110.953945       * %u $
+isotope_array[112,40] :111.965196       * %u $
+isotope_array[112,41] :111.952689       * %u $
+isotope_array[112,42] :111.938293       * %u $
+isotope_array[112,43] :111.929941658    * %u $
+isotope_array[112,44] :111.918806922    * %u $
+isotope_array[112,45] :111.914405199    * %u $
+isotope_array[112,46] :111.907330557    * %u $
+isotope_array[112,47] :111.907048548    * %u $
+isotope_array[112,48] :111.902763896    * %u $
+isotope_array[112,49] :111.905538718    * %u $
+isotope_array[112,50] :111.904824894    * %u $
+isotope_array[112,51] :111.912399903    * %u $
+isotope_array[112,52] :111.916727848    * %u $
+isotope_array[112,53] :111.928004548    * %u $
+isotope_array[112,54] :111.935559068    * %u $
+isotope_array[112,55] :111.950172       * %u $
+isotope_array[113,40] :112.971723       * %u $
+isotope_array[113,41] :112.956833       * %u $
+isotope_array[113,42] :112.943478       * %u $
+isotope_array[113,43] :112.932569032    * %u $
+isotope_array[113,44] :112.922846729    * %u $
+isotope_array[113,45] :112.915440212    * %u $
+isotope_array[113,46] :112.910261912    * %u $
+isotope_array[113,47] :112.906572865    * %u $
+isotope_array[113,48] :112.904408105    * %u $
+isotope_array[113,49] :112.904060451    * %u $
+isotope_array[113,50] :112.905175857    * %u $
+isotope_array[113,51] :112.909374664    * %u $
+isotope_array[113,52] :112.915891000    * %u $
+isotope_array[113,53] :112.923650062    * %u $
+isotope_array[113,54] :112.933221663    * %u $
+isotope_array[113,55] :112.944428484    * %u $
+isotope_array[113,56] :112.957370       * %u $
+isotope_array[114,41] :113.962469       * %u $
+isotope_array[114,42] :113.946666       * %u $
+isotope_array[114,43] :113.937090000    * %u $
+isotope_array[114,44] :113.924614430    * %u $
+isotope_array[114,45] :113.918721680    * %u $
+isotope_array[114,46] :113.910369430    * %u $
+isotope_array[114,47] :113.908823029    * %u $
+isotope_array[114,48] :113.903364998    * %u $
+isotope_array[114,49] :113.904916405    * %u $
+isotope_array[114,50] :113.902780130    * %u $
+isotope_array[114,51] :113.909289155    * %u $
+isotope_array[114,52] :113.912087820    * %u $
+isotope_array[114,53] :113.922018900    * %u $
+isotope_array[114,54] :113.927980329    * %u $
+isotope_array[114,55] :113.941292244    * %u $
+isotope_array[114,56] :113.950718489    * %u $
+isotope_array[115,41] :114.966849       * %u $
+isotope_array[115,42] :114.952174       * %u $
+isotope_array[115,43] :114.940100       * %u $
+isotope_array[115,44] :114.929033049    * %u $
+isotope_array[115,45] :114.920311649    * %u $
+isotope_array[115,46] :114.913659333    * %u $
+isotope_array[115,47] :114.908767445    * %u $
+isotope_array[115,48] :114.905437426    * %u $
+isotope_array[115,49] :114.903878772    * %u $
+isotope_array[115,50] :114.903344695    * %u $
+isotope_array[115,51] :114.906598000    * %u $
+isotope_array[115,52] :114.911902000    * %u $
+isotope_array[115,53] :114.918048000    * %u $
+isotope_array[115,54] :114.926293943    * %u $
+isotope_array[115,55] :114.935910       * %u $
+isotope_array[115,56] :114.947482       * %u $
+isotope_array[116,41] :115.972914       * %u $
+isotope_array[116,42] :115.955759       * %u $
+isotope_array[116,43] :115.945020       * %u $
+isotope_array[116,44] :115.931219191    * %u $
+isotope_array[116,45] :115.924062060    * %u $
+isotope_array[116,46] :115.914297872    * %u $
+isotope_array[116,47] :115.911386809    * %u $
+isotope_array[116,48] :115.904763230    * %u $
+isotope_array[116,49] :115.905259992    * %u $
+isotope_array[116,50] :115.901742825    * %u $
+isotope_array[116,51] :115.906792732    * %u $
+isotope_array[116,52] :115.908465558    * %u $
+isotope_array[116,53] :115.916885513    * %u $
+isotope_array[116,54] :115.921580955    * %u $
+isotope_array[116,55] :115.933395       * %u $
+isotope_array[116,56] :115.941621       * %u $
+isotope_array[116,57] :115.957005       * %u $
+isotope_array[117,42] :116.961686       * %u $
+isotope_array[117,43] :116.948320       * %u $
+isotope_array[117,44] :116.936135000    * %u $
+isotope_array[117,45] :116.926036291    * %u $
+isotope_array[117,46] :116.917955584    * %u $
+isotope_array[117,47] :116.911774086    * %u $
+isotope_array[117,48] :116.907226039    * %u $
+isotope_array[117,49] :116.904515729    * %u $
+isotope_array[117,50] :116.902954036    * %u $
+isotope_array[117,51] :116.904841519    * %u $
+isotope_array[117,52] :116.908646227    * %u $
+isotope_array[117,53] :116.913645649    * %u $
+isotope_array[117,54] :116.920358758    * %u $
+isotope_array[117,55] :116.928616723    * %u $
+isotope_array[117,56] :116.938316403    * %u $
+isotope_array[117,57] :116.950326       * %u $
+isotope_array[118,42] :117.965249       * %u $
+isotope_array[118,43] :117.953526       * %u $
+isotope_array[118,44] :117.938808       * %u $
+isotope_array[118,45] :117.930341116    * %u $
+isotope_array[118,46] :117.919067273    * %u $
+isotope_array[118,47] :117.914595484    * %u $
+isotope_array[118,48] :117.906921956    * %u $
+isotope_array[118,49] :117.906356705    * %u $
+isotope_array[118,50] :117.901606630    * %u $
+isotope_array[118,51] :117.905532194    * %u $
+isotope_array[118,52] :117.905860104    * %u $
+isotope_array[118,53] :117.913074000    * %u $
+isotope_array[118,54] :117.916178678    * %u $
+isotope_array[118,55] :117.926559517    * %u $
+isotope_array[118,56] :117.933226       * %u $
+isotope_array[118,57] :117.946731       * %u $
+isotope_array[119,42] :118.971465       * %u $
+isotope_array[119,43] :118.956876       * %u $
+isotope_array[119,44] :118.944090       * %u $
+isotope_array[119,45] :118.932556951    * %u $
+isotope_array[119,46] :118.923341138    * %u $
+isotope_array[119,47] :118.915570309    * %u $
+isotope_array[119,48] :118.909847052    * %u $
+isotope_array[119,49] :118.905851622    * %u $
+isotope_array[119,50] :118.903311266    * %u $
+isotope_array[119,51] :118.903944062    * %u $
+isotope_array[119,52] :118.906405699    * %u $
+isotope_array[119,53] :118.910060910    * %u $
+isotope_array[119,54] :118.915410641    * %u $
+isotope_array[119,55] :118.922377327    * %u $
+isotope_array[119,56] :118.930659683    * %u $
+isotope_array[119,57] :118.940934       * %u $
+isotope_array[119,58] :118.952957       * %u $
+isotope_array[120,43] :119.962426       * %u $
+isotope_array[120,44] :119.946623       * %u $
+isotope_array[120,45] :119.937069       * %u $
+isotope_array[120,46] :119.924551745    * %u $
+isotope_array[120,47] :119.918784765    * %u $
+isotope_array[120,48] :119.909868065    * %u $
+isotope_array[120,49] :119.907967489    * %u $
+isotope_array[120,50] :119.902202557    * %u $
+isotope_array[120,51] :119.905080308    * %u $
+isotope_array[120,52] :119.904065779    * %u $
+isotope_array[120,53] :119.910093729    * %u $
+isotope_array[120,54] :119.911784267    * %u $
+isotope_array[120,55] :119.920677277    * %u $
+isotope_array[120,56] :119.926044997    * %u $
+isotope_array[120,57] :119.938196       * %u $
+isotope_array[120,58] :119.946613       * %u $
+isotope_array[121,43] :120.966140       * %u $
+isotope_array[121,44] :120.952098       * %u $
+isotope_array[121,45] :120.939613000    * %u $
+isotope_array[121,46] :120.928950342    * %u $
+isotope_array[121,47] :120.920125279    * %u $
+isotope_array[121,48] :120.912963660    * %u $
+isotope_array[121,49] :120.907852778    * %u $
+isotope_array[121,50] :120.904243488    * %u $
+isotope_array[121,51] :120.903811353    * %u $
+isotope_array[121,52] :120.904945065    * %u $
+isotope_array[121,53] :120.907411492    * %u $
+isotope_array[121,54] :120.911453012    * %u $
+isotope_array[121,55] :120.917227235    * %u $
+isotope_array[121,56] :120.924052286    * %u $
+isotope_array[121,57] :120.933236       * %u $
+isotope_array[121,58] :120.943435       * %u $
+isotope_array[121,59] :120.955393       * %u $
+isotope_array[122,43] :121.971760       * %u $
+isotope_array[122,44] :121.955147       * %u $
+isotope_array[122,45] :121.944305       * %u $
+isotope_array[122,46] :121.930631693    * %u $
+isotope_array[122,47] :121.923664446    * %u $
+isotope_array[122,48] :121.913459050    * %u $
+isotope_array[122,49] :121.910282458    * %u $
+isotope_array[122,50] :121.903445494    * %u $
+isotope_array[122,51] :121.905169335    * %u $
+isotope_array[122,52] :121.903044708    * %u $
+isotope_array[122,53] :121.907590094    * %u $
+isotope_array[122,54] :121.908367655    * %u $
+isotope_array[122,55] :121.916108144    * %u $
+isotope_array[122,56] :121.919904000    * %u $
+isotope_array[122,57] :121.930710       * %u $
+isotope_array[122,58] :121.937870       * %u $
+isotope_array[122,59] :121.951927       * %u $
+isotope_array[123,44] :122.960762       * %u $
+isotope_array[123,45] :122.947192       * %u $
+isotope_array[123,46] :122.935126000    * %u $
+isotope_array[123,47] :122.925315060    * %u $
+isotope_array[123,48] :122.916892460    * %u $
+isotope_array[123,49] :122.910435252    * %u $
+isotope_array[123,50] :122.905727065    * %u $
+isotope_array[123,51] :122.904215292    * %u $
+isotope_array[123,52] :122.904271022    * %u $
+isotope_array[123,53] :122.905589753    * %u $
+isotope_array[123,54] :122.908482235    * %u $
+isotope_array[123,55] :122.912996060    * %u $
+isotope_array[123,56] :122.918781060    * %u $
+isotope_array[123,57] :122.926300       * %u $
+isotope_array[123,58] :122.935280       * %u $
+isotope_array[123,59] :122.946076       * %u $
+isotope_array[124,44] :123.963940       * %u $
+isotope_array[124,45] :123.952002       * %u $
+isotope_array[124,46] :123.937305       * %u $
+isotope_array[124,47] :123.928899227    * %u $
+isotope_array[124,48] :123.917659772    * %u $
+isotope_array[124,49] :123.913184873    * %u $
+isotope_array[124,50] :123.905279619    * %u $
+isotope_array[124,51] :123.905937065    * %u $
+isotope_array[124,52] :123.902818341    * %u $
+isotope_array[124,53] :123.906210297    * %u $
+isotope_array[124,54] :123.905885174    * %u $
+isotope_array[124,55] :123.912247366    * %u $
+isotope_array[124,56] :123.915093627    * %u $
+isotope_array[124,57] :123.924574275    * %u $
+isotope_array[124,58] :123.930310       * %u $
+isotope_array[124,59] :123.942940       * %u $
+isotope_array[124,60] :123.951873       * %u $
+isotope_array[125,44] :124.969544       * %u $
+isotope_array[125,45] :124.955094       * %u $
+isotope_array[125,46] :124.942072       * %u $
+isotope_array[125,47] :124.930735000    * %u $
+isotope_array[125,48] :124.921257590    * %u $
+isotope_array[125,49] :124.913673841    * %u $
+isotope_array[125,50] :124.907789370    * %u $
+isotope_array[125,51] :124.905254264    * %u $
+isotope_array[125,52] :124.904431178    * %u $
+isotope_array[125,53] :124.904630610    * %u $
+isotope_array[125,54] :124.906387640    * %u $
+isotope_array[125,55] :124.909725953    * %u $
+isotope_array[125,56] :124.914471840    * %u $
+isotope_array[125,57] :124.920815931    * %u $
+isotope_array[125,58] :124.928440       * %u $
+isotope_array[125,59] :124.937659       * %u $
+isotope_array[125,60] :124.948395       * %u $
+isotope_array[126,45] :125.960064       * %u $
+isotope_array[126,46] :125.944401       * %u $
+isotope_array[126,47] :125.934814       * %u $
+isotope_array[126,48] :125.922430290    * %u $
+isotope_array[126,49] :125.916468202    * %u $
+isotope_array[126,50] :125.907658958    * %u $
+isotope_array[126,51] :125.907253158    * %u $
+isotope_array[126,52] :125.903312144    * %u $
+isotope_array[126,53] :125.905624205    * %u $
+isotope_array[126,54] :125.904297422    * %u $
+isotope_array[126,55] :125.909445821    * %u $
+isotope_array[126,56] :125.911250202    * %u $
+isotope_array[126,57] :125.919512667    * %u $
+isotope_array[126,58] :125.923971000    * %u $
+isotope_array[126,59] :125.935240       * %u $
+isotope_array[126,60] :125.942694       * %u $
+isotope_array[126,61] :125.957327       * %u $
+isotope_array[127,45] :126.963789       * %u $
+isotope_array[127,46] :126.949307       * %u $
+isotope_array[127,47] :126.937037       * %u $
+isotope_array[127,48] :126.926203291    * %u $
+isotope_array[127,49] :126.917466040    * %u $
+isotope_array[127,50] :126.910391726    * %u $
+isotope_array[127,51] :126.906925557    * %u $
+isotope_array[127,52] :126.905226993    * %u $
+isotope_array[127,53] :126.904472592    * %u $
+isotope_array[127,54] :126.905183636    * %u $
+isotope_array[127,55] :126.907417527    * %u $
+isotope_array[127,56] :126.911091272    * %u $
+isotope_array[127,57] :126.916375083    * %u $
+isotope_array[127,58] :126.922727000    * %u $
+isotope_array[127,59] :126.930710       * %u $
+isotope_array[127,60] :126.939978       * %u $
+isotope_array[127,61] :126.951358       * %u $
+isotope_array[128,45] :127.970649       * %u $
+isotope_array[128,46] :127.952345       * %u $
+isotope_array[128,47] :127.941266       * %u $
+isotope_array[128,48] :127.927816778    * %u $
+isotope_array[128,49] :127.920353637    * %u $
+isotope_array[128,50] :127.910507828    * %u $
+isotope_array[128,51] :127.909146121    * %u $
+isotope_array[128,52] :127.904461237    * %u $
+isotope_array[128,53] :127.905809355    * %u $
+isotope_array[128,54] :127.90353075341  * %u $
+isotope_array[128,55] :127.907748452    * %u $
+isotope_array[128,56] :127.908352446    * %u $
+isotope_array[128,57] :127.915592123    * %u $
+isotope_array[128,58] :127.918911000    * %u $
+isotope_array[128,59] :127.928791000    * %u $
+isotope_array[128,60] :127.935018       * %u $
+isotope_array[128,61] :127.948234       * %u $
+isotope_array[128,62] :127.957971       * %u $
+isotope_array[129,46] :128.959334       * %u $
+isotope_array[129,47] :128.944315       * %u $
+isotope_array[129,48] :128.932235597    * %u $
+isotope_array[129,49] :128.921808534    * %u $
+isotope_array[129,50] :128.913482440    * %u $
+isotope_array[129,51] :128.909146623    * %u $
+isotope_array[129,52] :128.906596419    * %u $
+isotope_array[129,53] :128.904983643    * %u $
+isotope_array[129,54] :128.90478085742  * %u $
+isotope_array[129,55] :128.906065910    * %u $
+isotope_array[129,56] :128.908683409    * %u $
+isotope_array[129,57] :128.912695592    * %u $
+isotope_array[129,58] :128.918102000    * %u $
+isotope_array[129,59] :128.925095000    * %u $
+isotope_array[129,60] :128.933038       * %u $
+isotope_array[129,61] :128.942909       * %u $
+isotope_array[129,62] :128.954557       * %u $
+isotope_array[130,46] :129.964863       * %u $
+isotope_array[130,47] :129.950727       * %u $
+isotope_array[130,48] :129.934387563    * %u $
+isotope_array[130,49] :129.924952257    * %u $
+isotope_array[130,50] :129.913974531    * %u $
+isotope_array[130,51] :129.911662686    * %u $
+isotope_array[130,52] :129.906222745    * %u $
+isotope_array[130,53] :129.906670168    * %u $
+isotope_array[130,54] :129.903509346    * %u $
+isotope_array[130,55] :129.906709281    * %u $
+isotope_array[130,56] :129.906326002    * %u $
+isotope_array[130,57] :129.912369413    * %u $
+isotope_array[130,58] :129.914736000    * %u $
+isotope_array[130,59] :129.923590000    * %u $
+isotope_array[130,60] :129.928506000    * %u $
+isotope_array[130,61] :129.940451       * %u $
+isotope_array[130,62] :129.948792       * %u $
+isotope_array[130,63] :129.964022       * %u $
+isotope_array[131,46] :130.972367       * %u $
+isotope_array[131,47] :130.956253       * %u $
+isotope_array[131,48] :130.940727740    * %u $
+isotope_array[131,49] :130.926972839    * %u $
+isotope_array[131,50] :130.917053067    * %u $
+isotope_array[131,51] :130.911989339    * %u $
+isotope_array[131,52] :130.908522210    * %u $
+isotope_array[131,53] :130.906126375    * %u $
+isotope_array[131,54] :130.90508412808  * %u $
+isotope_array[131,55] :130.905468457    * %u $
+isotope_array[131,56] :130.906946315    * %u $
+isotope_array[131,57] :130.910070000    * %u $
+isotope_array[131,58] :130.914429465    * %u $
+isotope_array[131,59] :130.920234960    * %u $
+isotope_array[131,60] :130.927248020    * %u $
+isotope_array[131,61] :130.935834       * %u $
+isotope_array[131,62] :130.946022       * %u $
+isotope_array[131,63] :130.957634       * %u $
+isotope_array[132,47] :131.963070       * %u $
+isotope_array[132,48] :131.945823136    * %u $
+isotope_array[132,49] :131.932998444    * %u $
+isotope_array[132,50] :131.917823898    * %u $
+isotope_array[132,51] :131.914508013    * %u $
+isotope_array[132,52] :131.908546713    * %u $
+isotope_array[132,53] :131.907993511    * %u $
+isotope_array[132,54] :131.90415508346  * %u $
+isotope_array[132,55] :131.906437740    * %u $
+isotope_array[132,56] :131.905061231    * %u $
+isotope_array[132,57] :131.910119047    * %u $
+isotope_array[132,58] :131.911466226    * %u $
+isotope_array[132,59] :131.919240000    * %u $
+isotope_array[132,60] :131.923321237    * %u $
+isotope_array[132,61] :131.933840       * %u $
+isotope_array[132,62] :131.940805       * %u $
+isotope_array[132,63] :131.954696       * %u $
+isotope_array[133,47] :132.968781       * %u $
+isotope_array[133,48] :132.952614       * %u $
+isotope_array[133,49] :132.938067       * %u $
+isotope_array[133,50] :132.923913753    * %u $
+isotope_array[133,51] :132.915272128    * %u $
+isotope_array[133,52] :132.910963330    * %u $
+isotope_array[133,53] :132.907828400    * %u $
+isotope_array[133,54] :132.905910748    * %u $
+isotope_array[133,55] :132.905451958    * %u $
+isotope_array[133,56] :132.906007443    * %u $
+isotope_array[133,57] :132.908218000    * %u $
+isotope_array[133,58] :132.911520402    * %u $
+isotope_array[133,59] :132.916330558    * %u $
+isotope_array[133,60] :132.922348000    * %u $
+isotope_array[133,61] :132.929782000    * %u $
+isotope_array[133,62] :132.938560       * %u $
+isotope_array[133,63] :132.949290       * %u $
+isotope_array[133,64] :132.961288       * %u $
+isotope_array[134,48] :133.957638       * %u $
+isotope_array[134,49] :133.944208       * %u $
+isotope_array[134,50] :133.928680430    * %u $
+isotope_array[134,51] :133.920537334    * %u $
+isotope_array[134,52] :133.911396376    * %u $
+isotope_array[134,53] :133.909775660    * %u $
+isotope_array[134,54] :133.905393030    * %u $
+isotope_array[134,55] :133.906718501    * %u $
+isotope_array[134,56] :133.904508249    * %u $
+isotope_array[134,57] :133.908514011    * %u $
+isotope_array[134,58] :133.908928142    * %u $
+isotope_array[134,59] :133.915696729    * %u $
+isotope_array[134,60] :133.918790207    * %u $
+isotope_array[134,61] :133.928326000    * %u $
+isotope_array[134,62] :133.934110       * %u $
+isotope_array[134,63] :133.946537       * %u $
+isotope_array[134,64] :133.955416       * %u $
+isotope_array[135,48] :134.964766       * %u $
+isotope_array[135,49] :134.949425       * %u $
+isotope_array[135,50] :134.934908603    * %u $
+isotope_array[135,51] :134.925184354    * %u $
+isotope_array[135,52] :134.916554715    * %u $
+isotope_array[135,53] :134.910059355    * %u $
+isotope_array[135,54] :134.907231441    * %u $
+isotope_array[135,55] :134.905976907    * %u $
+isotope_array[135,56] :134.905688447    * %u $
+isotope_array[135,57] :134.906984427    * %u $
+isotope_array[135,58] :134.909160662    * %u $
+isotope_array[135,59] :134.913111772    * %u $
+isotope_array[135,60] :134.918181318    * %u $
+isotope_array[135,61] :134.924785000    * %u $
+isotope_array[135,62] :134.932520000    * %u $
+isotope_array[135,63] :134.941870       * %u $
+isotope_array[135,64] :134.952496       * %u $
+isotope_array[135,65] :134.964516       * %u $
+isotope_array[136,49] :135.956017       * %u $
+isotope_array[136,50] :135.939699       * %u $
+isotope_array[136,51] :135.930749009    * %u $
+isotope_array[136,52] :135.920101180    * %u $
+isotope_array[136,53] :135.914604693    * %u $
+isotope_array[136,54] :135.907214474    * %u $
+isotope_array[136,55] :135.907311431    * %u $
+isotope_array[136,56] :135.904575800    * %u $
+isotope_array[136,57] :135.907634962    * %u $
+isotope_array[136,58] :135.907129256    * %u $
+isotope_array[136,59] :135.912677470    * %u $
+isotope_array[136,60] :135.914976061    * %u $
+isotope_array[136,61] :135.923595949    * %u $
+isotope_array[136,62] :135.928275553    * %u $
+isotope_array[136,63] :135.939620       * %u $
+isotope_array[136,64] :135.947300       * %u $
+isotope_array[136,65] :135.961460       * %u $
+isotope_array[137,49] :136.961535       * %u $
+isotope_array[137,50] :136.946162       * %u $
+isotope_array[137,51] :136.935522519    * %u $
+isotope_array[137,52] :136.925599354    * %u $
+isotope_array[137,53] :136.918028178    * %u $
+isotope_array[137,54] :136.911557771    * %u $
+isotope_array[137,55] :136.907089296    * %u $
+isotope_array[137,56] :136.905827207    * %u $
+isotope_array[137,57] :136.906450438    * %u $
+isotope_array[137,58] :136.907762416    * %u $
+isotope_array[137,59] :136.910679183    * %u $
+isotope_array[137,60] :136.914563099    * %u $
+isotope_array[137,61] :136.920479519    * %u $
+isotope_array[137,62] :136.927007959    * %u $
+isotope_array[137,63] :136.935430719    * %u $
+isotope_array[137,64] :136.945020       * %u $
+isotope_array[137,65] :136.956020       * %u $
+isotope_array[138,50] :137.951143       * %u $
+isotope_array[138,51] :137.941331       * %u $
+isotope_array[138,52] :137.929472452    * %u $
+isotope_array[138,53] :137.922726392    * %u $
+isotope_array[138,54] :137.914146268    * %u $
+isotope_array[138,55] :137.911017119    * %u $
+isotope_array[138,56] :137.905247059    * %u $
+isotope_array[138,57] :137.907124041    * %u $
+isotope_array[138,58] :137.905994180    * %u $
+isotope_array[138,59] :137.910757495    * %u $
+isotope_array[138,60] :137.911950938    * %u $
+isotope_array[138,61] :137.919576119    * %u $
+isotope_array[138,62] :137.923243988    * %u $
+isotope_array[138,63] :137.933709000    * %u $
+isotope_array[138,64] :137.940247       * %u $
+isotope_array[138,65] :137.953193       * %u $
+isotope_array[138,66] :137.962500       * %u $
+isotope_array[139,50] :138.957799       * %u $
+isotope_array[139,51] :138.946269       * %u $
+isotope_array[139,52] :138.935367191    * %u $
+isotope_array[139,53] :138.926493400    * %u $
+isotope_array[139,54] :138.918792200    * %u $
+isotope_array[139,55] :138.913363822    * %u $
+isotope_array[139,56] :138.908841164    * %u $
+isotope_array[139,57] :138.906362927    * %u $
+isotope_array[139,58] :138.906647029    * %u $
+isotope_array[139,59] :138.908932700    * %u $
+isotope_array[139,60] :138.911951208    * %u $
+isotope_array[139,61] :138.916799228    * %u $
+isotope_array[139,62] :138.922296631    * %u $
+isotope_array[139,63] :138.929792307    * %u $
+isotope_array[139,64] :138.938130       * %u $
+isotope_array[139,65] :138.948330       * %u $
+isotope_array[139,66] :138.959527       * %u $
+isotope_array[140,50] :139.962973       * %u $
+isotope_array[140,51] :139.952345       * %u $
+isotope_array[140,52] :139.939487057    * %u $
+isotope_array[140,53] :139.931715914    * %u $
+isotope_array[140,54] :139.921645814    * %u $
+isotope_array[140,55] :139.917283707    * %u $
+isotope_array[140,56] :139.910608231    * %u $
+isotope_array[140,57] :139.909487285    * %u $
+isotope_array[140,58] :139.905448433    * %u $
+isotope_array[140,59] :139.909085600    * %u $
+isotope_array[140,60] :139.909546130    * %u $
+isotope_array[140,61] :139.916035918    * %u $
+isotope_array[140,62] :139.918994714    * %u $
+isotope_array[140,63] :139.928087633    * %u $
+isotope_array[140,64] :139.933674000    * %u $
+isotope_array[140,65] :139.945805048    * %u $
+isotope_array[140,66] :139.954020       * %u $
+isotope_array[140,67] :139.968526       * %u $
+isotope_array[141,51] :140.957552       * %u $
+isotope_array[141,52] :140.945604       * %u $
+isotope_array[141,53] :140.935666081    * %u $
+isotope_array[141,54] :140.926787181    * %u $
+isotope_array[141,55] :140.920045279    * %u $
+isotope_array[141,56] :140.914403653    * %u $
+isotope_array[141,57] :140.910971155    * %u $
+isotope_array[141,58] :140.908285991    * %u $
+isotope_array[141,59] :140.907659604    * %u $
+isotope_array[141,60] :140.909616690    * %u $
+isotope_array[141,61] :140.913555081    * %u $
+isotope_array[141,62] :140.918481545    * %u $
+isotope_array[141,63] :140.924931734    * %u $
+isotope_array[141,64] :140.932126000    * %u $
+isotope_array[141,65] :140.941448000    * %u $
+isotope_array[141,66] :140.951280       * %u $
+isotope_array[141,67] :140.963108       * %u $
+isotope_array[142,51] :141.963918       * %u $
+isotope_array[142,52] :141.950027       * %u $
+isotope_array[142,53] :141.941166595    * %u $
+isotope_array[142,54] :141.929973095    * %u $
+isotope_array[142,55] :141.924299514    * %u $
+isotope_array[142,56] :141.916432904    * %u $
+isotope_array[142,57] :141.914090760    * %u $
+isotope_array[142,58] :141.909250208    * %u $
+isotope_array[142,59] :141.910051640    * %u $
+isotope_array[142,60] :141.907728824    * %u $
+isotope_array[142,61] :141.912890982    * %u $
+isotope_array[142,62] :141.915209415    * %u $
+isotope_array[142,63] :141.923446719    * %u $
+isotope_array[142,64] :141.928116000    * %u $
+isotope_array[142,65] :141.939280858    * %u $
+isotope_array[142,66] :141.946194       * %u $
+isotope_array[142,67] :141.960010       * %u $
+isotope_array[142,68] :141.970016       * %u $
+isotope_array[143,52] :142.956489       * %u $
+isotope_array[143,53] :142.945475       * %u $
+isotope_array[143,54] :142.935369550    * %u $
+isotope_array[143,55] :142.927347346    * %u $
+isotope_array[143,56] :142.920625149    * %u $
+isotope_array[143,57] :142.916079482    * %u $
+isotope_array[143,58] :142.912391953    * %u $
+isotope_array[143,59] :142.910822624    * %u $
+isotope_array[143,60] :142.909819815    * %u $
+isotope_array[143,61] :142.910938068    * %u $
+isotope_array[143,62] :142.914634848    * %u $
+isotope_array[143,63] :142.920298678    * %u $
+isotope_array[143,64] :142.926750678    * %u $
+isotope_array[143,65] :142.935137332    * %u $
+isotope_array[143,66] :142.943994332    * %u $
+isotope_array[143,67] :142.954860       * %u $
+isotope_array[143,68] :142.966548       * %u $
+isotope_array[144,52] :143.961116       * %u $
+isotope_array[144,53] :143.951336       * %u $
+isotope_array[144,54] :143.938945076    * %u $
+isotope_array[144,55] :143.932075402    * %u $
+isotope_array[144,56] :143.922954821    * %u $
+isotope_array[144,57] :143.919645589    * %u $
+isotope_array[144,58] :143.913652763    * %u $
+isotope_array[144,59] :143.913310682    * %u $
+isotope_array[144,60] :143.910092798    * %u $
+isotope_array[144,61] :143.912596208    * %u $
+isotope_array[144,62] :143.912006285    * %u $
+isotope_array[144,63] :143.918819481    * %u $
+isotope_array[144,64] :143.922963000    * %u $
+isotope_array[144,65] :143.933045000    * %u $
+isotope_array[144,66] :143.939269512    * %u $
+isotope_array[144,67] :143.952109712    * %u $
+isotope_array[144,68] :143.960700       * %u $
+isotope_array[144,69] :143.976211       * %u $
+isotope_array[145,52] :144.967783       * %u $
+isotope_array[145,53] :144.955845       * %u $
+isotope_array[145,54] :144.944719631    * %u $
+isotope_array[145,55] :144.935528927    * %u $
+isotope_array[145,56] :144.927518400    * %u $
+isotope_array[145,57] :144.921808065    * %u $
+isotope_array[145,58] :144.917265113    * %u $
+isotope_array[145,59] :144.914517987    * %u $
+isotope_array[145,60] :144.912579151    * %u $
+isotope_array[145,61] :144.912755748    * %u $
+isotope_array[145,62] :144.913417157    * %u $
+isotope_array[145,63] :144.916272659    * %u $
+isotope_array[145,64] :144.921710051    * %u $
+isotope_array[145,65] :144.928717001    * %u $
+isotope_array[145,66] :144.937473992    * %u $
+isotope_array[145,67] :144.947267392    * %u $
+isotope_array[145,68] :144.957874       * %u $
+isotope_array[145,69] :144.970389       * %u $
+isotope_array[146,53] :145.961846       * %u $
+isotope_array[146,54] :145.948518245    * %u $
+isotope_array[146,55] :145.940621867    * %u $
+isotope_array[146,56] :145.930363200    * %u $
+isotope_array[146,57] :145.925688017    * %u $
+isotope_array[146,58] :145.918812294    * %u $
+isotope_array[146,59] :145.917687630    * %u $
+isotope_array[146,60] :145.913122459    * %u $
+isotope_array[146,61] :145.914702240    * %u $
+isotope_array[146,62] :145.913046835    * %u $
+isotope_array[146,63] :145.917210852    * %u $
+isotope_array[146,64] :145.918318513    * %u $
+isotope_array[146,65] :145.927252739    * %u $
+isotope_array[146,66] :145.932844526    * %u $
+isotope_array[146,67] :145.944993503    * %u $
+isotope_array[146,68] :145.952418357    * %u $
+isotope_array[146,69] :145.966661       * %u $
+isotope_array[147,53] :146.966505       * %u $
+isotope_array[147,54] :146.954482       * %u $
+isotope_array[147,55] :146.944261512    * %u $
+isotope_array[147,56] :146.935303900    * %u $
+isotope_array[147,57] :146.928417800    * %u $
+isotope_array[147,58] :146.922689900    * %u $
+isotope_array[147,59] :146.919007438    * %u $
+isotope_array[147,60] :146.916105969    * %u $
+isotope_array[147,61] :146.915144944    * %u $
+isotope_array[147,62] :146.914904401    * %u $
+isotope_array[147,63] :146.916752440    * %u $
+isotope_array[147,64] :146.919101014    * %u $
+isotope_array[147,65] :146.924054620    * %u $
+isotope_array[147,66] :146.931082712    * %u $
+isotope_array[147,67] :146.940142293    * %u $
+isotope_array[147,68] :146.949964456    * %u $
+isotope_array[147,69] :146.961379887    * %u $
+isotope_array[148,54] :147.958508       * %u $
+isotope_array[148,55] :147.949639026    * %u $
+isotope_array[148,56] :147.938223000    * %u $
+isotope_array[148,57] :147.932679400    * %u $
+isotope_array[148,58] :147.924424186    * %u $
+isotope_array[148,59] :147.922129992    * %u $
+isotope_array[148,60] :147.916899027    * %u $
+isotope_array[148,61] :147.917481091    * %u $
+isotope_array[148,62] :147.914829233    * %u $
+isotope_array[148,63] :147.918091288    * %u $
+isotope_array[148,64] :147.918121414    * %u $
+isotope_array[148,65] :147.924275476    * %u $
+isotope_array[148,66] :147.927149944    * %u $
+isotope_array[148,67] :147.937743925    * %u $
+isotope_array[148,68] :147.944735026    * %u $
+isotope_array[148,69] :147.958384026    * %u $
+isotope_array[148,70] :147.967547       * %u $
+isotope_array[149,54] :148.964573       * %u $
+isotope_array[149,55] :148.953516       * %u $
+isotope_array[149,56] :148.943284000    * %u $
+isotope_array[149,57] :148.935351259    * %u $
+isotope_array[149,58] :148.928426900    * %u $
+isotope_array[149,59] :148.923736100    * %u $
+isotope_array[149,60] :148.920154583    * %u $
+isotope_array[149,61] :148.918341507    * %u $
+isotope_array[149,62] :148.917191211    * %u $
+isotope_array[149,63] :148.917936875    * %u $
+isotope_array[149,64] :148.919347666    * %u $
+isotope_array[149,65] :148.923253792    * %u $
+isotope_array[149,66] :148.927327516    * %u $
+isotope_array[149,67] :148.933820457    * %u $
+isotope_array[149,68] :148.942306000    * %u $
+isotope_array[149,69] :148.952828       * %u $
+isotope_array[149,70] :148.964219       * %u $
+isotope_array[150,54] :149.968878       * %u $
+isotope_array[150,55] :149.959023       * %u $
+isotope_array[150,56] :149.946441100    * %u $
+isotope_array[150,57] :149.939547500    * %u $
+isotope_array[150,58] :149.930384032    * %u $
+isotope_array[150,59] :149.926676391    * %u $
+isotope_array[150,60] :149.920901322    * %u $
+isotope_array[150,61] :149.920990014    * %u $
+isotope_array[150,62] :149.917281993    * %u $
+isotope_array[150,63] :149.919707092    * %u $
+isotope_array[150,64] :149.918663949    * %u $
+isotope_array[150,65] :149.923664799    * %u $
+isotope_array[150,66] :149.925593068    * %u $
+isotope_array[150,67] :149.933498353    * %u $
+isotope_array[150,68] :149.937915524    * %u $
+isotope_array[150,69] :149.950090       * %u $
+isotope_array[150,70] :149.958314       * %u $
+isotope_array[150,71] :149.973407       * %u $
+isotope_array[151,55] :150.963199       * %u $
+isotope_array[151,56] :150.951755       * %u $
+isotope_array[151,57] :150.942769000    * %u $
+isotope_array[151,58] :150.934272200    * %u $
+isotope_array[151,59] :150.928309066    * %u $
+isotope_array[151,60] :150.923839363    * %u $
+isotope_array[151,61] :150.921216613    * %u $
+isotope_array[151,62] :150.919938859    * %u $
+isotope_array[151,63] :150.919856606    * %u $
+isotope_array[151,64] :150.920354922    * %u $
+isotope_array[151,65] :150.923108970    * %u $
+isotope_array[151,66] :150.926191279    * %u $
+isotope_array[151,67] :150.931698176    * %u $
+isotope_array[151,68] :150.937448567    * %u $
+isotope_array[151,69] :150.945494433    * %u $
+isotope_array[151,70] :150.955402453    * %u $
+isotope_array[151,71] :150.967471       * %u $
+isotope_array[152,55] :151.968728       * %u $
+isotope_array[152,56] :151.955330       * %u $
+isotope_array[152,57] :151.947085       * %u $
+isotope_array[152,58] :151.936682       * %u $
+isotope_array[152,59] :151.931552900    * %u $
+isotope_array[152,60] :151.924691242    * %u $
+isotope_array[152,61] :151.923505185    * %u $
+isotope_array[152,62] :151.919738646    * %u $
+isotope_array[152,63] :151.921750980    * %u $
+isotope_array[152,64] :151.919798414    * %u $
+isotope_array[152,65] :151.924081855    * %u $
+isotope_array[152,66] :151.924725274    * %u $
+isotope_array[152,67] :151.931717618    * %u $
+isotope_array[152,68] :151.935050347    * %u $
+isotope_array[152,69] :151.944476000    * %u $
+isotope_array[152,70] :151.950326699    * %u $
+isotope_array[152,71] :151.964120       * %u $
+isotope_array[153,56] :152.960848       * %u $
+isotope_array[153,57] :152.950553       * %u $
+isotope_array[153,58] :152.941052       * %u $
+isotope_array[153,59] :152.933903511    * %u $
+isotope_array[153,60] :152.927717868    * %u $
+isotope_array[153,61] :152.924156252    * %u $
+isotope_array[153,62] :152.922103576    * %u $
+isotope_array[153,63] :152.921236789    * %u $
+isotope_array[153,64] :152.921756945    * %u $
+isotope_array[153,65] :152.923441694    * %u $
+isotope_array[153,66] :152.925771729    * %u $
+isotope_array[153,67] :152.930206671    * %u $
+isotope_array[153,68] :152.935086350    * %u $
+isotope_array[153,69] :152.942058023    * %u $
+isotope_array[153,70] :152.949372       * %u $
+isotope_array[153,71] :152.958802248    * %u $
+isotope_array[153,72] :152.970692       * %u $
+isotope_array[154,56] :153.964659       * %u $
+isotope_array[154,57] :153.955416       * %u $
+isotope_array[154,58] :153.943940       * %u $
+isotope_array[154,59] :153.937885165    * %u $
+isotope_array[154,60] :153.929597404    * %u $
+isotope_array[154,61] :153.926712791    * %u $
+isotope_array[154,62] :153.922215756    * %u $
+isotope_array[154,63] :153.922985699    * %u $
+isotope_array[154,64] :153.920872974    * %u $
+isotope_array[154,65] :153.924683681    * %u $
+isotope_array[154,66] :153.924428920    * %u $
+isotope_array[154,67] :153.930606776    * %u $
+isotope_array[154,68] :153.932790799    * %u $
+isotope_array[154,69] :153.941570062    * %u $
+isotope_array[154,70] :153.946395696    * %u $
+isotope_array[154,71] :153.957416       * %u $
+isotope_array[154,72] :153.964863       * %u $
+isotope_array[155,57] :154.959280       * %u $
+isotope_array[155,58] :154.948706       * %u $
+isotope_array[155,59] :154.940509193    * %u $
+isotope_array[155,60] :154.933135598    * %u $
+isotope_array[155,61] :154.928136951    * %u $
+isotope_array[155,62] :154.924646645    * %u $
+isotope_array[155,63] :154.922899847    * %u $
+isotope_array[155,64] :154.922629356    * %u $
+isotope_array[155,65] :154.923509511    * %u $
+isotope_array[155,66] :154.925758049    * %u $
+isotope_array[155,67] :154.929103363    * %u $
+isotope_array[155,68] :154.933215710    * %u $
+isotope_array[155,69] :154.939209576    * %u $
+isotope_array[155,70] :154.945783216    * %u $
+isotope_array[155,71] :154.954326005    * %u $
+isotope_array[155,72] :154.963167       * %u $
+isotope_array[155,73] :154.974248       * %u $
+isotope_array[156,57] :155.964519       * %u $
+isotope_array[156,58] :155.951884       * %u $
+isotope_array[156,59] :155.944766900    * %u $
+isotope_array[156,60] :155.935370358    * %u $
+isotope_array[156,61] :155.931114059    * %u $
+isotope_array[156,62] :155.925538191    * %u $
+isotope_array[156,63] :155.924762976    * %u $
+isotope_array[156,64] :155.922130120    * %u $
+isotope_array[156,65] :155.924754209    * %u $
+isotope_array[156,66] :155.924283593    * %u $
+isotope_array[156,67] :155.929641634    * %u $
+isotope_array[156,68] :155.931065926    * %u $
+isotope_array[156,69] :155.938985746    * %u $
+isotope_array[156,70] :155.942817096    * %u $
+isotope_array[156,71] :155.953086606    * %u $
+isotope_array[156,72] :155.959399083    * %u $
+isotope_array[156,73] :155.972087       * %u $
+isotope_array[157,57] :156.968792       * %u $
+isotope_array[157,58] :156.957133       * %u $
+isotope_array[157,59] :156.948003100    * %u $
+isotope_array[157,60] :156.939351074    * %u $
+isotope_array[157,61] :156.933121298    * %u $
+isotope_array[157,62] :156.928418598    * %u $
+isotope_array[157,63] :156.925432556    * %u $
+isotope_array[157,64] :156.923967424    * %u $
+isotope_array[157,65] :156.924031888    * %u $
+isotope_array[157,66] :156.925469555    * %u $
+isotope_array[157,67] :156.928251974    * %u $
+isotope_array[157,68] :156.931922652    * %u $
+isotope_array[157,69] :156.936973000    * %u $
+isotope_array[157,70] :156.942651368    * %u $
+isotope_array[157,71] :156.950144807    * %u $
+isotope_array[157,72] :156.958288       * %u $
+isotope_array[157,73] :156.968227445    * %u $
+isotope_array[157,74] :156.978862       * %u $
+isotope_array[158,58] :157.960773       * %u $
+isotope_array[158,59] :157.952603       * %u $
+isotope_array[158,60] :157.942205620    * %u $
+isotope_array[158,61] :157.936546948    * %u $
+isotope_array[158,62] :157.929949262    * %u $
+isotope_array[158,63] :157.927782192    * %u $
+isotope_array[158,64] :157.924111200    * %u $
+isotope_array[158,65] :157.925419942    * %u $
+isotope_array[158,66] :157.924414817    * %u $
+isotope_array[158,67] :157.928944910    * %u $
+isotope_array[158,68] :157.929893474    * %u $
+isotope_array[158,69] :157.936979525    * %u $
+isotope_array[158,70] :157.939871202    * %u $
+isotope_array[158,71] :157.949315620    * %u $
+isotope_array[158,72] :157.954801217    * %u $
+isotope_array[158,73] :157.966593       * %u $
+isotope_array[158,74] :157.974565       * %u $
+isotope_array[159,58] :158.966355       * %u $
+isotope_array[159,59] :158.956232       * %u $
+isotope_array[159,60] :158.946619085    * %u $
+isotope_array[159,61] :158.939286409    * %u $
+isotope_array[159,62] :158.933217130    * %u $
+isotope_array[159,63] :158.929099512    * %u $
+isotope_array[159,64] :158.926395822    * %u $
+isotope_array[159,65] :158.925353707    * %u $
+isotope_array[159,66] :158.925745938    * %u $
+isotope_array[159,67] :158.927718683    * %u $
+isotope_array[159,68] :158.930690790    * %u $
+isotope_array[159,69] :158.934975000    * %u $
+isotope_array[159,70] :158.940060257    * %u $
+isotope_array[159,71] :158.946635615    * %u $
+isotope_array[159,72] :158.953995837    * %u $
+isotope_array[159,73] :158.963028046    * %u $
+isotope_array[159,74] :158.972696       * %u $
+isotope_array[159,75] :158.984106       * %u $
+isotope_array[160,59] :159.961138       * %u $
+isotope_array[160,60] :159.949839172    * %u $
+isotope_array[160,61] :159.943215272    * %u $
+isotope_array[160,62] :159.935337032    * %u $
+isotope_array[160,63] :159.931836982    * %u $
+isotope_array[160,64] :159.927061202    * %u $
+isotope_array[160,65] :159.927174553    * %u $
+isotope_array[160,66] :159.925203578    * %u $
+isotope_array[160,67] :159.928735538    * %u $
+isotope_array[160,68] :159.929077193    * %u $
+isotope_array[160,69] :159.935264177    * %u $
+isotope_array[160,70] :159.937559210    * %u $
+isotope_array[160,71] :159.946033000    * %u $
+isotope_array[160,72] :159.950682728    * %u $
+isotope_array[160,73] :159.961541678    * %u $
+isotope_array[160,74] :159.968513946    * %u $
+isotope_array[160,75] :159.981880       * %u $
+isotope_array[161,59] :160.965121       * %u $
+isotope_array[161,60] :160.954664       * %u $
+isotope_array[161,61] :160.946229837    * %u $
+isotope_array[161,62] :160.939160062    * %u $
+isotope_array[161,63] :160.933663991    * %u $
+isotope_array[161,64] :160.929676267    * %u $
+isotope_array[161,65] :160.927576806    * %u $
+isotope_array[161,66] :160.926939425    * %u $
+isotope_array[161,67] :160.927861815    * %u $
+isotope_array[161,68] :160.930003530    * %u $
+isotope_array[161,69] :160.933549000    * %u $
+isotope_array[161,70] :160.937912384    * %u $
+isotope_array[161,71] :160.943572000    * %u $
+isotope_array[161,72] :160.950277927    * %u $
+isotope_array[161,73] :160.958369489    * %u $
+isotope_array[161,74] :160.967249       * %u $
+isotope_array[161,75] :160.977624313    * %u $
+isotope_array[161,76] :160.989054       * %u $
+isotope_array[162,60] :161.958121       * %u $
+isotope_array[162,61] :161.950574       * %u $
+isotope_array[162,62] :161.941621687    * %u $
+isotope_array[162,63] :161.936958329    * %u $
+isotope_array[162,64] :161.930991812    * %u $
+isotope_array[162,65] :161.929275400    * %u $
+isotope_array[162,66] :161.926804507    * %u $
+isotope_array[162,67] :161.929102543    * %u $
+isotope_array[162,68] :161.928787299    * %u $
+isotope_array[162,69] :161.934001211    * %u $
+isotope_array[162,70] :161.935779342    * %u $
+isotope_array[162,71] :161.943282776    * %u $
+isotope_array[162,72] :161.947215526    * %u $
+isotope_array[162,73] :161.957292907    * %u $
+isotope_array[162,74] :161.963500341    * %u $
+isotope_array[162,75] :161.975896       * %u $
+isotope_array[162,76] :161.984434       * %u $
+isotope_array[163,60] :162.963414       * %u $
+isotope_array[163,61] :162.953881       * %u $
+isotope_array[163,62] :162.945679085    * %u $
+isotope_array[163,63] :162.939265510    * %u $
+isotope_array[163,64] :162.934096640    * %u $
+isotope_array[163,65] :162.930653609    * %u $
+isotope_array[163,66] :162.928737221    * %u $
+isotope_array[163,67] :162.928740260    * %u $
+isotope_array[163,68] :162.930039908    * %u $
+isotope_array[163,69] :162.932658282    * %u $
+isotope_array[163,70] :162.936345406    * %u $
+isotope_array[163,71] :162.941179000    * %u $
+isotope_array[163,72] :162.947107211    * %u $
+isotope_array[163,73] :162.954337194    * %u $
+isotope_array[163,74] :162.962524251    * %u $
+isotope_array[163,75] :162.972085434    * %u $
+isotope_array[163,76] :162.982462       * %u $
+isotope_array[163,77] :162.994299       * %u $
+isotope_array[164,61] :163.958819       * %u $
+isotope_array[164,62] :163.948550061    * %u $
+isotope_array[164,63] :163.942852943    * %u $
+isotope_array[164,64] :163.935916193    * %u $
+isotope_array[164,65] :163.933327561    * %u $
+isotope_array[164,66] :163.929180819    * %u $
+isotope_array[164,67] :163.930240548    * %u $
+isotope_array[164,68] :163.929207739    * %u $
+isotope_array[164,69] :163.933538019    * %u $
+isotope_array[164,70] :163.934500743    * %u $
+isotope_array[164,71] :163.941339000    * %u $
+isotope_array[164,72] :163.944370709    * %u $
+isotope_array[164,73] :163.953534000    * %u $
+isotope_array[164,74] :163.958952445    * %u $
+isotope_array[164,75] :163.970507122    * %u $
+isotope_array[164,76] :163.978073158    * %u $
+isotope_array[164,77] :163.991966       * %u $
+isotope_array[165,61] :164.962780       * %u $
+isotope_array[165,62] :164.953290       * %u $
+isotope_array[165,63] :164.945540070    * %u $
+isotope_array[165,64] :164.939317080    * %u $
+isotope_array[165,65] :164.934955198    * %u $
+isotope_array[165,66] :164.931709402    * %u $
+isotope_array[165,67] :164.930329116    * %u $
+isotope_array[165,68] :164.930733482    * %u $
+isotope_array[165,69] :164.932441843    * %u $
+isotope_array[165,70] :164.935270241    * %u $
+isotope_array[165,71] :164.939406758    * %u $
+isotope_array[165,72] :164.944567000    * %u $
+isotope_array[165,73] :164.950780287    * %u $
+isotope_array[165,74] :164.958280663    * %u $
+isotope_array[165,75] :164.967085831    * %u $
+isotope_array[165,76] :164.976654       * %u $
+isotope_array[165,77] :164.987552       * %u $
+isotope_array[165,78] :164.999658       * %u $
+isotope_array[166,62] :165.956575       * %u $
+isotope_array[166,63] :165.949813       * %u $
+isotope_array[166,64] :165.941630413    * %u $
+isotope_array[166,65] :165.937939727    * %u $
+isotope_array[166,66] :165.932812810    * %u $
+isotope_array[166,67] :165.932291209    * %u $
+isotope_array[166,68] :165.930301067    * %u $
+isotope_array[166,69] :165.933562136    * %u $
+isotope_array[166,70] :165.933876439    * %u $
+isotope_array[166,71] :165.939859000    * %u $
+isotope_array[166,72] :165.942180000    * %u $
+isotope_array[166,73] :165.950512000    * %u $
+isotope_array[166,74] :165.955031952    * %u $
+isotope_array[166,75] :165.965821216    * %u $
+isotope_array[166,76] :165.972698135    * %u $
+isotope_array[166,77] :165.985716       * %u $
+isotope_array[166,78] :165.994866       * %u $
+isotope_array[167,62] :166.962072       * %u $
+isotope_array[167,63] :166.953011       * %u $
+isotope_array[167,64] :166.945490012    * %u $
+isotope_array[167,65] :166.940007046    * %u $
+isotope_array[167,66] :166.935682415    * %u $
+isotope_array[167,67] :166.933140254    * %u $
+isotope_array[167,68] :166.932056192    * %u $
+isotope_array[167,69] :166.932857206    * %u $
+isotope_array[167,70] :166.934954069    * %u $
+isotope_array[167,71] :166.938243000    * %u $
+isotope_array[167,72] :166.942600000    * %u $
+isotope_array[167,73] :166.948093000    * %u $
+isotope_array[167,74] :166.954811080    * %u $
+isotope_array[167,75] :166.962604       * %u $
+isotope_array[167,76] :166.971552304    * %u $
+isotope_array[167,77] :166.981671973    * %u $
+isotope_array[167,78] :166.992750       * %u $
+isotope_array[168,62] :167.966033       * %u $
+isotope_array[168,63] :167.957863       * %u $
+isotope_array[168,64] :167.948309       * %u $
+isotope_array[168,65] :167.943337074    * %u $
+isotope_array[168,66] :167.937134977    * %u $
+isotope_array[168,67] :167.935523766    * %u $
+isotope_array[168,68] :167.932378282    * %u $
+isotope_array[168,69] :167.934178457    * %u $
+isotope_array[168,70] :167.933891297    * %u $
+isotope_array[168,71] :167.938729798    * %u $
+isotope_array[168,72] :167.940568000    * %u $
+isotope_array[168,73] :167.948047000    * %u $
+isotope_array[168,74] :167.951805459    * %u $
+isotope_array[168,75] :167.961572607    * %u $
+isotope_array[168,76] :167.967799050    * %u $
+isotope_array[168,77] :167.979960978    * %u $
+isotope_array[168,78] :167.988180196    * %u $
+isotope_array[168,79] :168.002716       * %u $
+isotope_array[169,63] :168.961717       * %u $
+isotope_array[169,64] :168.952882       * %u $
+isotope_array[169,65] :168.945807       * %u $
+isotope_array[169,66] :168.940315231    * %u $
+isotope_array[169,67] :168.936879890    * %u $
+isotope_array[169,68] :168.934598444    * %u $
+isotope_array[169,69] :168.934218956    * %u $
+isotope_array[169,70] :168.935184208    * %u $
+isotope_array[169,71] :168.937645845    * %u $
+isotope_array[169,72] :168.941259000    * %u $
+isotope_array[169,73] :168.946011000    * %u $
+isotope_array[169,74] :168.951778689    * %u $
+isotope_array[169,75] :168.958765979    * %u $
+isotope_array[169,76] :168.967017521    * %u $
+isotope_array[169,77] :168.976281743    * %u $
+isotope_array[169,78] :168.986619       * %u $
+isotope_array[169,79] :168.998080       * %u $
+isotope_array[170,63] :169.966870       * %u $
+isotope_array[170,64] :169.956146       * %u $
+isotope_array[170,65] :169.949855       * %u $
+isotope_array[170,66] :169.942340       * %u $
+isotope_array[170,67] :169.939626548    * %u $
+isotope_array[170,68] :169.935471933    * %u $
+isotope_array[170,69] :169.935807093    * %u $
+isotope_array[170,70] :169.934767242    * %u $
+isotope_array[170,71] :169.938479230    * %u $
+isotope_array[170,72] :169.939609000    * %u $
+isotope_array[170,73] :169.946175000    * %u $
+isotope_array[170,74] :169.949231235    * %u $
+isotope_array[170,75] :169.958234844    * %u $
+isotope_array[170,76] :169.963579273    * %u $
+isotope_array[170,77] :169.975113       * %u $
+isotope_array[170,78] :169.982502087    * %u $
+isotope_array[170,79] :169.996024       * %u $
+isotope_array[170,80] :170.005814       * %u $
+isotope_array[171,64] :170.961127       * %u $
+isotope_array[171,65] :170.953011       * %u $
+isotope_array[171,66] :170.946312       * %u $
+isotope_array[171,67] :170.941472713    * %u $
+isotope_array[171,68] :170.938037372    * %u $
+isotope_array[171,69] :170.936435162    * %u $
+isotope_array[171,70] :170.936331515    * %u $
+isotope_array[171,71] :170.937918591    * %u $
+isotope_array[171,72] :170.940492000    * %u $
+isotope_array[171,73] :170.944476000    * %u $
+isotope_array[171,74] :170.949451000    * %u $
+isotope_array[171,75] :170.955716000    * %u $
+isotope_array[171,76] :170.963180402    * %u $
+isotope_array[171,77] :170.971645520    * %u $
+isotope_array[171,78] :170.981248868    * %u $
+isotope_array[171,79] :170.991881533    * %u $
+isotope_array[171,80] :171.003585       * %u $
+isotope_array[172,64] :171.964605       * %u $
+isotope_array[172,65] :171.957391       * %u $
+isotope_array[172,66] :171.948728       * %u $
+isotope_array[172,67] :171.944730       * %u $
+isotope_array[172,68] :171.939363461    * %u $
+isotope_array[172,69] :171.938406959    * %u $
+isotope_array[172,70] :171.936386654    * %u $
+isotope_array[172,71] :171.939091320    * %u $
+isotope_array[172,72] :171.939449716    * %u $
+isotope_array[172,73] :171.944895000    * %u $
+isotope_array[172,74] :171.947292000    * %u $
+isotope_array[172,75] :171.955376165    * %u $
+isotope_array[172,76] :171.960017309    * %u $
+isotope_array[172,77] :171.970607035    * %u $
+isotope_array[172,78] :171.977341059    * %u $
+isotope_array[172,79] :171.989996704    * %u $
+isotope_array[172,80] :171.998860581    * %u $
+isotope_array[173,65] :172.960805       * %u $
+isotope_array[173,66] :172.953043       * %u $
+isotope_array[173,67] :172.947020       * %u $
+isotope_array[173,68] :172.942400       * %u $
+isotope_array[173,69] :172.939606630    * %u $
+isotope_array[173,70] :172.938216211    * %u $
+isotope_array[173,71] :172.938935722    * %u $
+isotope_array[173,72] :172.940513000    * %u $
+isotope_array[173,73] :172.943750000    * %u $
+isotope_array[173,74] :172.947689000    * %u $
+isotope_array[173,75] :172.953243000    * %u $
+isotope_array[173,76] :172.959808387    * %u $
+isotope_array[173,77] :172.967505477    * %u $
+isotope_array[173,78] :172.976449922    * %u $
+isotope_array[173,79] :172.986224263    * %u $
+isotope_array[173,80] :172.997143       * %u $
+isotope_array[174,65] :173.965679       * %u $
+isotope_array[174,66] :173.955845       * %u $
+isotope_array[174,67] :173.950757       * %u $
+isotope_array[174,68] :173.944230       * %u $
+isotope_array[174,69] :173.942174061    * %u $
+isotope_array[174,70] :173.938867545    * %u $
+isotope_array[174,71] :173.940342840    * %u $
+isotope_array[174,72] :173.940048377    * %u $
+isotope_array[174,73] :173.944454000    * %u $
+isotope_array[174,74] :173.946079000    * %u $
+isotope_array[174,75] :173.953115000    * %u $
+isotope_array[174,76] :173.957063192    * %u $
+isotope_array[174,77] :173.966949939    * %u $
+isotope_array[174,78] :173.972820431    * %u $
+isotope_array[174,79] :173.984908       * %u $
+isotope_array[174,80] :173.992870575    * %u $
+isotope_array[175,66] :174.960569       * %u $
+isotope_array[175,67] :174.953516       * %u $
+isotope_array[175,68] :174.947770       * %u $
+isotope_array[175,69] :174.943842310    * %u $
+isotope_array[175,70] :174.941281907    * %u $
+isotope_array[175,71] :174.940777211    * %u $
+isotope_array[175,72] :174.941511424    * %u $
+isotope_array[175,73] :174.943737000    * %u $
+isotope_array[175,74] :174.946717000    * %u $
+isotope_array[175,75] :174.951381000    * %u $
+isotope_array[175,76] :174.956945126    * %u $
+isotope_array[175,77] :174.964149519    * %u $
+isotope_array[175,78] :174.972400593    * %u $
+isotope_array[175,79] :174.981316375    * %u $
+isotope_array[175,80] :174.991444451    * %u $
+isotope_array[176,66] :175.963918       * %u $
+isotope_array[176,67] :175.957713       * %u $
+isotope_array[176,68] :175.949940       * %u $
+isotope_array[176,69] :175.946997707    * %u $
+isotope_array[176,70] :175.942574706    * %u $
+isotope_array[176,71] :175.942691711    * %u $
+isotope_array[176,72] :175.941409797    * %u $
+isotope_array[176,73] :175.944857000    * %u $
+isotope_array[176,74] :175.945634000    * %u $
+isotope_array[176,75] :175.951623000    * %u $
+isotope_array[176,76] :175.954770315    * %u $
+isotope_array[176,77] :175.963626261    * %u $
+isotope_array[176,78] :175.968938162    * %u $
+isotope_array[176,79] :175.980116925    * %u $
+isotope_array[176,80] :175.987348670    * %u $
+isotope_array[176,81] :176.000627731    * %u $
+isotope_array[177,67] :176.961052       * %u $
+isotope_array[177,68] :176.953990       * %u $
+isotope_array[177,69] :176.948932       * %u $
+isotope_array[177,70] :176.945263846    * %u $
+isotope_array[177,71] :176.943763570    * %u $
+isotope_array[177,72] :176.943230187    * %u $
+isotope_array[177,73] :176.944481940    * %u $
+isotope_array[177,74] :176.946643000    * %u $
+isotope_array[177,75] :176.950328000    * %u $
+isotope_array[177,76] :176.954957902    * %u $
+isotope_array[177,77] :176.961301500    * %u $
+isotope_array[177,78] :176.968469541    * %u $
+isotope_array[177,79] :176.976869701    * %u $
+isotope_array[177,80] :176.986284590    * %u $
+isotope_array[177,81] :176.996414252    * %u $
+isotope_array[178,67] :177.965507       * %u $
+isotope_array[178,68] :177.956779       * %u $
+isotope_array[178,69] :177.952506       * %u $
+isotope_array[178,70] :177.946669400    * %u $
+isotope_array[178,71] :177.945960065    * %u $
+isotope_array[178,72] :177.943708322    * %u $
+isotope_array[178,73] :177.945680       * %u $
+isotope_array[178,74] :177.945885791    * %u $
+isotope_array[178,75] :177.950989000    * %u $
+isotope_array[178,76] :177.953253334    * %u $
+isotope_array[178,77] :177.961079395    * %u $
+isotope_array[178,78] :177.965649288    * %u $
+isotope_array[178,79] :177.976056714    * %u $
+isotope_array[178,80] :177.982484756    * %u $
+isotope_array[178,81] :177.995047       * %u $
+isotope_array[178,82] :178.003836171    * %u $
+isotope_array[179,68] :178.961267       * %u $
+isotope_array[179,69] :178.955018       * %u $
+isotope_array[179,70] :178.949930       * %u $
+isotope_array[179,71] :178.947332985    * %u $
+isotope_array[179,72] :178.945825705    * %u $
+isotope_array[179,73] :178.945939050    * %u $
+isotope_array[179,74] :178.947079378    * %u $
+isotope_array[179,75] :178.949989686    * %u $
+isotope_array[179,76] :178.953815985    * %u $
+isotope_array[179,77] :178.959117594    * %u $
+isotope_array[179,78] :178.965358742    * %u $
+isotope_array[179,79] :178.973173666    * %u $
+isotope_array[179,80] :178.981821759    * %u $
+isotope_array[179,81] :178.991122185    * %u $
+isotope_array[179,82] :179.002202492    * %u $
+isotope_array[180,68] :179.964380       * %u $
+isotope_array[180,69] :179.959023       * %u $
+isotope_array[180,70] :179.951991       * %u $
+isotope_array[180,71] :179.949890744    * %u $
+isotope_array[180,72] :179.946559537    * %u $
+isotope_array[180,73] :179.947467589    * %u $
+isotope_array[180,74] :179.946713304    * %u $
+isotope_array[180,75] :179.950791568    * %u $
+isotope_array[180,76] :179.952381665    * %u $
+isotope_array[180,77] :179.959229446    * %u $
+isotope_array[180,78] :179.963038010    * %u $
+isotope_array[180,79] :179.972489738    * %u $
+isotope_array[180,80] :179.978260180    * %u $
+isotope_array[180,81] :179.989918950    * %u $
+isotope_array[180,82] :179.997916177    * %u $
+isotope_array[181,69] :180.961954       * %u $
+isotope_array[181,70] :180.955890       * %u $
+isotope_array[181,71] :180.951908000    * %u $
+isotope_array[181,72] :180.949110834    * %u $
+isotope_array[181,73] :180.947998528    * %u $
+isotope_array[181,74] :180.948218733    * %u $
+isotope_array[181,75] :180.950061507    * %u $
+isotope_array[181,76] :180.953247188    * %u $
+isotope_array[181,77] :180.957634691    * %u $
+isotope_array[181,78] :180.963089946    * %u $
+isotope_array[181,79] :180.970079102    * %u $
+isotope_array[181,80] :180.977819368    * %u $
+isotope_array[181,81] :180.986259978    * %u $
+isotope_array[181,82] :180.996660600    * %u $
+isotope_array[182,69] :181.966194       * %u $
+isotope_array[182,70] :181.958239       * %u $
+isotope_array[182,71] :181.955158       * %u $
+isotope_array[182,72] :181.950563684    * %u $
+isotope_array[182,73] :181.950154612    * %u $
+isotope_array[182,74] :181.948205636    * %u $
+isotope_array[182,75] :181.951211560    * %u $
+isotope_array[182,76] :181.952110154    * %u $
+isotope_array[182,77] :181.958076296    * %u $
+isotope_array[182,78] :181.961171605    * %u $
+isotope_array[182,79] :181.969614433    * %u $
+isotope_array[182,80] :181.974689173    * %u $
+isotope_array[182,81] :181.985692649    * %u $
+isotope_array[182,82] :181.992673537    * %u $
+isotope_array[183,70] :182.962426       * %u $
+isotope_array[183,71] :182.957363000    * %u $
+isotope_array[183,72] :182.953533203    * %u $
+isotope_array[183,73] :182.951375380    * %u $
+isotope_array[183,74] :182.950224416    * %u $
+isotope_array[183,75] :182.950821306    * %u $
+isotope_array[183,76] :182.953125028    * %u $
+isotope_array[183,77] :182.956841231    * %u $
+isotope_array[183,78] :182.961595895    * %u $
+isotope_array[183,79] :182.967588106    * %u $
+isotope_array[183,80] :182.974444652    * %u $
+isotope_array[183,81] :182.982192843    * %u $
+isotope_array[183,82] :182.991862527    * %u $
+isotope_array[184,70] :183.965002       * %u $
+isotope_array[184,71] :183.961030       * %u $
+isotope_array[184,72] :183.955448507    * %u $
+isotope_array[184,73] :183.954009958    * %u $
+isotope_array[184,74] :183.950933180    * %u $
+isotope_array[184,75] :183.952528073    * %u $
+isotope_array[184,76] :183.952492919    * %u $
+isotope_array[184,77] :183.957476000    * %u $
+isotope_array[184,78] :183.959921929    * %u $
+isotope_array[184,79] :183.967451523    * %u $
+isotope_array[184,80] :183.971717709    * %u $
+isotope_array[184,81] :183.981874973    * %u $
+isotope_array[184,82] :183.988135634    * %u $
+isotope_array[184,83] :184.001347       * %u $
+isotope_array[185,70] :184.969425       * %u $
+isotope_array[185,71] :184.963542       * %u $
+isotope_array[185,72] :184.958862000    * %u $
+isotope_array[185,73] :184.955561317    * %u $
+isotope_array[185,74] :184.953421206    * %u $
+isotope_array[185,75] :184.952958320    * %u $
+isotope_array[185,76] :184.954045969    * %u $
+isotope_array[185,77] :184.956698000    * %u $
+isotope_array[185,78] :184.960613659    * %u $
+isotope_array[185,79] :184.965798871    * %u $
+isotope_array[185,80] :184.971890696    * %u $
+isotope_array[185,81] :184.978789189    * %u $
+isotope_array[185,82] :184.987610000    * %u $
+isotope_array[185,83] :184.997600       * %u $
+isotope_array[186,71] :185.967450       * %u $
+isotope_array[186,72] :185.960897000    * %u $
+isotope_array[186,73] :185.958553036    * %u $
+isotope_array[186,74] :185.954365140    * %u $
+isotope_array[186,75] :185.954989172    * %u $
+isotope_array[186,76] :185.953837569    * %u $
+isotope_array[186,77] :185.957946754    * %u $
+isotope_array[186,78] :185.959350845    * %u $
+isotope_array[186,79] :185.965952703    * %u $
+isotope_array[186,80] :185.969362061    * %u $
+isotope_array[186,81] :185.978654787    * %u $
+isotope_array[186,82] :185.984239409    * %u $
+isotope_array[186,83] :185.996623169    * %u $
+isotope_array[186,84] :186.004403174    * %u $
+isotope_array[187,71] :186.970188       * %u $
+isotope_array[187,72] :186.964573       * %u $
+isotope_array[187,73] :186.960391000    * %u $
+isotope_array[187,74] :186.957161249    * %u $
+isotope_array[187,75] :186.955752217    * %u $
+isotope_array[187,76] :186.955749569    * %u $
+isotope_array[187,77] :186.957542000    * %u $
+isotope_array[187,78] :186.960616646    * %u $
+isotope_array[187,79] :186.964542147    * %u $
+isotope_array[187,80] :186.969813540    * %u $
+isotope_array[187,81] :186.975904740    * %u $
+isotope_array[187,82] :186.983910842    * %u $
+isotope_array[187,83] :186.993147272    * %u $
+isotope_array[187,84] :187.003031482    * %u $
+isotope_array[188,71] :187.974428       * %u $
+isotope_array[188,72] :187.966903       * %u $
+isotope_array[188,73] :187.963596       * %u $
+isotope_array[188,74] :187.958488325    * %u $
+isotope_array[188,75] :187.958113658    * %u $
+isotope_array[188,76] :187.955837292    * %u $
+isotope_array[188,77] :187.958834999    * %u $
+isotope_array[188,78] :187.959397521    * %u $
+isotope_array[188,79] :187.965247966    * %u $
+isotope_array[188,80] :187.967580738    * %u $
+isotope_array[188,81] :187.976020886    * %u $
+isotope_array[188,82] :187.980879079    * %u $
+isotope_array[188,83] :187.992276064    * %u $
+isotope_array[188,84] :187.999415586    * %u $
+isotope_array[189,72] :188.970853       * %u $
+isotope_array[189,73] :188.965690       * %u $
+isotope_array[189,74] :188.961557       * %u $
+isotope_array[189,75] :188.959227764    * %u $
+isotope_array[189,76] :188.958145949    * %u $
+isotope_array[189,77] :188.958722602    * %u $
+isotope_array[189,78] :188.960848485    * %u $
+isotope_array[189,79] :188.963948286    * %u $
+isotope_array[189,80] :188.968194776    * %u $
+isotope_array[189,81] :188.973573525    * %u $
+isotope_array[189,82] :188.980843658    * %u $
+isotope_array[189,83] :188.989195139    * %u $
+isotope_array[189,84] :188.998473425    * %u $
+isotope_array[190,72] :189.973376       * %u $
+isotope_array[190,73] :189.969168       * %u $
+isotope_array[190,74] :189.963103542    * %u $
+isotope_array[190,75] :189.961800064    * %u $
+isotope_array[190,76] :189.958445442    * %u $
+isotope_array[190,77] :189.960543374    * %u $
+isotope_array[190,78] :189.959949823    * %u $
+isotope_array[190,79] :189.964751746    * %u $
+isotope_array[190,80] :189.966322250    * %u $
+isotope_array[190,81] :189.973841771    * %u $
+isotope_array[190,82] :189.978081872    * %u $
+isotope_array[190,83] :189.988624828    * %u $
+isotope_array[190,84] :189.995101731    * %u $
+isotope_array[191,73] :190.971530       * %u $
+isotope_array[191,74] :190.966531000    * %u $
+isotope_array[191,75] :190.963123322    * %u $
+isotope_array[191,76] :190.960928105    * %u $
+isotope_array[191,77] :190.960591455    * %u $
+isotope_array[191,78] :190.961676261    * %u $
+isotope_array[191,79] :190.963716452    * %u $
+isotope_array[191,80] :190.967158301    * %u $
+isotope_array[191,81] :190.971784093    * %u $
+isotope_array[191,82] :190.978216455    * %u $
+isotope_array[191,83] :190.985786972    * %u $
+isotope_array[191,84] :190.994558494    * %u $
+isotope_array[191,85] :191.004148081    * %u $
+isotope_array[192,73] :191.975201       * %u $
+isotope_array[192,74] :191.968202       * %u $
+isotope_array[192,75] :191.966088000    * %u $
+isotope_array[192,76] :191.961478765    * %u $
+isotope_array[192,77] :191.962602414    * %u $
+isotope_array[192,78] :191.961042667    * %u $
+isotope_array[192,79] :191.964817615    * %u $
+isotope_array[192,80] :191.965634263    * %u $
+isotope_array[192,81] :191.972225000    * %u $
+isotope_array[192,82] :191.975789598    * %u $
+isotope_array[192,83] :191.985470077    * %u $
+isotope_array[192,84] :191.991340274    * %u $
+isotope_array[192,85] :192.003140912    * %u $
+isotope_array[193,73] :192.977660       * %u $
+isotope_array[193,74] :192.971884       * %u $
+isotope_array[193,75] :192.967545000    * %u $
+isotope_array[193,76] :192.964149637    * %u $
+isotope_array[193,77] :192.962923753    * %u $
+isotope_array[193,78] :192.962984546    * %u $
+isotope_array[193,79] :192.964138442    * %u $
+isotope_array[193,80] :192.966653395    * %u $
+isotope_array[193,81] :192.970501994    * %u $
+isotope_array[193,82] :192.976135914    * %u $
+isotope_array[193,83] :192.982947220    * %u $
+isotope_array[193,84] :192.991062421    * %u $
+isotope_array[193,85] :192.999927725    * %u $
+isotope_array[193,86] :193.009707973    * %u $
+isotope_array[194,73] :193.981610       * %u $
+isotope_array[194,74] :193.973795       * %u $
+isotope_array[194,75] :193.970735       * %u $
+isotope_array[194,76] :193.965179407    * %u $
+isotope_array[194,77] :193.965075703    * %u $
+isotope_array[194,78] :193.962683498    * %u $
+isotope_array[194,79] :193.965419051    * %u $
+isotope_array[194,80] :193.965449108    * %u $
+isotope_array[194,81] :193.971081408    * %u $
+isotope_array[194,82] :193.974011788    * %u $
+isotope_array[194,83] :193.982798581    * %u $
+isotope_array[194,84] :193.988186058    * %u $
+isotope_array[194,85] :193.999230816    * %u $
+isotope_array[194,86] :194.006145636    * %u $
+isotope_array[195,74] :194.977735       * %u $
+isotope_array[195,75] :194.972560       * %u $
+isotope_array[195,76] :194.968318000    * %u $
+isotope_array[195,77] :194.965976898    * %u $
+isotope_array[195,78] :194.964794325    * %u $
+isotope_array[195,79] :194.965037823    * %u $
+isotope_array[195,80] :194.966705809    * %u $
+isotope_array[195,81] :194.969774052    * %u $
+isotope_array[195,82] :194.974516167    * %u $
+isotope_array[195,83] :194.980648759    * %u $
+isotope_array[195,84] :194.988065781    * %u $
+isotope_array[195,85] :194.996274480    * %u $
+isotope_array[195,86] :195.005421703    * %u $
+isotope_array[196,74] :195.979882       * %u $
+isotope_array[196,75] :195.975996       * %u $
+isotope_array[196,76] :195.969643261    * %u $
+isotope_array[196,77] :195.968399669    * %u $
+isotope_array[196,78] :195.964954648    * %u $
+isotope_array[196,79] :195.966571213    * %u $
+isotope_array[196,80] :195.965833445    * %u $
+isotope_array[196,81] :195.970481189    * %u $
+isotope_array[196,82] :195.972787552    * %u $
+isotope_array[196,83] :195.980666509    * %u $
+isotope_array[196,84] :195.985540722    * %u $
+isotope_array[196,85] :195.995799034    * %u $
+isotope_array[196,86] :196.002120431    * %u $
+isotope_array[197,74] :196.984036       * %u $
+isotope_array[197,75] :196.978153       * %u $
+isotope_array[197,76] :196.973076       * %u $
+isotope_array[197,77] :196.969657217    * %u $
+isotope_array[197,78] :196.967343030    * %u $
+isotope_array[197,79] :196.966570103    * %u $
+isotope_array[197,80] :196.967213715    * %u $
+isotope_array[197,81] :196.969560492    * %u $
+isotope_array[197,82] :196.973434737    * %u $
+isotope_array[197,83] :196.978864927    * %u $
+isotope_array[197,84] :196.985621939    * %u $
+isotope_array[197,85] :196.993177353    * %u $
+isotope_array[197,86] :197.001621446    * %u $
+isotope_array[197,87] :197.011008086    * %u $
+isotope_array[198,75] :197.981760       * %u $
+isotope_array[198,76] :197.974664       * %u $
+isotope_array[198,77] :197.972399       * %u $
+isotope_array[198,78] :197.967896718    * %u $
+isotope_array[198,79] :197.968243714    * %u $
+isotope_array[198,80] :197.966769177    * %u $
+isotope_array[198,81] :197.970446669    * %u $
+isotope_array[198,82] :197.972015450    * %u $
+isotope_array[198,83] :197.979201316    * %u $
+isotope_array[198,84] :197.983388753    * %u $
+isotope_array[198,85] :197.992797864    * %u $
+isotope_array[198,86] :197.998679197    * %u $
+isotope_array[198,87] :198.010282081    * %u $
+isotope_array[199,75] :198.984187       * %u $
+isotope_array[199,76] :198.978239       * %u $
+isotope_array[199,77] :198.973807097    * %u $
+isotope_array[199,78] :198.970597022    * %u $
+isotope_array[199,79] :198.968766573    * %u $
+isotope_array[199,80] :198.968280994    * %u $
+isotope_array[199,81] :198.969877000    * %u $
+isotope_array[199,82] :198.972912620    * %u $
+isotope_array[199,83] :198.977672841    * %u $
+isotope_array[199,84] :198.983640445    * %u $
+isotope_array[199,85] :198.990527715    * %u $
+isotope_array[199,86] :198.998325436    * %u $
+isotope_array[199,87] :199.007269384    * %u $
+isotope_array[200,76] :199.980086       * %u $
+isotope_array[200,77] :199.976844       * %u $
+isotope_array[200,78] :199.971444609    * %u $
+isotope_array[200,79] :199.970756558    * %u $
+isotope_array[200,80] :199.968326941    * %u $
+isotope_array[200,81] :199.970963608    * %u $
+isotope_array[200,82] :199.971818546    * %u $
+isotope_array[200,83] :199.978131290    * %u $
+isotope_array[200,84] :199.981812355    * %u $
+isotope_array[200,85] :199.990351099    * %u $
+isotope_array[200,86] :199.995705335    * %u $
+isotope_array[200,87] :200.006584666    * %u $
+isotope_array[201,76] :200.984069       * %u $
+isotope_array[201,77] :200.978701       * %u $
+isotope_array[201,78] :200.974513305    * %u $
+isotope_array[201,79] :200.971657678    * %u $
+isotope_array[201,80] :200.970303054    * %u $
+isotope_array[201,81] :200.970820235    * %u $
+isotope_array[201,82] :200.972870431    * %u $
+isotope_array[201,83] :200.976995017    * %u $
+isotope_array[201,84] :200.982263799    * %u $
+isotope_array[201,85] :200.988417058    * %u $
+isotope_array[201,86] :200.995590511    * %u $
+isotope_array[201,87] :201.003852491    * %u $
+isotope_array[201,88] :201.012814699    * %u $
+isotope_array[202,76] :201.986548       * %u $
+isotope_array[202,77] :201.982136       * %u $
+isotope_array[202,78] :201.975639000    * %u $
+isotope_array[202,79] :201.973856000    * %u $
+isotope_array[202,80] :201.970643604    * %u $
+isotope_array[202,81] :201.972108874    * %u $
+isotope_array[202,82] :201.972151613    * %u $
+isotope_array[202,83] :201.977723042    * %u $
+isotope_array[202,84] :201.980738934    * %u $
+isotope_array[202,85] :201.988625686    * %u $
+isotope_array[202,86] :201.993263982    * %u $
+isotope_array[202,87] :202.003329637    * %u $
+isotope_array[202,88] :202.009742305    * %u $
+isotope_array[203,76] :202.992195       * %u $
+isotope_array[203,77] :202.984573       * %u $
+isotope_array[203,78] :202.979055       * %u $
+isotope_array[203,79] :202.975154492    * %u $
+isotope_array[203,80] :202.972872396    * %u $
+isotope_array[203,81] :202.972344098    * %u $
+isotope_array[203,82] :202.973390617    * %u $
+isotope_array[203,83] :202.976892077    * %u $
+isotope_array[203,84] :202.981416072    * %u $
+isotope_array[203,85] :202.986942904    * %u $
+isotope_array[203,86] :202.993361155    * %u $
+isotope_array[203,87] :203.000940867    * %u $
+isotope_array[203,88] :203.009233907    * %u $
+isotope_array[204,77] :203.989726       * %u $
+isotope_array[204,78] :203.981084       * %u $
+isotope_array[204,79] :203.978110       * %u $
+isotope_array[204,80] :203.973494037    * %u $
+isotope_array[204,81] :203.973863420    * %u $
+isotope_array[204,82] :203.973043506    * %u $
+isotope_array[204,83] :203.977835687    * %u $
+isotope_array[204,84] :203.980310078    * %u $
+isotope_array[204,85] :203.987251393    * %u $
+isotope_array[204,86] :203.991443729    * %u $
+isotope_array[204,87] :204.000651972    * %u $
+isotope_array[204,88] :204.006506855    * %u $
+isotope_array[205,77] :204.993988       * %u $
+isotope_array[205,78] :204.986237       * %u $
+isotope_array[205,79] :204.980064       * %u $
+isotope_array[205,80] :204.976073151    * %u $
+isotope_array[205,81] :204.974427318    * %u $
+isotope_array[205,82] :204.974481682    * %u $
+isotope_array[205,83] :204.977385182    * %u $
+isotope_array[205,84] :204.981190006    * %u $
+isotope_array[205,85] :204.986060546    * %u $
+isotope_array[205,86] :204.991723228    * %u $
+isotope_array[205,87] :204.998593854    * %u $
+isotope_array[205,88] :205.006230692    * %u $
+isotope_array[205,89] :205.015144152    * %u $
+isotope_array[206,78] :205.990080       * %u $
+isotope_array[206,79] :205.984766       * %u $
+isotope_array[206,80] :205.977513837    * %u $
+isotope_array[206,81] :205.976110108    * %u $
+isotope_array[206,82] :205.974465210    * %u $
+isotope_array[206,83] :205.978498843    * %u $
+isotope_array[206,84] :205.980473662    * %u $
+isotope_array[206,85] :205.986645768    * %u $
+isotope_array[206,86] :205.990195409    * %u $
+isotope_array[206,87] :205.998661441    * %u $
+isotope_array[206,88] :206.003827842    * %u $
+isotope_array[206,89] :206.014476477    * %u $
+isotope_array[207,78] :206.995556       * %u $
+isotope_array[207,79] :206.988577       * %u $
+isotope_array[207,80] :206.982300000    * %u $
+isotope_array[207,81] :206.977418605    * %u $
+isotope_array[207,82] :206.975896821    * %u $
+isotope_array[207,83] :206.978470551    * %u $
+isotope_array[207,84] :206.981593334    * %u $
+isotope_array[207,85] :206.985799715    * %u $
+isotope_array[207,86] :206.990730224    * %u $
+isotope_array[207,87] :206.996941450    * %u $
+isotope_array[207,88] :207.003772420    * %u $
+isotope_array[207,89] :207.011965967    * %u $
+isotope_array[208,78] :207.999463       * %u $
+isotope_array[208,79] :207.993655       * %u $
+isotope_array[208,80] :207.985759000    * %u $
+isotope_array[208,81] :207.982018006    * %u $
+isotope_array[208,82] :207.976652005    * %u $
+isotope_array[208,83] :207.979742060    * %u $
+isotope_array[208,84] :207.981246035    * %u $
+isotope_array[208,85] :207.986613011    * %u $
+isotope_array[208,86] :207.989634513    * %u $
+isotope_array[208,87] :207.997139082    * %u $
+isotope_array[208,88] :208.001855012    * %u $
+isotope_array[208,89] :208.011552251    * %u $
+isotope_array[208,90] :208.017915348    * %u $
+isotope_array[209,79] :208.997606       * %u $
+isotope_array[209,80] :208.990757       * %u $
+isotope_array[209,81] :208.985351713    * %u $
+isotope_array[209,82] :208.981089978    * %u $
+isotope_array[209,83] :208.980398599    * %u $
+isotope_array[209,84] :208.982430361    * %u $
+isotope_array[209,85] :208.986168701    * %u $
+isotope_array[209,86] :208.990401389    * %u $
+isotope_array[209,87] :208.995939701    * %u $
+isotope_array[209,88] :209.001994902    * %u $
+isotope_array[209,89] :209.009495375    * %u $
+isotope_array[209,90] :209.017601       * %u $
+isotope_array[210,79] :210.002877       * %u $
+isotope_array[210,80] :209.994310       * %u $
+isotope_array[210,81] :209.990072942    * %u $
+isotope_array[210,82] :209.984188381    * %u $
+isotope_array[210,83] :209.984120237    * %u $
+isotope_array[210,84] :209.982873686    * %u $
+isotope_array[210,85] :209.987147423    * %u $
+isotope_array[210,86] :209.989688862    * %u $
+isotope_array[210,87] :209.996410596    * %u $
+isotope_array[210,88] :210.000475406    * %u $
+isotope_array[210,89] :210.009408625    * %u $
+isotope_array[210,90] :210.015093515    * %u $
+isotope_array[211,80] :210.999581       * %u $
+isotope_array[211,81] :210.993475000    * %u $
+isotope_array[211,82] :210.988735288    * %u $
+isotope_array[211,83] :210.987268715    * %u $
+isotope_array[211,84] :210.986653171    * %u $
+isotope_array[211,85] :210.987496226    * %u $
+isotope_array[211,86] :210.990600767    * %u $
+isotope_array[211,87] :210.995555189    * %u $
+isotope_array[211,88] :211.000893049    * %u $
+isotope_array[211,89] :211.007668846    * %u $
+isotope_array[211,90] :211.014896923    * %u $
+isotope_array[211,91] :211.023674036    * %u $
+isotope_array[212,80] :212.003242       * %u $
+isotope_array[212,81] :211.998335       * %u $
+isotope_array[212,82] :211.991895891    * %u $
+isotope_array[212,83] :211.991285030    * %u $
+isotope_array[212,84] :211.988867982    * %u $
+isotope_array[212,85] :211.990737301    * %u $
+isotope_array[212,86] :211.990703946    * %u $
+isotope_array[212,87] :211.996225420    * %u $
+isotope_array[212,88] :211.999786619    * %u $
+isotope_array[212,89] :212.007836442    * %u $
+isotope_array[212,90] :212.013001570    * %u $
+isotope_array[212,91] :212.023184819    * %u $
+isotope_array[213,80] :213.008803       * %u $
+isotope_array[213,81] :213.001915000    * %u $
+isotope_array[213,82] :212.996560796    * %u $
+isotope_array[213,83] :212.994383570    * %u $
+isotope_array[213,84] :212.992857154    * %u $
+isotope_array[213,85] :212.992936593    * %u $
+isotope_array[213,86] :212.993885147    * %u $
+isotope_array[213,87] :212.996184410    * %u $
+isotope_array[213,88] :213.000370971    * %u $
+isotope_array[213,89] :213.006592665    * %u $
+isotope_array[213,90] :213.013011470    * %u $
+isotope_array[213,91] :213.021099644    * %u $
+isotope_array[214,80] :214.012636       * %u $
+isotope_array[214,81] :214.006940       * %u $
+isotope_array[214,82] :213.999803521    * %u $
+isotope_array[214,83] :213.998710909    * %u $
+isotope_array[214,84] :213.995201287    * %u $
+isotope_array[214,85] :213.996372331    * %u $
+isotope_array[214,86] :213.995362650    * %u $
+isotope_array[214,87] :213.998971193    * %u $
+isotope_array[214,88] :214.000099560    * %u $
+isotope_array[214,89] :214.006906400    * %u $
+isotope_array[214,90] :214.011481480    * %u $
+isotope_array[214,91] :214.020891055    * %u $
+isotope_array[215,80] :215.018368       * %u $
+isotope_array[215,81] :215.010768       * %u $
+isotope_array[215,82] :215.004661591    * %u $
+isotope_array[215,83] :215.001749095    * %u $
+isotope_array[215,84] :214.999418385    * %u $
+isotope_array[215,85] :214.998651002    * %u $
+isotope_array[215,86] :214.998745037    * %u $
+isotope_array[215,87] :215.000341534    * %u $
+isotope_array[215,88] :215.002718208    * %u $
+isotope_array[215,89] :215.006474061    * %u $
+isotope_array[215,90] :215.011724640    * %u $
+isotope_array[215,91] :215.019113955    * %u $
+isotope_array[215,92] :215.026719774    * %u $
+isotope_array[216,80] :216.022459       * %u $
+isotope_array[216,81] :216.015964       * %u $
+isotope_array[216,82] :216.008062       * %u $
+isotope_array[216,83] :216.006305985    * %u $
+isotope_array[216,84] :216.001913416    * %u $
+isotope_array[216,85] :216.002422643    * %u $
+isotope_array[216,86] :216.000271942    * %u $
+isotope_array[216,87] :216.003189523    * %u $
+isotope_array[216,88] :216.003533534    * %u $
+isotope_array[216,89] :216.008749101    * %u $
+isotope_array[216,90] :216.011055933    * %u $
+isotope_array[216,91] :216.019134633    * %u $
+isotope_array[216,92] :216.024762829    * %u $
+isotope_array[217,81] :217.020032       * %u $
+isotope_array[217,82] :217.013162       * %u $
+isotope_array[217,83] :217.009372000    * %u $
+isotope_array[217,84] :217.006316145    * %u $
+isotope_array[217,85] :217.004717794    * %u $
+isotope_array[217,86] :217.003927632    * %u $
+isotope_array[217,87] :217.004631980    * %u $
+isotope_array[217,88] :217.006322676    * %u $
+isotope_array[217,89] :217.009342325    * %u $
+isotope_array[217,90] :217.013103443    * %u $
+isotope_array[217,91] :217.018309024    * %u $
+isotope_array[217,92] :217.024660       * %u $
+isotope_array[218,81] :218.025454       * %u $
+isotope_array[218,82] :218.016779       * %u $
+isotope_array[218,83] :218.014188000    * %u $
+isotope_array[218,84] :218.008971234    * %u $
+isotope_array[218,85] :218.008695941    * %u $
+isotope_array[218,86] :218.005601123    * %u $
+isotope_array[218,87] :218.007578620    * %u $
+isotope_array[218,88] :218.007134297    * %u $
+isotope_array[218,89] :218.011648860    * %u $
+isotope_array[218,90] :218.013276248    * %u $
+isotope_array[218,91] :218.020021133    * %u $
+isotope_array[218,92] :218.023504877    * %u $
+isotope_array[219,82] :219.022136       * %u $
+isotope_array[219,83] :219.017520       * %u $
+isotope_array[219,84] :219.013614000    * %u $
+isotope_array[219,85] :219.011160587    * %u $
+isotope_array[219,86] :219.009478683    * %u $
+isotope_array[219,87] :219.009250664    * %u $
+isotope_array[219,88] :219.010084715    * %u $
+isotope_array[219,89] :219.012420425    * %u $
+isotope_array[219,90] :219.015526432    * %u $
+isotope_array[219,91] :219.019949909    * %u $
+isotope_array[219,92] :219.025009233    * %u $
+isotope_array[219,93] :219.031601865    * %u $
+isotope_array[220,82] :220.025905       * %u $
+isotope_array[220,83] :220.022501       * %u $
+isotope_array[220,84] :220.016386000    * %u $
+isotope_array[220,85] :220.015433000    * %u $
+isotope_array[220,86] :220.011392443    * %u $
+isotope_array[220,87] :220.012326789    * %u $
+isotope_array[220,88] :220.011027542    * %u $
+isotope_array[220,89] :220.014754527    * %u $
+isotope_array[220,90] :220.015769866    * %u $
+isotope_array[220,91] :220.021769753    * %u $
+isotope_array[220,92] :220.024706       * %u $
+isotope_array[220,93] :220.032716280    * %u $
+isotope_array[221,83] :221.025980       * %u $
+isotope_array[221,84] :221.021228000    * %u $
+isotope_array[221,85] :221.018017000    * %u $
+isotope_array[221,86] :221.015535637    * %u $
+isotope_array[221,87] :221.014253714    * %u $
+isotope_array[221,88] :221.013917293    * %u $
+isotope_array[221,89] :221.015599721    * %u $
+isotope_array[221,90] :221.018185757    * %u $
+isotope_array[221,91] :221.021873393    * %u $
+isotope_array[221,92] :221.026323297    * %u $
+isotope_array[221,93] :221.032110       * %u $
+isotope_array[221,94] :221.038572       * %u $
+isotope_array[222,83] :222.031079       * %u $
+isotope_array[222,84] :222.024140000    * %u $
+isotope_array[222,85] :222.022494000    * %u $
+isotope_array[222,86] :222.017576017    * %u $
+isotope_array[222,87] :222.017582615    * %u $
+isotope_array[222,88] :222.015373371    * %u $
+isotope_array[222,89] :222.017844232    * %u $
+isotope_array[222,90] :222.018468220    * %u $
+isotope_array[222,91] :222.023687064    * %u $
+isotope_array[222,92] :222.026057957    * %u $
+isotope_array[222,93] :222.033574706    * %u $
+isotope_array[222,94] :222.037638       * %u $
+isotope_array[223,83] :223.034611       * %u $
+isotope_array[223,84] :223.029070       * %u $
+isotope_array[223,85] :223.025151000    * %u $
+isotope_array[223,86] :223.021889283    * %u $
+isotope_array[223,87] :223.019734241    * %u $
+isotope_array[223,88] :223.018500648    * %u $
+isotope_array[223,89] :223.019135982    * %u $
+isotope_array[223,90] :223.020811083    * %u $
+isotope_array[223,91] :223.023980414    * %u $
+isotope_array[223,92] :223.027960754    * %u $
+isotope_array[223,93] :223.032913340    * %u $
+isotope_array[223,94] :223.038777       * %u $
+isotope_array[223,95] :223.045840       * %u $
+isotope_array[224,83] :224.039796       * %u $
+isotope_array[224,84] :224.032110       * %u $
+isotope_array[224,85] :224.029749000    * %u $
+isotope_array[224,86] :224.024095803    * %u $
+isotope_array[224,87] :224.023348096    * %u $
+isotope_array[224,88] :224.020210361    * %u $
+isotope_array[224,89] :224.021722249    * %u $
+isotope_array[224,90] :224.021466137    * %u $
+isotope_array[224,91] :224.025617286    * %u $
+isotope_array[224,92] :224.027635913    * %u $
+isotope_array[224,93] :224.034388030    * %u $
+isotope_array[224,94] :224.037875       * %u $
+isotope_array[224,95] :224.046442       * %u $
+isotope_array[225,84] :225.037123       * %u $
+isotope_array[225,85] :225.032528       * %u $
+isotope_array[225,86] :225.028485572    * %u $
+isotope_array[225,87] :225.025572466    * %u $
+isotope_array[225,88] :225.023610502    * %u $
+isotope_array[225,89] :225.023228601    * %u $
+isotope_array[225,90] :225.023950975    * %u $
+isotope_array[225,91] :225.026147927    * %u $
+isotope_array[225,92] :225.029385050    * %u $
+isotope_array[225,93] :225.033943422    * %u $
+isotope_array[225,94] :225.038970       * %u $
+isotope_array[225,95] :225.045508       * %u $
+isotope_array[226,84] :226.040310       * %u $
+isotope_array[226,85] :226.037209       * %u $
+isotope_array[226,86] :226.030861380    * %u $
+isotope_array[226,87] :226.029544512    * %u $
+isotope_array[226,88] :226.025408186    * %u $
+isotope_array[226,89] :226.026096999    * %u $
+isotope_array[226,90] :226.024903699    * %u $
+isotope_array[226,91] :226.027948217    * %u $
+isotope_array[226,92] :226.029338669    * %u $
+isotope_array[226,93] :226.035230364    * %u $
+isotope_array[226,94] :226.038250       * %u $
+isotope_array[226,95] :226.046130       * %u $
+isotope_array[227,84] :227.045390       * %u $
+isotope_array[227,85] :227.040183       * %u $
+isotope_array[227,86] :227.035304393    * %u $
+isotope_array[227,87] :227.031865413    * %u $
+isotope_array[227,88] :227.029176205    * %u $
+isotope_array[227,89] :227.027750594    * %u $
+isotope_array[227,90] :227.027702546    * %u $
+isotope_array[227,91] :227.028803586    * %u $
+isotope_array[227,92] :227.031181124    * %u $
+isotope_array[227,93] :227.034975012    * %u $
+isotope_array[227,94] :227.039474       * %u $
+isotope_array[227,95] :227.045282       * %u $
+isotope_array[228,85] :228.044960       * %u $
+isotope_array[228,86] :228.037835415    * %u $
+isotope_array[228,87] :228.035839433    * %u $
+isotope_array[228,88] :228.031068574    * %u $
+isotope_array[228,89] :228.031019685    * %u $
+isotope_array[228,90] :228.028739741    * %u $
+isotope_array[228,91] :228.031050758    * %u $
+isotope_array[228,92] :228.031368959    * %u $
+isotope_array[228,93] :228.036313       * %u $
+isotope_array[228,94] :228.038763325    * %u $
+isotope_array[228,95] :228.046001       * %u $
+isotope_array[229,85] :229.048191       * %u $
+isotope_array[229,86] :229.042257272    * %u $
+isotope_array[229,87] :229.038291443    * %u $
+isotope_array[229,88] :229.034956703    * %u $
+isotope_array[229,89] :229.032947000    * %u $
+isotope_array[229,90] :229.031761357    * %u $
+isotope_array[229,91] :229.032095585    * %u $
+isotope_array[229,92] :229.033505976    * %u $
+isotope_array[229,93] :229.036287269    * %u $
+isotope_array[229,94] :229.040145099    * %u $
+isotope_array[229,95] :229.045282534    * %u $
+isotope_array[230,86] :230.045271       * %u $
+isotope_array[230,87] :230.042390787    * %u $
+isotope_array[230,88] :230.037054776    * %u $
+isotope_array[230,89] :230.036327000    * %u $
+isotope_array[230,90] :230.033132267    * %u $
+isotope_array[230,91] :230.034539717    * %u $
+isotope_array[230,92] :230.033940114    * %u $
+isotope_array[230,93] :230.037828060    * %u $
+isotope_array[230,94] :230.039648313    * %u $
+isotope_array[230,95] :230.046025       * %u $
+isotope_array[231,86] :231.049973       * %u $
+isotope_array[231,87] :231.045175353    * %u $
+isotope_array[231,88] :231.041027085    * %u $
+isotope_array[231,89] :231.038393000    * %u $
+isotope_array[231,90] :231.036302764    * %u $
+isotope_array[231,91] :231.035882500    * %u $
+isotope_array[231,92] :231.036292180    * %u $
+isotope_array[231,93] :231.038243598    * %u $
+isotope_array[231,94] :231.041125946    * %u $
+isotope_array[231,95] :231.045529       * %u $
+isotope_array[231,96] :231.050746       * %u $
+isotope_array[232,87] :232.049461219    * %u $
+isotope_array[232,88] :232.043475267    * %u $
+isotope_array[232,89] :232.042034000    * %u $
+isotope_array[232,90] :232.038053606    * %u $
+isotope_array[232,91] :232.038590205    * %u $
+isotope_array[232,92] :232.037154765    * %u $
+isotope_array[232,93] :232.040107       * %u $
+isotope_array[232,94] :232.041182133    * %u $
+isotope_array[232,95] :232.046613       * %u $
+isotope_array[232,96] :232.049740       * %u $
+isotope_array[233,87] :233.052517833    * %u $
+isotope_array[233,88] :233.047594570    * %u $
+isotope_array[233,89] :233.044346000    * %u $
+isotope_array[233,90] :233.041580126    * %u $
+isotope_array[233,91] :233.040246535    * %u $
+isotope_array[233,92] :233.039634294    * %u $
+isotope_array[233,93] :233.040739421    * %u $
+isotope_array[233,94] :233.042997411    * %u $
+isotope_array[233,95] :233.046468       * %u $
+isotope_array[233,96] :233.050771485    * %u $
+isotope_array[233,97] :233.056652       * %u $
+isotope_array[234,88] :234.050382100    * %u $
+isotope_array[234,89] :234.048139000    * %u $
+isotope_array[234,90] :234.043599801    * %u $
+isotope_array[234,91] :234.043305555    * %u $
+isotope_array[234,92] :234.040950296    * %u $
+isotope_array[234,93] :234.042893245    * %u $
+isotope_array[234,94] :234.043317489    * %u $
+isotope_array[234,95] :234.047731       * %u $
+isotope_array[234,96] :234.050158568    * %u $
+isotope_array[234,97] :234.057322       * %u $
+isotope_array[235,88] :235.054890       * %u $
+isotope_array[235,89] :235.050840000    * %u $
+isotope_array[235,90] :235.047255000    * %u $
+isotope_array[235,91] :235.045399000    * %u $
+isotope_array[235,92] :235.043928117    * %u $
+isotope_array[235,93] :235.044061518    * %u $
+isotope_array[235,94] :235.045284609    * %u $
+isotope_array[235,95] :235.047906478    * %u $
+isotope_array[235,96] :235.051545       * %u $
+isotope_array[235,97] :235.056651       * %u $
+isotope_array[236,89] :236.054988000    * %u $
+isotope_array[236,90] :236.049657000    * %u $
+isotope_array[236,91] :236.048668000    * %u $
+isotope_array[236,92] :236.045566130    * %u $
+isotope_array[236,93] :236.046568296    * %u $
+isotope_array[236,94] :236.046056661    * %u $
+isotope_array[236,95] :236.049427       * %u $
+isotope_array[236,96] :236.051372112    * %u $
+isotope_array[236,97] :236.057479       * %u $
+isotope_array[237,89] :237.057993       * %u $
+isotope_array[237,90] :237.053629000    * %u $
+isotope_array[237,91] :237.051023000    * %u $
+isotope_array[237,92] :237.048728309    * %u $
+isotope_array[237,93] :237.048171640    * %u $
+isotope_array[237,94] :237.048407888    * %u $
+isotope_array[237,95] :237.049995       * %u $
+isotope_array[237,96] :237.052868988    * %u $
+isotope_array[237,97] :237.057123       * %u $
+isotope_array[237,98] :237.062199272    * %u $
+isotope_array[238,90] :238.056388       * %u $
+isotope_array[238,91] :238.054637000    * %u $
+isotope_array[238,92] :238.050786936    * %u $
+isotope_array[238,93] :238.050944603    * %u $
+isotope_array[238,94] :238.049558175    * %u $
+isotope_array[238,95] :238.051982531    * %u $
+isotope_array[238,96] :238.053081606    * %u $
+isotope_array[238,97] :238.058204       * %u $
+isotope_array[238,98] :238.061490       * %u $
+isotope_array[239,90] :239.060655       * %u $
+isotope_array[239,91] :239.057260       * %u $
+isotope_array[239,92] :239.054291989    * %u $
+isotope_array[239,93] :239.052937538    * %u $
+isotope_array[239,94] :239.052161596    * %u $
+isotope_array[239,95] :239.053022729    * %u $
+isotope_array[239,96] :239.054908519    * %u $
+isotope_array[239,97] :239.058239       * %u $
+isotope_array[239,98] :239.062482       * %u $
+isotope_array[239,99] :239.068310       * %u $
+isotope_array[240,91] :240.061203       * %u $
+isotope_array[240,92] :240.056592411    * %u $
+isotope_array[240,93] :240.056163778    * %u $
+isotope_array[240,94] :240.053811740    * %u $
+isotope_array[240,95] :240.055298374    * %u $
+isotope_array[240,96] :240.055528233    * %u $
+isotope_array[240,97] :240.059758       * %u $
+isotope_array[240,98] :240.062253447    * %u $
+isotope_array[240,99] :240.068949       * %u $
+isotope_array[241,91] :241.064134       * %u $
+isotope_array[241,92] :241.060330       * %u $
+isotope_array[241,93] :241.058309671    * %u $
+isotope_array[241,94] :241.056849651    * %u $
+isotope_array[241,95] :241.056827343    * %u $
+isotope_array[241,96] :241.057651218    * %u $
+isotope_array[241,97] :241.060098       * %u $
+isotope_array[241,98] :241.063690       * %u $
+isotope_array[241,99] :241.068592       * %u $
+isotope_array[241,100] :241.074311       * %u $
+isotope_array[242,92] :242.062931       * %u $
+isotope_array[242,93] :242.061639548    * %u $
+isotope_array[242,94] :242.058740979    * %u $
+isotope_array[242,95] :242.059547358    * %u $
+isotope_array[242,96] :242.058834187    * %u $
+isotope_array[242,97] :242.061999       * %u $
+isotope_array[242,98] :242.063754544    * %u $
+isotope_array[242,99] :242.069567       * %u $
+isotope_array[242,100] :242.073430       * %u $
+isotope_array[243,92] :243.067075       * %u $
+isotope_array[243,93] :243.064204       * %u $
+isotope_array[243,94] :243.062002068    * %u $
+isotope_array[243,95] :243.061379889    * %u $
+isotope_array[243,96] :243.061387329    * %u $
+isotope_array[243,97] :243.063005905    * %u $
+isotope_array[243,98] :243.065475       * %u $
+isotope_array[243,99] :243.069508       * %u $
+isotope_array[243,100] :243.074414       * %u $
+isotope_array[244,93] :244.067891       * %u $
+isotope_array[244,94] :244.064204401    * %u $
+isotope_array[244,95] :244.064282892    * %u $
+isotope_array[244,96] :244.062750622    * %u $
+isotope_array[244,97] :244.065178969    * %u $
+isotope_array[244,98] :244.065999447    * %u $
+isotope_array[244,99] :244.070881       * %u $
+isotope_array[244,100] :244.074036       * %u $
+isotope_array[244,101] :244.081157       * %u $
+isotope_array[245,93] :245.070693       * %u $
+isotope_array[245,94] :245.067824554    * %u $
+isotope_array[245,95] :245.066452827    * %u $
+isotope_array[245,96] :245.065491047    * %u $
+isotope_array[245,97] :245.066359814    * %u $
+isotope_array[245,98] :245.068046755    * %u $
+isotope_array[245,99] :245.071192       * %u $
+isotope_array[245,100] :245.075354       * %u $
+isotope_array[245,101] :245.080864       * %u $
+isotope_array[246,94] :246.070204172    * %u $
+isotope_array[246,95] :246.069774       * %u $
+isotope_array[246,96] :246.067222016    * %u $
+isotope_array[246,97] :246.068671300    * %u $
+isotope_array[246,98] :246.068803685    * %u $
+isotope_array[246,99] :246.072806474    * %u $
+isotope_array[246,100] :246.075353334    * %u $
+isotope_array[246,101] :246.081713       * %u $
+isotope_array[247,94] :247.074300       * %u $
+isotope_array[247,95] :247.072092       * %u $
+isotope_array[247,96] :247.070352678    * %u $
+isotope_array[247,97] :247.070305889    * %u $
+isotope_array[247,98] :247.070971348    * %u $
+isotope_array[247,99] :247.073621929    * %u $
+isotope_array[247,100] :247.076944       * %u $
+isotope_array[247,101] :247.081520       * %u $
+isotope_array[248,95] :248.075752       * %u $
+isotope_array[248,96] :248.072349086    * %u $
+isotope_array[248,97] :248.073141689    * %u $
+isotope_array[248,98] :248.072182905    * %u $
+isotope_array[248,99] :248.075469       * %u $
+isotope_array[248,100] :248.077185451    * %u $
+isotope_array[248,101] :248.082607       * %u $
+isotope_array[248,102] :248.086623       * %u $
+isotope_array[249,95] :249.078480       * %u $
+isotope_array[249,96] :249.075953992    * %u $
+isotope_array[249,97] :249.074983118    * %u $
+isotope_array[249,98] :249.074850428    * %u $
+isotope_array[249,99] :249.076409       * %u $
+isotope_array[249,100] :249.078926042    * %u $
+isotope_array[249,101] :249.082857155    * %u $
+isotope_array[249,102] :249.087802       * %u $
+isotope_array[250,96] :250.078357541    * %u $
+isotope_array[250,97] :250.078317195    * %u $
+isotope_array[250,98] :250.076404494    * %u $
+isotope_array[250,99] :250.078611       * %u $
+isotope_array[250,100] :250.079519765    * %u $
+isotope_array[250,101] :250.084164934    * %u $
+isotope_array[250,102] :250.087565       * %u $
+isotope_array[251,96] :251.082284988    * %u $
+isotope_array[251,97] :251.080760555    * %u $
+isotope_array[251,98] :251.079587171    * %u $
+isotope_array[251,99] :251.079991431    * %u $
+isotope_array[251,100] :251.081545130    * %u $
+isotope_array[251,101] :251.084774287    * %u $
+isotope_array[251,102] :251.088942       * %u $
+isotope_array[251,103] :251.094289       * %u $
+isotope_array[252,96] :252.084870       * %u $
+isotope_array[252,97] :252.084310       * %u $
+isotope_array[252,98] :252.081626507    * %u $
+isotope_array[252,99] :252.082979173    * %u $
+isotope_array[252,100] :252.082466019    * %u $
+isotope_array[252,101] :252.086385000    * %u $
+isotope_array[252,102] :252.088966070    * %u $
+isotope_array[252,103] :252.095048       * %u $
+isotope_array[253,97] :253.086880       * %u $
+isotope_array[253,98] :253.085133723    * %u $
+isotope_array[253,99] :253.084821241    * %u $
+isotope_array[253,100] :253.085180945    * %u $
+isotope_array[253,101] :253.087143       * %u $
+isotope_array[253,102] :253.090562780    * %u $
+isotope_array[253,103] :253.095033850    * %u $
+isotope_array[253,104] :253.100528       * %u $
+isotope_array[254,97] :254.090600       * %u $
+isotope_array[254,98] :254.087323575    * %u $
+isotope_array[254,99] :254.088024337    * %u $
+isotope_array[254,100] :254.086852424    * %u $
+isotope_array[254,101] :254.089590       * %u $
+isotope_array[254,102] :254.090954211    * %u $
+isotope_array[254,103] :254.096238813    * %u $
+isotope_array[254,104] :254.100055       * %u $
+isotope_array[255,98] :255.091046       * %u $
+isotope_array[255,99] :255.090273504    * %u $
+isotope_array[255,100] :255.089963495    * %u $
+isotope_array[255,101] :255.091081702    * %u $
+isotope_array[255,102] :255.093196439    * %u $
+isotope_array[255,103] :255.096562399    * %u $
+isotope_array[255,104] :255.101267       * %u $
+isotope_array[255,105] :255.106919       * %u $
+isotope_array[256,98] :256.093442       * %u $
+isotope_array[256,99] :256.093597       * %u $
+isotope_array[256,100] :256.091771699    * %u $
+isotope_array[256,101] :256.093888       * %u $
+isotope_array[256,102] :256.094281912    * %u $
+isotope_array[256,103] :256.098494024    * %u $
+isotope_array[256,104] :256.101151464    * %u $
+isotope_array[256,105] :256.107674       * %u $
+isotope_array[257,99] :257.095979       * %u $
+isotope_array[257,100] :257.095105419    * %u $
+isotope_array[257,101] :257.095537343    * %u $
+isotope_array[257,102] :257.096884203    * %u $
+isotope_array[257,103] :257.099480       * %u $
+isotope_array[257,104] :257.102916796    * %u $
+isotope_array[257,105] :257.107520042    * %u $
+isotope_array[258,99] :258.099520       * %u $
+isotope_array[258,100] :258.097077       * %u $
+isotope_array[258,101] :258.098433634    * %u $
+isotope_array[258,102] :258.098205       * %u $
+isotope_array[258,103] :258.101753       * %u $
+isotope_array[258,104] :258.103429895    * %u $
+isotope_array[258,105] :258.108972995    * %u $
+isotope_array[258,106] :258.113040       * %u $
+isotope_array[259,100] :259.100596       * %u $
+isotope_array[259,101] :259.100445       * %u $
+isotope_array[259,102] :259.100998364    * %u $
+isotope_array[259,103] :259.102900       * %u $
+isotope_array[259,104] :259.105601       * %u $
+isotope_array[259,105] :259.109491859    * %u $
+isotope_array[259,106] :259.114353       * %u $
+isotope_array[260,100] :260.102809       * %u $
+isotope_array[260,101] :260.103650       * %u $
+isotope_array[260,102] :260.102641       * %u $
+isotope_array[260,103] :260.105504       * %u $
+isotope_array[260,104] :260.106440       * %u $
+isotope_array[260,105] :260.111297       * %u $
+isotope_array[260,106] :260.114383435    * %u $
+isotope_array[260,107] :260.121443       * %u $
+isotope_array[261,101] :261.105828       * %u $
+isotope_array[261,102] :261.105696       * %u $
+isotope_array[261,103] :261.106879       * %u $
+isotope_array[261,104] :261.108769591    * %u $
+isotope_array[261,105] :261.111979       * %u $
+isotope_array[261,106] :261.115948135    * %u $
+isotope_array[261,107] :261.121395733    * %u $
+isotope_array[262,101] :262.109144       * %u $
+isotope_array[262,102] :262.107463       * %u $
+isotope_array[262,103] :262.109615       * %u $
+isotope_array[262,104] :262.109923       * %u $
+isotope_array[262,105] :262.114067       * %u $
+isotope_array[262,106] :262.116338978    * %u $
+isotope_array[262,107] :262.122654688    * %u $
+isotope_array[263,102] :263.110714       * %u $
+isotope_array[263,103] :263.111293       * %u $
+isotope_array[263,104] :263.112461       * %u $
+isotope_array[263,105] :263.114987       * %u $
+isotope_array[263,106] :263.118299       * %u $
+isotope_array[263,107] :263.122916       * %u $
+isotope_array[263,108] :263.128479       * %u $
+isotope_array[264,102] :264.112734       * %u $
+isotope_array[264,103] :264.114198       * %u $
+isotope_array[264,104] :264.113876       * %u $
+isotope_array[264,105] :264.117297       * %u $
+isotope_array[264,106] :264.118930       * %u $
+isotope_array[264,107] :264.124486       * %u $
+isotope_array[264,108] :264.128356330    * %u $
+isotope_array[265,103] :265.116193       * %u $
+isotope_array[265,104] :265.116683       * %u $
+isotope_array[265,105] :265.118500       * %u $
+isotope_array[265,106] :265.121089       * %u $
+isotope_array[265,107] :265.124955       * %u $
+isotope_array[265,108] :265.129791744    * %u $
+isotope_array[265,109] :265.135937       * %u $
+isotope_array[266,103] :266.119874       * %u $
+isotope_array[266,104] :266.118236       * %u $
+isotope_array[266,105] :266.121032       * %u $
+isotope_array[266,106] :266.121973       * %u $
+isotope_array[266,107] :266.126790       * %u $
+isotope_array[266,108] :266.130048783    * %u $
+isotope_array[266,109] :266.137062253    * %u $
+isotope_array[267,104] :267.121787       * %u $
+isotope_array[267,105] :267.122399       * %u $
+isotope_array[267,106] :267.124323       * %u $
+isotope_array[267,107] :267.127499       * %u $
+isotope_array[267,108] :267.131678       * %u $
+isotope_array[267,109] :267.137189       * %u $
+isotope_array[267,110] :267.143726       * %u $
+isotope_array[268,104] :268.123968       * %u $
+isotope_array[268,105] :268.125669       * %u $
+isotope_array[268,106] :268.125389       * %u $
+isotope_array[268,107] :268.129584       * %u $
+isotope_array[268,108] :268.132011       * %u $
+isotope_array[268,109] :268.138649       * %u $
+isotope_array[268,110] :268.143477       * %u $
+isotope_array[269,105] :269.127911       * %u $
+isotope_array[269,106] :269.128495       * %u $
+isotope_array[269,107] :269.130411       * %u $
+isotope_array[269,108] :269.133649       * %u $
+isotope_array[269,109] :269.138809       * %u $
+isotope_array[269,110] :269.144750965    * %u $
+isotope_array[270,105] :270.131399       * %u $
+isotope_array[270,106] :270.130362       * %u $
+isotope_array[270,107] :270.133366       * %u $
+isotope_array[270,108] :270.134313       * %u $
+isotope_array[270,109] :270.140322       * %u $
+isotope_array[270,110] :270.144586620    * %u $
+isotope_array[271,106] :271.133782       * %u $
+isotope_array[271,107] :271.135115       * %u $
+isotope_array[271,108] :271.137082       * %u $
+isotope_array[271,109] :271.140741       * %u $
+isotope_array[271,110] :271.145951       * %u $
+isotope_array[272,106] :272.135825       * %u $
+isotope_array[272,107] :272.138259       * %u $
+isotope_array[272,108] :272.138492       * %u $
+isotope_array[272,109] :272.143298       * %u $
+isotope_array[272,110] :272.146091       * %u $
+isotope_array[272,111] :272.153273       * %u $
+isotope_array[273,106] :273.139475       * %u $
+isotope_array[273,107] :273.140294       * %u $
+isotope_array[273,108] :273.141458       * %u $
+isotope_array[273,109] :273.144695       * %u $
+isotope_array[273,110] :273.148455       * %u $
+isotope_array[273,111] :273.153393       * %u $
+isotope_array[274,107] :274.143599       * %u $
+isotope_array[274,108] :274.143217       * %u $
+isotope_array[274,109] :274.147343       * %u $
+isotope_array[274,110] :274.149434       * %u $
+isotope_array[274,111] :274.155247       * %u $
+isotope_array[275,107] :275.145766       * %u $
+isotope_array[275,108] :275.146530       * %u $
+isotope_array[275,109] :275.148972       * %u $
+isotope_array[275,110] :275.152085       * %u $
+isotope_array[275,111] :275.156088       * %u $
+isotope_array[276,107] :276.149169       * %u $
+isotope_array[276,108] :276.148348       * %u $
+isotope_array[276,109] :276.151705       * %u $
+isotope_array[276,110] :276.153022       * %u $
+isotope_array[276,111] :276.158226       * %u $
+isotope_array[276,112] :276.161418       * %u $
+isotope_array[277,107] :277.151477       * %u $
+isotope_array[277,108] :277.151772       * %u $
+isotope_array[277,109] :277.153525       * %u $
+isotope_array[277,110] :277.155763       * %u $
+isotope_array[277,111] :277.159322       * %u $
+isotope_array[277,112] :277.163535       * %u $
+isotope_array[278,107] :278.154988       * %u $
+isotope_array[278,108] :278.153753       * %u $
+isotope_array[278,109] :278.156487       * %u $
+isotope_array[278,110] :278.157007       * %u $
+isotope_array[278,111] :278.161590       * %u $
+isotope_array[278,112] :278.164083       * %u $
+isotope_array[278,113] :278.170725       * %u $
+isotope_array[279,108] :279.157274       * %u $
+isotope_array[279,109] :279.158439       * %u $
+isotope_array[279,110] :279.159984       * %u $
+isotope_array[279,111] :279.162880       * %u $
+isotope_array[279,112] :279.166422       * %u $
+isotope_array[279,113] :279.171187       * %u $
+isotope_array[280,108] :280.159335       * %u $
+isotope_array[280,109] :280.161579       * %u $
+isotope_array[280,110] :280.161375       * %u $
+isotope_array[280,111] :280.165204       * %u $
+isotope_array[280,112] :280.167102       * %u $
+isotope_array[280,113] :280.173098       * %u $
+isotope_array[281,109] :281.163608       * %u $
+isotope_array[281,110] :281.164545       * %u $
+isotope_array[281,111] :281.166757       * %u $
+isotope_array[281,112] :281.169563       * %u $
+isotope_array[281,113] :281.173710       * %u $
+isotope_array[282,109] :282.166888       * %u $
+isotope_array[282,110] :282.166174       * %u $
+isotope_array[282,111] :282.169343       * %u $
+isotope_array[282,112] :282.170507       * %u $
+isotope_array[282,113] :282.175770       * %u $
+isotope_array[283,110] :283.169437       * %u $
+isotope_array[283,111] :283.171101       * %u $
+isotope_array[283,112] :283.173202       * %u $
+isotope_array[283,113] :283.176666       * %u $
+isotope_array[284,110] :284.171187       * %u $
+isotope_array[284,111] :284.173882       * %u $
+isotope_array[284,112] :284.174360       * %u $
+isotope_array[284,113] :284.178843       * %u $
+isotope_array[284,114] :284.181192       * %u $
+isotope_array[285,111] :285.175771       * %u $
+isotope_array[285,112] :285.177227       * %u $
+isotope_array[285,113] :285.180106       * %u $
+isotope_array[285,114] :285.183503       * %u $
+isotope_array[286,111] :286.178756       * %u $
+isotope_array[286,112] :286.178691       * %u $
+isotope_array[286,113] :286.182456       * %u $
+isotope_array[286,114] :286.184226       * %u $
+isotope_array[287,112] :287.181826       * %u $
+isotope_array[287,113] :287.184064       * %u $
+isotope_array[287,114] :287.186720       * %u $
+isotope_array[287,115] :287.190820       * %u $
+isotope_array[288,112] :288.183501       * %u $
+isotope_array[288,113] :288.186764       * %u $
+isotope_array[288,114] :288.187781       * %u $
+isotope_array[288,115] :288.192879       * %u $
+isotope_array[289,113] :289.188461       * %u $
+isotope_array[289,114] :289.190517       * %u $
+isotope_array[289,115] :289.193971       * %u $
+isotope_array[289,116] :289.198023       * %u $
+isotope_array[290,113] :290.191429       * %u $
+isotope_array[290,114] :290.191875       * %u $
+isotope_array[290,115] :290.196235       * %u $
+isotope_array[290,116] :290.198635       * %u $
+isotope_array[291,114] :291.194848       * %u $
+isotope_array[291,115] :291.197725       * %u $
+isotope_array[291,116] :291.201014       * %u $
+isotope_array[291,117] :291.205748       * %u $
+isotope_array[292,115] :292.200323       * %u $
+isotope_array[292,116] :292.201969       * %u $
+isotope_array[292,117] :292.207861       * %u $
+isotope_array[293,116] :293.204583       * %u $
+isotope_array[293,117] :293.208727       * %u $
+isotope_array[293,118] :293.213423       * %u $
+isotope_array[294,117] :294.210840       * %u $
+isotope_array[294,118] :294.213979       * %u $
+isotope_array[295,118] :295.216178       * %u $

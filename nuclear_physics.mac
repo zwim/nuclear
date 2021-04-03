@@ -34,7 +34,7 @@ nuclear():=
     print("EC(a, p)   ... Electron capture"),
     print("neutronEmission(a, p)"),
     print("protonEmission(a, p)"),
-    print("speedFromEnergy(E,m)   ... returns speed; E=Energy; m=mass"),
+    print("speedFromEnergy(E, m)   ... returns speed; E=Energy; m=mass"),
     print(""),
     print("The following variables and arrays are used"),
     print("names[], isotope_array[a, p], %mHe4..."),
@@ -103,7 +103,7 @@ decays(a, p):= (
 )$
 
 alphaDecay(a, ord):= (
-    local( Mutter, Tochter, Delta_M, Energie_Joule, Energie_MeV, masseTochter, gl1, gl2, Ealpha, ET, p),
+    local( Mutter, Daughter, Delta_M, Energy_Joule, Energy_MeV, massDaughter, gl1, gl2, Ealpha, ET, p),
     if ( stringp(ord) ) then
         (
         p: searchElementNumber(ord)
@@ -129,11 +129,11 @@ alphaDecay(a, ord):= (
     else
         (
         Mutter:printIsotope(a, p),
-        Tochter:printIsotope(a-4,p-2),
-        printf(true, "~a -> ~a + ~a", Mutter, Tochter, alpha),
+        Daughter:printIsotope(a-4,p-2),
+        printf(true, "~a -> ~a + ~a", Mutter, Daughter, alpha),
 
-        masseTochter:isotope_array[a-4,p-2],
-        Delta_M: (isotope_array[a, p]-p*%me)-(masseTochter-(p-2)*%me+%malpha),
+        massDaughter:isotope_array[a-4,p-2],
+        Delta_M: (isotope_array[a, p]-p*%me)-(massDaughter-(p-2)*%me+%malpha),
         printf(true, "~&Delta_M: ~18e kg  = ~10f u",Delta_M, Delta_M/%u),
 
         if (Delta_M < 0) then
@@ -142,28 +142,28 @@ alphaDecay(a, ord):= (
             )
         else
             (
-            Energie_Joule: Delta_M * %c^2,
-            Energie_MeV: Energie_Joule/%qe/1e6,
-            printf(true, "~&Total Energy: ~16e J =  ~10f MeV", Energie_Joule, Energie_MeV),
+            Energy_Joule: Delta_M * %c^2,
+            Energy_MeV: Energy_Joule/%qe/1e6,
+            printf(true, "~&Total Energy: ~16e J =  ~10f MeV", Energy_Joule, Energy_MeV),
 
-            gl1: Energie_Joule=EnergieTochter+EnergieAlpha,
-            gl2: EnergieTochter/EnergieAlpha=%malpha/masseTochter,
+            gl1: Energy_Joule=EnergyDaughter+EnergyAlpha,
+            gl2: EnergyDaughter/EnergyAlpha=%malpha/massDaughter,
             solve([gl1,gl2]),
             ET:rhs(solve([gl1,gl2])[1][1]),
             Ealpha:rhs(solve([gl1,gl2])[1][2]),
-            printf(true, "~&Energy ~a: ~f MeV",Tochter,ET/%qe/1e6),
-            printf(true, "~&Energy alpha: ~f MeV",Ealpha/%qe/1e6),
-            printf(true, "~&Speed ~a:", Tochter),
-            speedFromEnergy(ET,masseTochter),
+            printf(true, "~&Energy ~a: ~f MeV", Daughter, ET/%qe/1e6),
+            printf(true, "~&Energy alpha: ~f MeV", Ealpha/%qe/1e6),
+            printf(true, "~&Speed ~a:", Daughter),
+            speedFromEnergy(ET, massDaughter),
             printf(true, "~&Speed Alpha: "),
-            speedFromEnergy(Ealpha,%malpha)
+            speedFromEnergy(Ealpha, %malpha)
             )
         ),
     ""
 )$
 
 neutronEmission(a, ord):= (
-    local(Mutter, Tochter, Delta_M, Energie_Joule, Energie_MeV, gl1, gl2, masseTochter, ET, EN, p),
+    local(Mutter, Daughter, Delta_M, Energy_Joule, Energy_MeV, gl1, gl2, massDaughter, ET, EN, p),
     if ( stringp(ord) ) then
         (
         p: searchElementNumber(ord)
@@ -185,11 +185,11 @@ neutronEmission(a, ord):= (
     else
         (
         Mutter:printIsotope(a, p),
-        Tochter:printIsotope(a-1,p),
-        printf(true, "~&~a -> ~a + ~a", Mutter, Tochter, "n"),
+        Daughter:printIsotope(a-1,p),
+        printf(true, "~&~a -> ~a + ~a", Mutter, Daughter, "n"),
 
-        masseTochter:isotope_array[a-1,p],
-        Delta_M: (isotope_array[a, p]-p*%me)-(masseTochter-(p-0)*%me+%mn),
+        massDaughter:isotope_array[a-1,p],
+        Delta_M: (isotope_array[a, p]-p*%me)-(massDaughter-(p-0)*%me+%mn),
         printf(true, "~&Delta_M: ~18e kg  = ~10f u",Delta_M, Delta_M/%u),
 
         if (Delta_M < 0) then
@@ -198,28 +198,28 @@ neutronEmission(a, ord):= (
             )
         else
             (
-            Energie_Joule: Delta_M * %c^2,
-            Energie_MeV: Energie_Joule/%qe/1e6,
-            printf(true, "~&Total energy: ~16e J =  ~10f MeV",Energie_Joule, Energie_MeV),
+            Energy_Joule: Delta_M * %c^2,
+            Energy_MeV: Energy_Joule/%qe/1e6,
+            printf(true, "~&Total energy: ~16e J =  ~10f MeV", Energy_Joule, Energy_MeV),
 
-            gl1: Energie_Joule=EnergieTochter+EnergieN,
-            gl2: EnergieTochter/EnergieN=%mn/masseTochter,
+            gl1: Energy_Joule=EnergyDaughter+EnergyN,
+            gl2: EnergyDaughter/EnergyN=%mn/massDaughter,
             solve([gl1,gl2]),
             ET:rhs(solve([gl1,gl2])[1][1]),
             EN:rhs(solve([gl1,gl2])[1][2]),
-            printf(true, "~&Energy ~a: ~f MeV",Tochter,ET/%qe/1e6),
-            printf(true, "~&Energy n: ~f MeV",EN/%qe/1e6),
-            printf(true, "~&Speed ~a:", Tochter),
-            speedFromEnergy(ET,masseTochter),
+            printf(true, "~&Energy ~a: ~f MeV", Daughter, ET/%qe/1e6),
+            printf(true, "~&Energy n: ~f MeV", EN/%qe/1e6),
+            printf(true, "~&Speed ~a:", Daughter),
+            speedFromEnergy(ET, massDaughter),
             printf(true, "~&Speed Neutron:"),
-            speedFromEnergy(EN,%mn)
+            speedFromEnergy(EN, %mn)
             )
         ),
     ""
 )$
         
 protonEmission(a, ord):= (
-    local(Mutter, Tochter, Delta_M, Energie_Joule, Energie_MeV, gl1, gl2, masseTochter, ET, EP, p),
+    local(Mutter, Daughter, Delta_M, Energy_Joule, Energy_MeV, gl1, gl2, massDaughter, ET, EP, p),
     if ( stringp(ord) ) then
         (
         p: searchElementNumber(ord)
@@ -241,12 +241,12 @@ protonEmission(a, ord):= (
     else
         (
         Mutter:printIsotope(a, p),
-        Tochter:printIsotope(a-1,p-1),
-        printf(true, "~&~a -> ~a + ~a",Mutter, Tochter, "p"),
+        Daughter:printIsotope(a-1,p-1),
+        printf(true, "~&~a -> ~a + ~a",Mutter, Daughter, "p"),
 
-        masseTochter:isotope_array[a-1,p-1],
-        Delta_M: (isotope_array[a, p]-p*%me)-(masseTochter-(p-1)*%me+%mp),
-        printf(true, "~&Delta_M: ~18e kg  = ~10f u",Delta_M, Delta_M/%u),
+        massDaughter:isotope_array[a-1,p-1],
+        Delta_M: (isotope_array[a, p]-p*%me)-(massDaughter-(p-1)*%me+%mp),
+        printf(true, "~&Delta_M: ~18e kg  = ~10f u", Delta_M, Delta_M/%u),
 
         if (Delta_M < 0) then
             (
@@ -254,28 +254,28 @@ protonEmission(a, ord):= (
             )
         else
             (
-            Energie_Joule: Delta_M * %c^2,
-            Energie_MeV: Energie_Joule/%qe/1e6,
-            printf(true, "~&Total Energy: ~16e J =  ~10f MeV",Energie_Joule, Energie_MeV),
+            Energy_Joule: Delta_M * %c^2,
+            Energy_MeV: Energy_Joule/%qe/1e6,
+            printf(true, "~&Total Energy: ~16e J =  ~10f MeV",Energy_Joule, Energy_MeV),
 
-            gl1: Energie_Joule=EnergieTochter+EnergieP,
-            gl2: EnergieTochter/EnergieP=%mp/masseTochter,
+            gl1: Energy_Joule=EnergyDaughter+EnergyP,
+            gl2: EnergyDaughter/EnergyP=%mp/massDaughter,
             solve([gl1,gl2]),
             ET:rhs(solve([gl1,gl2])[1][1]),
             EP:rhs(solve([gl1,gl2])[1][2]),
-            printf(true, "~&Energy ~a: ~f MeV ",Tochter,ET/%qe/1e6),
-            printf(true, "~&Energy p: ~f MeV ",EP/%qe/1e6),
-            printf(true, "~&Seed ~a:", Tochter),
-            speedFromEnergy(ET,masseTochter),
+            printf(true, "~&Energy ~a: ~f MeV ", Daughter, ET/%qe/1e6),
+            printf(true, "~&Energy p: ~f MeV ", EP/%qe/1e6),
+            printf(true, "~&Seed ~a:", Daughter),
+            speedFromEnergy(ET, massDaughter),
             printf(true, "~&Speed Proton:"),
-            speedFromEnergy(EP,%mp)
+            speedFromEnergy(EP, %mp)
             )
         ),
         ""
     )$
         
 betaMinusDecay(a, ord):= (
-    local(Mutter, Tochter, Delta_M, Energie_Joule, Energie_MeV, gl1, gl2, masseTochter, ET, EN, p),
+    local(Mutter, Daughter, Delta_M, Energy_Joule, Energy_MeV, gl1, gl2, massDaughter, ET, EN, p),
     if ( stringp(ord) ) then
         (
         p: searchElementNumber(ord)
@@ -297,11 +297,11 @@ betaMinusDecay(a, ord):= (
     else
         (
         Mutter: printIsotope(a, p),
-        Tochter: printIsotope(a, p+1),
-        printf(true, "~&~a -> ~a + ~a + ~a", Mutter, Tochter, "e-", Antineutrino),
-        masseTochter:isotope_array[a, p+1],
-        Delta_M: (isotope_array[a, p]-p*%me)-(masseTochter-(p+1)*%me+%me),
-        printf(true, "~&Delta_M: ~18e kg  = ~10f u",Delta_M, Delta_M/%u),
+        Daughter: printIsotope(a, p+1),
+        printf(true, "~&~a -> ~a + ~a + ~a", Mutter, Daughter, "e-", Antineutrino),
+        massDaughter:isotope_array[a, p+1],
+        Delta_M: (isotope_array[a, p]-p*%me)-(massDaughter-(p+1)*%me+%me),
+        printf(true, "~&Delta_M: ~18e kg  = ~10f u", Delta_M, Delta_M/%u),
 
         if (Delta_M < 0) then
             (
@@ -309,20 +309,20 @@ betaMinusDecay(a, ord):= (
             )
         else
             (
-            Energie_Joule: Delta_M * %c^2,
-            Energie_MeV: Energie_Joule/%qe/1e6,
-            printf(true, "~&Total Energy: ~16e J =  ~10f MeV",Energie_Joule, Energie_MeV),
-            printf(true, "~&Seed ~a:", Tochter),
-            speedFromEnergy(Energie_Joule, masseTochter),
+            Energy_Joule: Delta_M * %c^2,
+            Energy_MeV: Energy_Joule/%qe/1e6,
+            printf(true, "~&Total Energy: ~16e J =  ~10f MeV",Energy_Joule, Energy_MeV),
+            printf(true, "~&Seed ~a:", Daughter),
+            speedFromEnergy(Energy_Joule, massDaughter),
             printf(true, "~&Speed Electron:"),
-            speedFromEnergy(Energie_Joule, %me)
+            speedFromEnergy(Energy_Joule, %me)
             )
         ),
     ""
 )$
         
 betaPlusDecay(a, ord):= (
-    local(Mutter, Tochter, Delta_M, Energie_Joule, Energie_MeV, gl1, gl2, masseTochter, ET, EN, p),
+    local(Mutter, Daughter, Delta_M, Energy_Joule, Energy_MeV, gl1, gl2, massDaughter, ET, EN, p),
     if ( stringp(ord) ) then
         (
         p: searchElementNumber(ord)
@@ -348,12 +348,12 @@ betaPlusDecay(a, ord):= (
     else
         (
         Mutter:printIsotope(a, p),
-        Tochter:printIsotope(a, p-1),
-        printf(true, "~&~a -> ~a + ~a + ~a", Mutter, Tochter, "e+", Neutrino),
+        Daughter:printIsotope(a, p-1),
+        printf(true, "~&~a -> ~a + ~a + ~a", Mutter, Daughter, "e+", Neutrino),
 
-        masseTochter:isotope_array[a, p-1],
-        Delta_M: (isotope_array[a, p]-p*%me)-(masseTochter-(p-1)*%me+%me),
-        printf(true, "~&Delta_M: ~18e kg  = ~10f u",Delta_M, Delta_M/%u),
+        massDaughter:isotope_array[a, p-1],
+        Delta_M: (isotope_array[a, p]-p*%me)-(massDaughter-(p-1)*%me+%me),
+        printf(true, "~&Delta_M: ~18e kg  = ~10f u", Delta_M, Delta_M/%u),
 
         if (Delta_M < 0) then
             (
@@ -361,21 +361,21 @@ betaPlusDecay(a, ord):= (
             )
         else
             (
-            Energie_Joule: Delta_M * %c^2,
-            Energie_MeV: Energie_Joule/%qe/1e6,
-            printf(true, "~&Energy: ~16e J,  ~10f MeV",Energie_Joule, Energie_MeV),
+            Energy_Joule: Delta_M * %c^2,
+            Energy_MeV: Energy_Joule/%qe/1e6,
+            printf(true, "~&Energy: ~16e J,  ~10f MeV", Energy_Joule, Energy_MeV),
             printf(true, "~&+ 2*me*c^2"),
-            printf(true, "~&Speed ~a: ", Tochter),
-            speedFromEnergy(Energie_Joule, masseTochter),
+            printf(true, "~&Speed ~a: ", Daughter),
+            speedFromEnergy(Energy_Joule, massDaughter),
             printf(true, "~&Speed Positron: "),
-            speedFromEnergy(Energie_Joule, %me)
+            speedFromEnergy(Energy_Joule, %me)
             )
         ),
     ""
 )$
 
 EC(a, ord):= (
-    local(Mutter, Tochter, Delta_M, Energie_Joule, Energie_MeV, gl1, gl2, masseTochter, ET, EN, p),
+    local(Mutter, Daughter, Delta_M, Energy_Joule, Energy_MeV, gl1, gl2, massDaughter, ET, EN, p),
     if (stringp(ord)) then
         (
         p: searchElementNumber(ord)
@@ -401,12 +401,12 @@ EC(a, ord):= (
     else
         (
         Mutter:printIsotope(a, p),
-        Tochter:printIsotope(a, p-1),
-        printf(true, "~&~a +~a -> ~a + ~a",Mutter, "e-", Tochter, Neutrino),
+        Daughter:printIsotope(a, p-1),
+        printf(true, "~&~a +~a -> ~a + ~a",Mutter, "e-", Daughter, Neutrino),
 
-        masseTochter:isotope_array[a, p-1],
-        Delta_M: (isotope_array[a, p]-p*%me+%me)-(masseTochter-(p-1)*%me),
-        printf(true, "~&Delta_M: ~18e kg  = ~10f u",Delta_M, Delta_M/%u),
+        massDaughter:isotope_array[a, p-1],
+        Delta_M: (isotope_array[a, p]-p*%me+%me)-(massDaughter-(p-1)*%me),
+        printf(true, "~&Delta_M: ~18e kg  = ~10f u", Delta_M, Delta_M/%u),
 
         if (Delta_M < 0) then
             (
@@ -414,11 +414,11 @@ EC(a, ord):= (
             )
         else
             (
-            Energie_Joule: Delta_M * %c^2,
-            Energie_MeV: Energie_Joule/%qe/1e6,
-            printf(true, "~&Energy: ~16e J,  ~10f MeV",Energie_Joule, Energie_MeV),
-            printf(true, "~&Speed ~a: ", Tochter),
-            speedFromEnergy(Energie_Joule, masseTochter)
+            Energy_Joule: Delta_M * %c^2,
+            Energy_MeV: Energy_Joule/%qe/1e6,
+            printf(true, "~&Energy: ~16e J,  ~10f MeV", Energy_Joule, Energy_MeV),
+            printf(true, "~&Speed ~a: ", Daughter),
+            speedFromEnergy(Energy_Joule, massDaughter)
             )
         ),
     ""
