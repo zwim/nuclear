@@ -28,11 +28,11 @@ All defined physical constants start with the %-symbol.
 
 Examples:
 
-* %c ... Speed of light 
-* %qe ... Electron charge
-* %G ... Universal gravity constant
-* %me ... Electron mass
-*  ...
+* `%c` ... Speed of light 
+* `%qe` ... Electron charge
+* `%G` ... Universal gravity constant
+* `%me` ... Electron mass
+* ...
 
 ## Functions defined
 
