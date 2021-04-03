@@ -1,7 +1,7 @@
 
 # Physical constants and functions
 
-A library for (wx)Maxima for physical constants, isotope masses and nuclear decay calculations.
+A library for (wx)Maxima for physical constants, isotope masses and nuclear decay calculations. 
 
 The database contains **3557 known isotopes**!
 
@@ -17,10 +17,10 @@ Download or clone this repository to your local `.maxima`-folder.
 In wxMaxima enter `load(my_constants)` for using the constants and `load(nuclear_physics)` for nuclear physics.
 
 Now you are ready (some examples):
-* `%U` gives you the atomic number for Uranium
-* `searchElementName(12)` gives you the name of the 12th element
-* `decays(231, %Th)` or `decays(231, "Th")` shows you all possile nuclear decays of Thorium-231 (calculated from mass defect).
-* `speedFromEnergy(1e6*%qe, %me)` calculates the speed of an electron with 1MeV kinetic energy
+* `%U` gives you the atomic number for Uranium.
+* `searchElementName(12)` gives you the name of the 12th element.
+* `decays(231, %Th)` or `decays(231, "Th")` shows you all possible nuclear decays of Thorium-231 (calculated from mass defect).
+* `speedFromEnergy(1e6*%qe, %me)` calculates the speed of an electron with 1MeV kinetic energy.
 
 ## Constants defined
 
@@ -45,7 +45,7 @@ Entering `nuclear()` shows a usage message for all defined functions.
 
 `switch_to_year` changes symlinks to the given year. (Normally not necessary.) 
 
-`get_masses` just a stub to show the donwload link.
+`get_masses` just a stub to show the download link.
 
 ## Acknowledgment
 
