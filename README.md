@@ -3,7 +3,7 @@
 
 A library for (wx)Maxima for physical constants, isotope masses and nuclear decay calculations.
 
-The database contains **3436 known isotopes**!
+The database contains **3436 known isotopes**! (since 3 Mar 2021 new data is available, will be included soon!)
 
 An example calculation:
 
