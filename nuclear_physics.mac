@@ -50,13 +50,13 @@ load(isotope_array);
 
 /* Suche die Ordungszahl des Elementes mit Namen name */
 searchElementNumber(name):= (
-for i:1 thru 118 do
-	( 
-	if ( names[i] = name ) then
-	        return(i)
-	)
--1
-);
+    for i:1 thru 118 do
+        (
+        if ( names[i] = name ) then
+                return(i)
+        )
+    -1
+)$
 
 /* searche the name for the atomic number p */
 searchElementName(name):=names[name];
@@ -66,7 +66,7 @@ printIsotope(a, p):= (
     local (name),
 	name: searchElementName(p),
 	printf(false,"~d/~d~a",a, p,name)
-	)$
+)$
 
 /* calculates the speed from kinetic energy */
 speedFromEnergy(E, m) := (
@@ -271,8 +271,8 @@ protonEmission(a, ord):= (
             speedFromEnergy(EP, %mp)
             )
         ),
-        ""
-    )$
+    ""
+)$
         
 betaMinusDecay(a, ord):= (
     local(Mutter, Daughter, Delta_M, Energy_Joule, Energy_MeV, gl1, gl2, massDaughter, ET, EN, p),
