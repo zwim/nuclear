@@ -47,7 +47,7 @@ load("isotopemasses"); /* isopte-masses */
 
 %malpha:4.001506179125*%u;
 
-/* nuclus masses */
+/* nucleus masses */
 
 %mHe4Kern:%malpha;
 
