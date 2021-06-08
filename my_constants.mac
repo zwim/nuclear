@@ -1,7 +1,7 @@
 /* my_constants.mac */
 /* Author: Zwicknagl Martin */
-/* Datum: 13.3.2019 */
-/* Version: 0.2 */
+/* Datum: 8.6.2021 */
+/* Version: 0.3 */
 
 %k: 1.38064852e-23; /* Boltzmann */
 %g: 9.80665; /* Gravitational acceleration */
@@ -22,34 +22,34 @@
 %u: 1.660539040e-27; /* Atomic unit */
 
 %R:  8.3144598; /* Gas constant */
-%Na: 6.02214076e23 /* Avogadro */
+%Na: 6.02214076e23; /* Avogadro */
 
-%sigma: 2*%pi^5*%k^4/15/%h^3/%c^2,numer;  /* Stefan-Boltzmann */
+%sigma: 2*%pi^5*%k^4/15/%h^3/%c^2; /* Stefan-Boltzmann */
 
 %E0: 1367;  /*Solar constant*/
 
 
 %rSun: 6.96342e8; /* Radius of the sun */
-%mSun: 1,98892e30 /* Mass of the sun */
+%mSun: 1.98892e30; /* Mass of the sun */
 
-%rEarthAquator: 12756.27e3/2 /* Äquatorial radius of the earth */
-%rEathPolar: 12713.50e3/2 /* Polar radius of the earth */ 
-%rEarth: (rEarthAquator+rEarthPolar)/2
-%mEarth: 5.9724e24 /* Mass of the earth */
+%rEarthAquator: 12756.27e3/2; /* Äquatorial radius of the earth */
+%rEathPolar: 12713.50e3/2; /* Polar radius of the earth */ 
+%rEarth: (rEarthAquator+rEarthPolar)/2;
+%mEarth: 5.9724e24; /* Mass of the earth */
 
 %AE: 149597870700; /* Astronomical unit */
 
-%rMoon: 3474e3/2 /* Radius of the moon */
-%mMoon: 7.346e22 /* Mass of the moon */
+%rMoon: 3474e3/2; /* Radius of the moon */
+%mMoon: 7.346e22; /* Mass of the moon */
 
 
-load("isotopemasses");
-
-/* Ionenmassen */
+load("isotopemasses"); /* isopte-masses */
 
 %malpha:4.001506179125*%u;
 
-/* Kernmassen */
+/* nuclei masses */
 
 %mHe4Kern:%malpha;
 
+
+%c_wasser: 4185.1;
