@@ -33,7 +33,7 @@
 %mSun: 1.98892e30; /* Mass of the sun */
 
 %rEarthAquator: 12756.27e3/2; /* Äquatorial radius of the earth */
-%rEathPolar: 12713.50e3/2; /* Polar radius of the earth */ 
+%rEarthPolar: 12713.50e3/2; /* Polar radius of the earth */
 %rEarth: (rEarthAquator+rEarthPolar)/2;
 %mEarth: 5.9724e24; /* Mass of the earth */
 

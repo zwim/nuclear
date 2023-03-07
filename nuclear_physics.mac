@@ -5,6 +5,9 @@ for the (wx)Maxima CAS
 
 Author: Martin Zwicknagl
 
+Version 5. 4.3.2023
+add atomic masses to output
+
 Version 4. 22.3.2021
 clean up for first upload on github
 
@@ -29,7 +32,7 @@ nuclear():=
     print("decay(a, p)"),
     print("printIsotope(a, p)   ... returns pretty printed isotope"),
     print("alphaDecay(a, p)"),
-    print("&betaMinusDecay(a, p)"),
+    print("betaMinusDecay(a, p)"),
     print("betaPlusDecay(a, p)"),
     print("EC(a, p)   ... Electron capture"),
     print("neutronEmission(a, p)"),
@@ -103,7 +106,7 @@ decays(a, p):= (
 )$
 
 alphaDecay(a, ord):= (
-    local( Mutter, Daughter, Delta_M, Energy_Joule, Energy_MeV, massDaughter, gl1, gl2, Ealpha, ET, p),
+    local( Mother, Daughter, Delta_M, Energy_Joule, Energy_MeV, massDaughter, gl1, gl2, Ealpha, ET, p),
     if ( stringp(ord) ) then
         (
         p: searchElementNumber(ord)
@@ -128,11 +131,14 @@ alphaDecay(a, ord):= (
         )
     else
         (
-        Mutter:printIsotope(a, p),
+        Mother:printIsotope(a, p),
         Daughter:printIsotope(a-4,p-2),
-        printf(true, "~a -> ~a + ~a", Mutter, Daughter, alpha),
+        printf(true, "~a -> ~a + ~a", Mother, Daughter, alpha),
 
         massDaughter:isotope_array[a-4,p-2],
+        massMother:isotope_array[a,p],
+        printf(true, "~&m~a = ~10f u", Mother, massMother/%u),
+        printf(true, "~&m~a = ~10f u", Daughter, massDaughter/%u),
         Delta_M: (isotope_array[a, p]-p*%me)-(massDaughter-(p-2)*%me+%malpha),
         printf(true, "~&Delta_M: ~18e kg  = ~10f u",Delta_M, Delta_M/%u),
 
@@ -163,7 +169,7 @@ alphaDecay(a, ord):= (
 )$
 
 neutronEmission(a, ord):= (
-    local(Mutter, Daughter, Delta_M, Energy_Joule, Energy_MeV, gl1, gl2, massDaughter, ET, EN, p),
+    local(Mother, Daughter, Delta_M, Energy_Joule, Energy_MeV, gl1, gl2, massDaughter, ET, EN, p),
     if ( stringp(ord) ) then
         (
         p: searchElementNumber(ord)
@@ -184,11 +190,14 @@ neutronEmission(a, ord):= (
         )
     else
         (
-        Mutter:printIsotope(a, p),
+        Mother:printIsotope(a, p),
         Daughter:printIsotope(a-1,p),
-        printf(true, "~&~a -> ~a + ~a", Mutter, Daughter, "n"),
+        printf(true, "~&~a -> ~a + ~a", Mother, Daughter, "n"),
 
         massDaughter:isotope_array[a-1,p],
+        massMother:isotope_array[a,p],
+        printf(true, "~&m~a = ~10f u", Mother, massMother/%u),
+        printf(true, "~&m~a = ~10f u", Daughter, massDaughter/%u),
         Delta_M: (isotope_array[a, p]-p*%me)-(massDaughter-(p-0)*%me+%mn),
         printf(true, "~&Delta_M: ~18e kg  = ~10f u",Delta_M, Delta_M/%u),
 
@@ -219,7 +228,7 @@ neutronEmission(a, ord):= (
 )$
         
 protonEmission(a, ord):= (
-    local(Mutter, Daughter, Delta_M, Energy_Joule, Energy_MeV, gl1, gl2, massDaughter, ET, EP, p),
+    local(Mother, Daughter, Delta_M, Energy_Joule, Energy_MeV, gl1, gl2, massDaughter, ET, EP, p),
     if ( stringp(ord) ) then
         (
         p: searchElementNumber(ord)
@@ -240,11 +249,14 @@ protonEmission(a, ord):= (
         )
     else
         (
-        Mutter:printIsotope(a, p),
+        Mother:printIsotope(a, p),
         Daughter:printIsotope(a-1,p-1),
-        printf(true, "~&~a -> ~a + ~a",Mutter, Daughter, "p"),
+        printf(true, "~&~a -> ~a + ~a", Mother, Daughter, "p"),
 
         massDaughter:isotope_array[a-1,p-1],
+        massMother:isotope_array[a,p],
+        printf(true, "~&m~a = ~10f u", Mother, massMother/%u),
+        printf(true, "~&m~a = ~10f u", Daughter, massDaughter/%u),
         Delta_M: (isotope_array[a, p]-p*%me)-(massDaughter-(p-1)*%me+%mp),
         printf(true, "~&Delta_M: ~18e kg  = ~10f u", Delta_M, Delta_M/%u),
 
@@ -275,7 +287,7 @@ protonEmission(a, ord):= (
 )$
         
 betaMinusDecay(a, ord):= (
-    local(Mutter, Daughter, Delta_M, Energy_Joule, Energy_MeV, gl1, gl2, massDaughter, ET, EN, p),
+    local(Mother, Daughter, Delta_M, Energy_Joule, Energy_MeV, gl1, gl2, massDaughter, ET, EN, p),
     if ( stringp(ord) ) then
         (
         p: searchElementNumber(ord)
@@ -296,10 +308,13 @@ betaMinusDecay(a, ord):= (
         )
     else
         (
-        Mutter: printIsotope(a, p),
+        Mother: printIsotope(a, p),
         Daughter: printIsotope(a, p+1),
-        printf(true, "~&~a -> ~a + ~a + ~a", Mutter, Daughter, "e-", Antineutrino),
+        printf(true, "~&~a -> ~a + ~a + ~a", Mother, Daughter, "e-", Antineutrino),
         massDaughter:isotope_array[a, p+1],
+        massMother:isotope_array[a,p],
+        printf(true, "~&m~a = ~10f u", Mother, massMother/%u),
+        printf(true, "~&m~a = ~10f u", Daughter, massDaughter/%u),
         Delta_M: (isotope_array[a, p]-p*%me)-(massDaughter-(p+1)*%me+%me),
         printf(true, "~&Delta_M: ~18e kg  = ~10f u", Delta_M, Delta_M/%u),
 
@@ -322,7 +337,7 @@ betaMinusDecay(a, ord):= (
 )$
         
 betaPlusDecay(a, ord):= (
-    local(Mutter, Daughter, Delta_M, Energy_Joule, Energy_MeV, gl1, gl2, massDaughter, ET, EN, p),
+    local(Mother, Daughter, Delta_M, Energy_Joule, Energy_MeV, gl1, gl2, massDaughter, ET, EN, p),
     if ( stringp(ord) ) then
         (
         p: searchElementNumber(ord)
@@ -347,11 +362,14 @@ betaPlusDecay(a, ord):= (
         )
     else
         (
-        Mutter:printIsotope(a, p),
+        Mother:printIsotope(a, p),
         Daughter:printIsotope(a, p-1),
-        printf(true, "~&~a -> ~a + ~a + ~a", Mutter, Daughter, "e+", Neutrino),
+        printf(true, "~&~a -> ~a + ~a + ~a", Mother, Daughter, "e+", Neutrino),
 
         massDaughter:isotope_array[a, p-1],
+        massMother:isotope_array[a,p],
+        printf(true, "~&m~a = ~10f u", Mother, massMother/%u),
+        printf(true, "~&m~a = ~10f u", Daughter, massDaughter/%u),
         Delta_M: (isotope_array[a, p]-p*%me)-(massDaughter-(p-1)*%me+%me),
         printf(true, "~&Delta_M: ~18e kg  = ~10f u", Delta_M, Delta_M/%u),
 
@@ -375,7 +393,7 @@ betaPlusDecay(a, ord):= (
 )$
 
 EC(a, ord):= (
-    local(Mutter, Daughter, Delta_M, Energy_Joule, Energy_MeV, gl1, gl2, massDaughter, ET, EN, p),
+    local(Mother, Daughter, Delta_M, Energy_Joule, Energy_MeV, gl1, gl2, massDaughter, ET, EN, p),
     if (stringp(ord)) then
         (
         p: searchElementNumber(ord)
@@ -400,11 +418,14 @@ EC(a, ord):= (
         )
     else
         (
-        Mutter:printIsotope(a, p),
+        Mother:printIsotope(a, p),
         Daughter:printIsotope(a, p-1),
-        printf(true, "~&~a +~a -> ~a + ~a",Mutter, "e-", Daughter, Neutrino),
+        printf(true, "~&~a +~a -> ~a + ~a", Mother, "e-", Daughter, Neutrino),
 
         massDaughter:isotope_array[a, p-1],
+        massMother:isotope_array[a,p],
+        printf(true, "~&m~a = ~10f u", Mother, massMother/%u),
+        printf(true, "~&m~a = ~10f u", Daughter, massDaughter/%u),
         Delta_M: (isotope_array[a, p]-p*%me+%me)-(massDaughter-(p-1)*%me),
         printf(true, "~&Delta_M: ~18e kg  = ~10f u", Delta_M, Delta_M/%u),
 
