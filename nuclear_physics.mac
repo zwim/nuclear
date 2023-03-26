@@ -67,8 +67,8 @@ searchElementName(name):=names[name];
 /* pretty print isotope e.g. 3/1H */
 printIsotope(a, p):= (
     local (name),
-	name: searchElementName(p),
-	printf(false,"~d/~d~a",a, p,name)
+    name: searchElementName(p),
+    printf(false,"~d/~d~a",a, p,name)
 )$
 
 /* calculates the speed from kinetic energy */
